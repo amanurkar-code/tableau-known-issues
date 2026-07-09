@@ -280,7 +280,6 @@ def generate_html(issues: list[dict], statuses: list[str], categories: list[str]
 
     product_options = "\n".join(f'<option value="{p}">{p}</option>' for p in all_products)
     status_options = "\n".join(f'<option value="{s}">{s}</option>' for s in all_statuses)
-    release_options = "\n".join(f'<option value="{r}">{r}</option>' for r in all_releases)
     rows_joined = "\n".join(rows_html)
 
     return f"""<!DOCTYPE html>
@@ -358,10 +357,7 @@ def generate_html(issues: list[dict], statuses: list[str], categories: list[str]
   </div>
   <div>
     <label for="f-release">Found In Release</label><br>
-    <select id="f-release">
-      <option value="">All Releases</option>
-      {release_options}
-    </select>
+    <input type="text" id="f-release" placeholder="e.g. 2025.1, 2024.2…" style="min-width:180px">
   </div>
   <div>
     <label for="f-search">Search title/summary</label><br>
@@ -406,16 +402,17 @@ def generate_html(issues: list[dict], statuses: list[str], categories: list[str]
 
   function applyFilters() {{
     var q = filters.search.toLowerCase();
+    var rel = filters.release.toLowerCase();
     var shown = 0;
     rows.forEach(function(row) {{
       var prod = row.dataset.product || '';
       var stat = row.dataset.status || '';
-      var rel  = row.dataset.release || '';
+      var rowRel = (row.dataset.release || '').toLowerCase();
       var text = row.textContent.toLowerCase();
 
       var ok = (!filters.product  || prod === filters.product)
             && (!filters.status   || stat === filters.status)
-            && (!filters.release  || rel  === filters.release)
+            && (!rel              || rowRel.indexOf(rel) >= 0)
             && (!q                || text.indexOf(q) >= 0);
 
       row.classList.toggle('hidden', !ok);
@@ -431,8 +428,11 @@ def generate_html(issues: list[dict], statuses: list[str], categories: list[str]
   document.getElementById('f-status').addEventListener('change', function() {{
     filters.status = this.value; applyFilters();
   }});
-  document.getElementById('f-release').addEventListener('change', function() {{
-    filters.release = this.value; applyFilters();
+  var releaseTimer;
+  document.getElementById('f-release').addEventListener('input', function() {{
+    clearTimeout(releaseTimer);
+    var val = this.value;
+    releaseTimer = setTimeout(function() {{ filters.release = val; applyFilters(); }}, 200);
   }});
   var searchTimer;
   document.getElementById('f-search').addEventListener('input', function() {{
