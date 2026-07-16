@@ -53,7 +53,7 @@
 
 <header>
   <h1>Tableau Known Issues</h1>
-  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-07-15 11:17:54</p>
+  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-07-16 11:56:47</p>
 </header>
 
 <div class="controls">
@@ -89,7 +89,7 @@
     <input type="text" id="f-search" placeholder="e.g. upgrade, extract, login…">
   </div>
   <div class="stat">
-    Showing <strong id="visible-count">499</strong> of <strong>499</strong> issues
+    Showing <strong id="visible-count">498</strong> of <strong>498</strong> issues
   </div>
 </div>
 
@@ -110,39 +110,165 @@
     <tbody id="issues-body">
 
         <tr
-          data-product="Tableau Cloud"
-          data-status="Solution in Progress"
-          data-release="2025.2"
+          data-product="Tableau Server"
+          data-status="In Review"
+          data-release="2025.3.4"
         >
           <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000iHfRDIA0&title=permissions-data-source-does-not-contain-all-explicit-permission-rules-for-content-of-a-project-with-locked-permissions" target="_blank" rel="noopener">Permissions data source does not contain all explicit permission rules for content of a project with locked permissions</a>
-            <div class="summary">The Permissions data source in Admin Insights should contain records for any capability granted to a grantee on an item, with exclusions for permissions inherited from a locked project, however, the permissions that relate to individual items within the project are missing.</div>
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mGnARIA0&title=get-groups-for-user-rest-api-returns-incorrect-totalavailable-count-after-upgrading-to-tableau-server-202534" target="_blank" rel="noopener">"Get Groups for User" REST API Returns Incorrect totalAvailable Count After Upgrading to Tableau Server 2025.3.4</a>
+            <div class="summary">The REST API endpoint GET /api/{version}/sites/{site-id}/users/{user-luid}/groups returns a totalAvailable count that is greater than the number of group entries in the response body when the group_users table contains duplicate (site_id, user_id, group_id) rows. This breaks clie</div>
           </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2025.2</td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2025.3.4</td>
           <td class="release">—</td>
-          <td class="num">6</td>
-          <td class="date">2025-08-15</td>
-          <td class="date">2026-07-07</td>
+          <td class="num">1</td>
+          <td class="date">2026-05-29</td>
+          <td class="date">2026-06-01</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000672rFAAQ&title=tableau-cloud--savecancel-buttons-disappear-from-permissions-grid-when-switching-tabs-with-pending-edits" target="_blank" rel="noopener">Tableau Cloud - Save/Cancel buttons disappear from permissions grid when switching tabs with pending edits</a>
+            <div class="summary">When switching tabs with pending permission edits, the Save/Cancel button panel disappears entirely from the permissions grid, blocking the permission change. This issue occurs when the permission list is above 20</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-07-16</td>
+          <td class="date">2026-07-16</td>
         </tr>
 
         <tr
           data-product="Tableau Server"
           data-status="Solution in Progress"
+          data-release="2024.2.10"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000lbJXmIAM&title=in-a-rare-case-where-one-of-the-gateway-nodes-is-down-all-published-data-source-become-inaccessible" target="_blank" rel="noopener">In a Rare Case where One of the Gateway Nodes is Down All Published Data Source Become Inaccessible</a>
+            <div class="summary">When one node in the cluster is down, all published data sources become inaccessible.Connecting to the data source results in:&quot;Datasource error&quot;&quot;Unable to proceed because of an error from the data source.&quot;</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2024.2.10</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2025-12-10</td>
+          <td class="date">2026-07-16</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution Scheduled"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mH3nUIAS&title=tableau-server-switching-between-sites-fails-with-using-trusted-authentication" target="_blank" rel="noopener">Tableau Server: Switching between sites fails with using Trusted Authentication.</a>
+            <div class="summary">On Tableau Server 2025.3, users who sign in using Trusted Authentication may experience an error when attempting to switch between different sites.The switch to a different site fails unexpectedly, and a NullPointerException error is returned.This issue affects environments with </div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Server</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-06-10</td>
+          <td class="date">2026-07-16</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release="2026.2.1"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000nqX1YIAU&title=scheduled-prep-flows-intermittently-failing-with-error-system-error-0" target="_blank" rel="noopener">Scheduled Prep flows intermittently failing with error "System error: {0}"</a>
+            <div class="summary">When multiple prep flows are scheduled to run within a short period of time, some flows may intermittently fail with the error &quot;System error: {0}&quot;This behavior occurs because Tableau Prep Conductor uses REST API calls to perform some of the steps in the process to run t</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2.1</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-06-23</td>
+          <td class="date">2026-07-15</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution Scheduled"
+          data-release="2025.3.1"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mnFu1IAE&title=salesforce-oauth-test-connection-works-on-the-initial-attempt-but-reliably-fails-on-all-subsequent-attempts-in-tableau-server-20253x" target="_blank" rel="noopener">Salesforce OAuth “Test Connection” works on the initial attempt but reliably fails on all subsequent attempts in Tableau Server 2025.3.x.</a>
+            <div class="summary">The Salesforce OAuth “Test Connection” process completes successfully on the first attempt, indicating that the initial authentication flow and token exchange are functioning as expected. However, all subsequent connection tests consistently fail, returning a TokenResponseExcepti</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2025.3.1</td>
+          <td class="release">—</td>
+          <td class="num">3</td>
+          <td class="date">2026-04-13</td>
+          <td class="date">2026-05-25</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution Scheduled"
           data-release="2025.3.5"
         >
           <td class="title-cell">
             <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mGNtRIAW&title=tableau-server-inconsistent-matching-results-when-using-global-quick-search-dropdown" target="_blank" rel="noopener">Tableau Server: Inconsistent matching results when using global quick search dropdown</a>
             <div class="summary">Tableau Server global quick search is returning inconsistent results. Specifically, certain content containing underscores (_) is omitted from the dropdown quick search results as well as the main search results after pressing Enter/Return.</div>
           </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
           <td>Tableau Server</td>
           <td class="release">2025.3.5</td>
           <td class="release">—</td>
           <td class="num">1</td>
           <td class="date">2026-05-20</td>
-          <td class="date">2026-06-25</td>
+          <td class="date">2026-07-15</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="In Review"
+          data-release="Tableau Server 2025.1.6"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mHF0xIAG&title=users-intermittently-receiving-duplicate-email-subscriptions" target="_blank" rel="noopener">Users Intermittently Receiving Duplicate Email Subscriptions</a>
+            <div class="summary">When subscribed to a subscription that is scheduled to run after an extract refresh occurs, intermittently some users are receiving duplicate emails even though the refresh only occurred once.</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Server</td>
+          <td class="release">Tableau Server 2025.1.6</td>
+          <td class="release">—</td>
+          <td class="num">5</td>
+          <td class="date">2026-06-16</td>
+          <td class="date">2026-06-16</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution Scheduled"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000005ekm1AAA&title=error-running-run-optimizer-in-tableau-desktop-20262" target="_blank" rel="noopener">Error running "Run Optimizer" in Tableau Desktop 2026.2.</a>
+            <div class="summary">In Tableau Desktop 2026.2, attempting to run the Run Optimizer function from the Server menu results in a script error, preventing users from successfully optimizing their workbooks.When clicking &quot;Run Optimizer&quot;, the application throws the following error messages and a</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">2</td>
+          <td class="date">2026-06-29</td>
+          <td class="date">2026-07-13</td>
         </tr>
 
         <tr
@@ -161,6 +287,132 @@
           <td class="num">1</td>
           <td class="date">2025-07-23</td>
           <td class="date">2026-07-15</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution Scheduled"
+          data-release="2026.1.1"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mGijyIAC&title=external-browser-authentication-defaults-to-single-site-in-multi-site-tableau-cloud-environment" target="_blank" rel="noopener">External Browser Authentication Defaults to Single Site in Multi-Site Tableau Cloud Environment</a>
+            <div class="summary">When a user with access to multiple Tableau Cloud sites signs in using External Browser authentication, they are automatically redirected to a previously visited site instead of being shown the site selection screen. This behavior occurs when Chrome or Microsoft Edge is set as th</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">2026.1.1</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-05-28</td>
+          <td class="date">2026-06-17</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution in Progress"
+          data-release="2025.1.3"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g70000064s81AAA&title=" target="_blank" rel="noopener">Column headers for bin size may not update properly from parameter selection</a>
+            <div class="summary">On Tableau Server 2025.1.3 and later, column headers for bin size that are controlled by parameters may not update as expected. The parameter selection of the bin size may not be reflected in all views for headers which are controlled by that parameter.For example, if a view show</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2025.1.3</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-07-14</td>
+          <td class="date">2026-07-15</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution in Progress"
+          data-release="2025.1.11"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mGbTHIA0&title=tableau-server-extract-refresh-fails-but-no-notification-is-received" target="_blank" rel="noopener">Tableau Server: Extract refresh fails but no notification is received</a>
+            <div class="summary">Refresh of extract fails, the notification for the failure is not received and appears to not have been sent.</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2025.1.11</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-05-25</td>
+          <td class="date">2026-07-08</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution Scheduled"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g70000065tGXAAY&title=tableau-server-2025-page-could-not-be-accessed-error-when-opening-published-data-source-link-in-grid-view" target="_blank" rel="noopener">Tableau Server 2025: "Page could not be accessed" error when opening published data source link in Grid View</a>
+            <div class="summary">When attempting to open or access a published data source from the data source pane within a workbook, the action fails, and the following error message is displayed:&quot;That page could not be accessed. Either the data source does not exist or you do not have the necessary perm</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Server</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-07-15</td>
+          <td class="date">2026-07-15</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="In Review"
+          data-release="Summer '16"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mH6QMIA0&title=tableau-desktop-202535-crashes-on-macos-tahoe-during-display-transition" target="_blank" rel="noopener">Tableau Desktop 2025.3.5+ Crashes on macOS Tahoe during Display Transition</a>
+            <div class="summary">Tableau Desktop crash on macOS Tahoe when closing a laptop lid while connected to an external display in Extended Display mode. This issue affects versions 2025.3.5+ and later and may cause loss of unsaved changes.</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">Summer '16</td>
+          <td class="release">—</td>
+          <td class="num">8</td>
+          <td class="date">2026-06-12</td>
+          <td class="date">2026-06-12</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Bridge"
+          data-status="In Review"
+          data-release="2025.2.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000fsKEXIA2&title=prep-flows-running-via-bridge-are-intermittently-failing-with-the-error-malformed-response-from-tableau-data-server" target="_blank" rel="noopener">Prep Flows running via Bridge are intermittently failing with the error “Malformed response from Tableau Data Server”</a>
+            <div class="summary">When a Prep flow is run via Tableau Bridge, it will intermittently fail with the following error message:“Malformed response from Tableau Data Server”</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Bridge</td>
+          <td class="release">2025.2.0</td>
+          <td class="release">—</td>
+          <td class="num">15</td>
+          <td class="date">2025-06-12</td>
+          <td class="date">2025-06-12</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release="2025.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000iHfRDIA0&title=permissions-data-source-does-not-contain-all-explicit-permission-rules-for-content-of-a-project-with-locked-permissions" target="_blank" rel="noopener">Permissions data source does not contain all explicit permission rules for content of a project with locked permissions</a>
+            <div class="summary">The Permissions data source in Admin Insights should contain records for any capability granted to a grantee on an item, with exclusions for permissions inherited from a locked project, however, the permissions that relate to individual items within the project are missing.</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2025.2</td>
+          <td class="release">—</td>
+          <td class="num">6</td>
+          <td class="date">2025-08-15</td>
+          <td class="date">2026-07-07</td>
         </tr>
 
         <tr
@@ -614,42 +866,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Server"
-          data-status="In Review"
-          data-release="2024.2.10"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000lbJXmIAM&title=in-a-rare-case-where-one-of-the-gateway-nodes-is-down-all-published-data-source-become-inaccessible" target="_blank" rel="noopener">In a Rare Case where One of the Gateway Nodes is Down All Published Data Source Become Inaccessible</a>
-            <div class="summary">When one node in the cluster is down, all published data sources become inaccessible.Connecting to the data source results in:&quot;Datasource error&quot;&quot;Unable to proceed because of an error from the data source.&quot;</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2024.2.10</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2025-12-10</td>
-          <td class="date">2026-07-13</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="In Review"
-          data-release="Summer '16"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mH6QMIA0&title=tableau-desktop-202535-crashes-on-macos-tahoe-during-display-transition" target="_blank" rel="noopener">Tableau Desktop 2025.3.5+ Crashes on macOS Tahoe during Display Transition</a>
-            <div class="summary">Tableau Desktop crash on macOS Tahoe when closing a laptop lid while connected to an external display in Extended Display mode. This issue affects versions 2025.3.5+ and later and may cause loss of unsaved changes.</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">Summer '16</td>
-          <td class="release">—</td>
-          <td class="num">7</td>
-          <td class="date">2026-06-12</td>
-          <td class="date">2026-06-12</td>
-        </tr>
-
-        <tr
           data-product="Tableau Cloud"
           data-status="Solution Scheduled"
           data-release="2026.x"
@@ -668,24 +884,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Server"
-          data-status="In Review"
-          data-release="Tableau Server 2025.1.6"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mHF0xIAG&title=users-intermittently-receiving-duplicate-email-subscriptions" target="_blank" rel="noopener">Users Intermittently Receiving Duplicate Email Subscriptions</a>
-            <div class="summary">When subscribed to a subscription that is scheduled to run after an extract refresh occurs, intermittently some users are receiving duplicate emails even though the refresh only occurred once.</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Server</td>
-          <td class="release">Tableau Server 2025.1.6</td>
-          <td class="release">—</td>
-          <td class="num">4</td>
-          <td class="date">2026-06-16</td>
-          <td class="date">2026-06-16</td>
-        </tr>
-
-        <tr
           data-product="Tableau Cloud"
           data-status="Solution Scheduled"
           data-release="2026.2.3"
@@ -700,24 +898,6 @@
           <td class="release">—</td>
           <td class="num">0</td>
           <td class="date">2026-07-08</td>
-          <td class="date">2026-07-13</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="Solution Scheduled"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000005ekm1AAA&title=error-running-run-optimizer-in-tableau-desktop-20262" target="_blank" rel="noopener">Error running "Run Optimizer" in Tableau Desktop 2026.2.</a>
-            <div class="summary">In Tableau Desktop 2026.2, attempting to run the Run Optimizer function from the Server menu results in a script error, preventing users from successfully optimizing their workbooks.When clicking &quot;Run Optimizer&quot;, the application throws the following error messages and a</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-06-29</td>
           <td class="date">2026-07-13</td>
         </tr>
 
@@ -1115,24 +1295,6 @@
           <td class="num">1</td>
           <td class="date">2026-06-01</td>
           <td class="date">2026-07-09</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="Solution in Progress"
-          data-release="2025.1.11"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mGbTHIA0&title=tableau-server-extract-refresh-fails-but-no-notification-is-received" target="_blank" rel="noopener">Tableau Server: Extract refresh fails but no notification is received</a>
-            <div class="summary">Refresh of extract fails, the notification for the failure is not received and appears to not have been sent.</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2025.1.11</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-05-25</td>
-          <td class="date">2026-07-08</td>
         </tr>
 
         <tr
@@ -1583,24 +1745,6 @@
           <td class="num">2</td>
           <td class="date">2026-06-18</td>
           <td class="date">2026-06-18</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Bridge"
-          data-status="In Review"
-          data-release="2025.2.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000fsKEXIA2&title=prep-flows-running-via-bridge-are-intermittently-failing-with-the-error-malformed-response-from-tableau-data-server" target="_blank" rel="noopener">Prep Flows running via Bridge are intermittently failing with the error “Malformed response from Tableau Data Server”</a>
-            <div class="summary">When a Prep flow is run via Tableau Bridge, it will intermittently fail with the following error message:“Malformed response from Tableau Data Server”</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Bridge</td>
-          <td class="release">2025.2.0</td>
-          <td class="release">—</td>
-          <td class="num">14</td>
-          <td class="date">2025-06-12</td>
-          <td class="date">2025-06-12</td>
         </tr>
 
         <tr
@@ -2199,24 +2343,6 @@
 
         <tr
           data-product="Tableau Cloud"
-          data-status="Solution in Progress"
-          data-release="2026.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000nqZINIA2&title=users-cannot-edit-tableau-cloud-data-sources-connected-to-onedrive-files-in-the-shared-with-me-folder" target="_blank" rel="noopener">Users Cannot Edit Tableau Cloud Data Sources Connected to OneDrive Files in the “Shared With Me” Folder.</a>
-            <div class="summary">Users who have been granted access to a Microsoft Excel file through OneDrive’s Shared With Me folder cannot edit an existing published data source that was created and published by the file owner.The issue occurs when editing the data source from either Tableau Cloud or Tableau </div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-06-24</td>
-          <td class="date">2026-06-24</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
           data-status="In Review"
           data-release="2026.1.5"
         >
@@ -2432,24 +2558,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release="2026.2.1"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000nqX1YIAU&title=scheduled-prep-flows-intermittently-failing-with-error-system-error-0" target="_blank" rel="noopener">Scheduled Prep flows intermittently failing with error "System error: {0}"</a>
-            <div class="summary">When multiple prep flows are scheduled to run within a short period of time, some flows may intermittently fail with the error &quot;System error: {0}&quot;This behavior occurs because Tableau Prep Conductor uses REST API calls to perform some of the steps in the process to run t</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2.1</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-06-23</td>
-          <td class="date">2026-06-24</td>
-        </tr>
-
-        <tr
           data-product="Tableau Server"
           data-status="Solution Scheduled"
           data-release="2024.2"
@@ -2483,24 +2591,6 @@
           <td class="num">0</td>
           <td class="date">2026-05-01</td>
           <td class="date">2026-06-24</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="Solution in Progress"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mH3nUIAS&title=tableau-server-switching-between-sites-fails-with-using-trusted-authentication" target="_blank" rel="noopener">Tableau Server: Switching between sites fails with using Trusted Authentication.</a>
-            <div class="summary">On Tableau Server 2025.3, users who sign in using Trusted Authentication may experience an error when attempting to switch between different sites.The switch to a different site fails unexpectedly, and a NullPointerException error is returned.This issue affects environments with </div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Server</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-06-10</td>
-          <td class="date">2026-06-10</td>
         </tr>
 
         <tr
@@ -2555,24 +2645,6 @@
           <td class="num">19</td>
           <td class="date">2025-09-15</td>
           <td class="date">2026-05-29</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="Solution Scheduled"
-          data-release="2025.3.1"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mnFu1IAE&title=salesforce-oauth-test-connection-works-on-the-initial-attempt-but-reliably-fails-on-all-subsequent-attempts-in-tableau-server-20253x" target="_blank" rel="noopener">Salesforce OAuth “Test Connection” works on the initial attempt but reliably fails on all subsequent attempts in Tableau Server 2025.3.x.</a>
-            <div class="summary">The Salesforce OAuth “Test Connection” process completes successfully on the first attempt, indicating that the initial authentication flow and token exchange are functioning as expected. However, all subsequent connection tests consistently fail, returning a TokenResponseExcepti</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2025.3.1</td>
-          <td class="release">—</td>
-          <td class="num">2</td>
-          <td class="date">2026-04-13</td>
-          <td class="date">2026-05-25</td>
         </tr>
 
         <tr
@@ -2717,24 +2789,6 @@
           <td class="num">5</td>
           <td class="date">2026-04-29</td>
           <td class="date">2026-04-29</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="Solution Scheduled"
-          data-release="2026.1.1"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mGijyIAC&title=external-browser-authentication-defaults-to-single-site-in-multi-site-tableau-cloud-environment" target="_blank" rel="noopener">External Browser Authentication Defaults to Single Site in Multi-Site Tableau Cloud Environment</a>
-            <div class="summary">When a user with access to multiple Tableau Cloud sites signs in using External Browser authentication, they are automatically redirected to a previously visited site instead of being shown the site selection screen. This behavior occurs when Chrome or Microsoft Edge is set as th</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">2026.1.1</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-05-28</td>
-          <td class="date">2026-06-17</td>
         </tr>
 
         <tr
@@ -2915,24 +2969,6 @@
           <td class="num">1</td>
           <td class="date">2026-02-04</td>
           <td class="date">2026-06-14</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="In Review"
-          data-release="2025.3.4"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mGnARIA0&title=get-groups-for-user-rest-api-returns-incorrect-totalavailable-count-after-upgrading-to-tableau-server-202534" target="_blank" rel="noopener">"Get Groups for User" REST API Returns Incorrect totalAvailable Count After Upgrading to Tableau Server 2025.3.4</a>
-            <div class="summary">The REST API endpoint GET /api/{version}/sites/{site-id}/users/{user-luid}/groups returns a totalAvailable count that is greater than the number of group entries in the response body when the group_users table contains duplicate (site_id, user_id, group_id) rows. This breaks clie</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2025.3.4</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-05-29</td>
-          <td class="date">2026-06-01</td>
         </tr>
 
         <tr
@@ -3746,24 +3782,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Desktop"
-          data-status="Solution Scheduled"
-          data-release="2025.x"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mmymLIAQ&title=tableau-desktop-data-interpreter-option-missing-when-using-french-locale-on-windows-server-2019-and-windows-server-2022" target="_blank" rel="noopener">Tableau Desktop: Data Interpreter option missing when using French locale on Windows Server 2019 and Windows Server 2022</a>
-            <div class="summary">When connecting to Excel from Tableau Desktop, Data Interpreter option is missing when using a French locale. The issue occurs on both Windows Server 2019 &amp; 2022, but not on 2016.</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">2025.x</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-04-03</td>
-          <td class="date">2026-05-20</td>
-        </tr>
-
-        <tr
           data-product="Tableau Next"
           data-status="Solution Scheduled"
           data-release="Summer '26"
@@ -4174,24 +4192,6 @@
           <td class="release">—</td>
           <td class="num">2</td>
           <td class="date">2025-01-22</td>
-          <td class="date">2026-05-08</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="Solution Scheduled"
-          data-release="2025.3"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mRiAUIA0&title=unable-to-add-snowflake-key-pair-credentialsauth-on-tableau-server-that-have-fips-enabled" target="_blank" rel="noopener">Unable to add Snowflake Key-Pair credentials/auth on Tableau Server that have FIPS enabled.</a>
-            <div class="summary">Unable to add Snowflake Key-Pair credentials/auth on Tableau Server that have FIPS enabled.</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2025.3</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-02-18</td>
           <td class="date">2026-05-08</td>
         </tr>
 
@@ -5633,24 +5633,6 @@
           <td class="num">1</td>
           <td class="date">2026-02-04</td>
           <td class="date">2026-02-04</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution Scheduled"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000lkSl4IAE&title=tableau-cloud-metadata-api-and-graphiql-are-returning-metadata-for-content-that-was-deleted" target="_blank" rel="noopener">Tableau Cloud Metadata API and GraphiQL are returning metadata for content that was deleted</a>
-            <div class="summary">Tableau Cloud’s Metadata API and GraphiQL are returning metadata for content that was deleted more than a month previous, instead of limiting the response to metadata for currently existing workbooks.</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">2</td>
-          <td class="date">2025-12-17</td>
-          <td class="date">2026-02-10</td>
         </tr>
 
         <tr
