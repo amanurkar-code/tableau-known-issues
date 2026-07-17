@@ -53,7 +53,7 @@
 
 <header>
   <h1>Tableau Known Issues</h1>
-  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-07-16 11:56:47</p>
+  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-07-17 11:10:43</p>
 </header>
 
 <div class="controls">
@@ -89,7 +89,7 @@
     <input type="text" id="f-search" placeholder="e.g. upgrade, extract, login…">
   </div>
   <div class="stat">
-    Showing <strong id="visible-count">498</strong> of <strong>498</strong> issues
+    Showing <strong id="visible-count">497</strong> of <strong>497</strong> issues
   </div>
 </div>
 
@@ -111,6 +111,294 @@
 
         <tr
           data-product="Tableau Server"
+          data-status="Solution Scheduled"
+          data-release="2025.3.x"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mH3nUIAS&title=tableau-server-switching-between-sites-fails-with-using-trusted-authentication" target="_blank" rel="noopener">Tableau Server: Switching between sites fails with using Trusted Authentication.</a>
+            <div class="summary">On Tableau Server 2025.3, users who sign in using Trusted Authentication may experience an error when attempting to switch between different sites.The switch to a different site fails unexpectedly, and a NullPointerException error is returned.This issue affects environments with </div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2025.3.x</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-06-10</td>
+          <td class="date">2026-07-17</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g70000068SjdAAE&title=tableau-cloud-embedded-dashboard-authentication-is-failing-with-http-500-errors-when-using-with-a-custom-domain-configured" target="_blank" rel="noopener">Tableau Cloud: Embedded dashboard authentication is failing with HTTP 500 Errors when using with a Custom Domain configured</a>
+            <div class="summary">Embedded Dashboard authentication is failing with a HTTP 500 error when a custom domain is configured on Tableau Cloud. The dashboards are embedded using Connected apps with Direct Trust and the Tableau Embedding API v3.</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-07-17</td>
+          <td class="date">2026-07-17</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000loDAaIAM&title=tableau-cloud-modified-records-appended-as-duplicates-when-performing-an-incremental-refresh-on-salesforce-data-sources-using-systemmodstamp" target="_blank" rel="noopener">Tableau Cloud- Modified records appended as duplicates when performing an Incremental Refresh on Salesforce Data Sources using SystemModstamp</a>
+            <div class="summary">When an incremental refresh is performed on Salesforce or Salesforce Data Cloud data sources, Tableau Cloud appends modified and existing records as new rows rather than updating the existing entries. This leads to data duplication and exponential dataset growth whenever records </div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">3</td>
+          <td class="date">2026-01-26</td>
+          <td class="date">2026-02-10</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution in Progress"
+          data-release="2024.2.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a028c00000zhBCdAAM&title=the-encryption-job-fails-every-hour-on-tableau-server-20242-without-tableau-data-management-add-on-license" target="_blank" rel="noopener">The encryption job fails every hour on Tableau Server 2024.2 without Tableau Data Management Add-on License</a>
+            <div class="summary">Failed encryption jobs are listed on Jobs page in &#39;All Sites&#39; when Data Management is not enabled on Tableau Server 2024.2. This issue does not reproduce on TS2023.3.9 or earlier.If Tableau Server has Tableau Data Management Add-on license, the issue doesn&#39;t occur. Fo</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2024.2.0</td>
+          <td class="release">—</td>
+          <td class="num">52</td>
+          <td class="date">2024-09-18</td>
+          <td class="date">2026-07-17</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution Scheduled"
+          data-release="2025.3"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mH4bBIAS&title=tsm-maintenance-backupziplog-fails-when-specified-filename-contains-cjk-characters" target="_blank" rel="noopener">TSM Maintenance Backup/Ziplog Fails When Specified Filename Contains CJK Characters</a>
+            <div class="summary">After upgrading Tableau Server from v2024.2 to v2025.3, various tsm maintenance commands (such as backup, ziplogs, etc.) now throw an error if the specified filename contains CJK characters (such as Japanese or Chinese). This issue has only been confirmed on Tableau Server for Wi</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2025.3</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-06-11</td>
+          <td class="date">2026-07-17</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Next"
+          data-status="In Review"
+          data-release="Summer '26"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000006811tAAA&title=" target="_blank" rel="noopener">[Tableau Next] Dashboard visualization becomes empty when changing filters after expanding or collapsing a Dimension Hierarchy</a>
+            <div class="summary">When a dashboard visualization uses a Dimension Hierarchy, changing the dashboard filter after expanding or collapsing the hierarchy can cause the visualization to display no results. The issue occurs only when the filter is applied before interacting with the hierarchy. Refreshi</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Next</td>
+          <td class="release">Summer '26</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-07-17</td>
+          <td class="date">2026-07-17</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution in Progress"
+          data-release="2025.3.5"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g70000066Rq5AAE&title=" target="_blank" rel="noopener">Viz in Tooltip May Not Render When Double-Clicking a .twbx File in Tableau Desktop on Windows 11</a>
+            <div class="summary">When opening a specific packaged workbook (.twbx) from within an already running Tableau Desktop application (via File &gt; Open), the workbook functions normally.However, when launching Tableau Desktop by double-clicking the saved .twbx file directly, the Viz in Tooltip does not</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">2025.3.5</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-07-16</td>
+          <td class="date">2026-07-17</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release="260.6"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g70000067L13AAE&title=" target="_blank" rel="noopener">Extract Refreshes for GA4 intermittently fail with "Internal Error"</a>
+            <div class="summary">GA4 extract refreshes intermittently fail on Tableau Cloud resulting in &quot;Internal Error - An unexpected error occurred and the operation could not be completed.&quot;</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">260.6</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-07-16</td>
+          <td class="date">2026-07-17</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution in Progress"
+          data-release="2026.2.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000005gxwrAAA&title=table-names-are-blank-when-connecting-to-published-data-sources-with-an-inner-join-on-tableau-desktop-202620" target="_blank" rel="noopener">Table names are blank when connecting to Published Data Sources with an inner join on Tableau Desktop 2026.2.0</a>
+            <div class="summary">In Tableau Desktop 2026.2.0, Table names appear blank for tables connected via joins in published datasources on Tableau Cloud and Tableau Server; however, the table names appear correctly when opening a locally saved .tds file or in Tableau Desktop 2026.1.2 or below.</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">2026.2.0</td>
+          <td class="release">—</td>
+          <td class="num">6</td>
+          <td class="date">2026-06-30</td>
+          <td class="date">2026-07-16</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="In Review"
+          data-release="2024.2.1+"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000fs6DiIAI&title=server-administrator-role-is-not-showing-in-user-filter-options" target="_blank" rel="noopener">“Server Administrator” role is not showing in user filter options.</a>
+            <div class="summary">User filter options does not show &quot;Server Administrator&quot; role.</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2024.2.1+</td>
+          <td class="release">—</td>
+          <td class="num">12</td>
+          <td class="date">2025-06-11</td>
+          <td class="date">2025-06-27</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release="2026.2.x"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g70000064P1BAAU&title=stale-content-appears-and-admin-insights-disappears-on-tableau-cloud-site-status-page-after-refresh" target="_blank" rel="noopener">Stale Content appears and Admin Insights Disappears on Tableau Cloud Site Status Page After Refresh</a>
+            <div class="summary">When navigating to the Site Status section in Tableau Cloud, users may experience a display inconsistency. On the initial page load, the Admin Insights folder is visible while the Stale Content link is missing. If the browser is refreshed, the Stale Content link appears, but the </div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2.x</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-07-14</td>
+          <td class="date">2026-07-16</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000672rFAAQ&title=tableau-cloud--savecancel-buttons-disappear-from-permissions-grid-when-switching-tabs-with-pending-edits" target="_blank" rel="noopener">Tableau Cloud - Save/Cancel buttons disappear from permissions grid when switching tabs with pending edits</a>
+            <div class="summary">When switching tabs with pending permission edits, the Save/Cancel button panel disappears entirely from the permissions grid, blocking the permission change. This issue occurs when the permission list is above 20</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-07-16</td>
+          <td class="date">2026-07-16</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g70000066CPdAAM&title=" target="_blank" rel="noopener">Tableau App for Microsoft 365 add-in can fail if your PowerPoint or Word presentation has thousands of Shape files</a>
+            <div class="summary">When using the Tableau App for Microsoft 365 add-in refreshing images in files that contain large volumes of shapes (1000+) this simply takes a long time and can throw errors.</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-07-15</td>
+          <td class="date">2026-07-16</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Next"
+          data-status="Solution Scheduled"
+          data-release="Summer '26"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000005zsTdAAI&title=tableau-next-dashboard-receiving-internal-error-in-lightning-data-service-adapter-occurred-in-lightning-web-component-app-builder-page" target="_blank" rel="noopener">Tableau Next Dashboard Receiving 'Internal error in Lightning Data Service adapter occurred' in Lightning Web Component App Builder Page</a>
+            <div class="summary">Tableau Next Dashboard embedded in a custom Lightning Web Component deployed on a Lightning App Builder page. The dashboard fails to render entirely — the component loads but the dashboard never displays</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Next</td>
+          <td class="release">Summer '26</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-07-10</td>
+          <td class="date">2026-07-16</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release="2026.2.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mHHGCIA4&title=work-tableau-cloud--cannot-connect-or-refresh-redshift-via-pingfederate-custom-idp-oauth-with-single-use-refresh-tokens" target="_blank" rel="noopener">Work Tableau Cloud - cannot connect or refresh Redshift via PingFederate (custom IdP) OAUTH with single-use refresh tokens</a>
+            <div class="summary">On Tableau Cloud, an Amazon Redshift data source that uses a custom OAuth identity provider (IdP), such as PingFederate, configured with single-use (rolling) refresh tokens, fails on the initial connection attempt with an authentication error.  Observed symptoms include the follo</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2.0</td>
+          <td class="release">—</td>
+          <td class="num">2</td>
+          <td class="date">2026-06-18</td>
+          <td class="date">2026-07-16</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution in Progress"
+          data-release="2025.1"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mUW20IAG&title=flow-run-history-overwritten-by-failed-steps-in-tableau-server-20251-or-later" target="_blank" rel="noopener">Flow Run History Overwritten by Failed Steps in Tableau Server 2025.1 or Later</a>
+            <div class="summary">In Tableau Server 2025.1 and later, when a flow with multiple output steps fails at any point, the run history (status and row counts) for previously successful steps is incorrectly overwritten as failed.The following issues occur on the Run History screen:Status Synchronization:</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2025.1</td>
+          <td class="release">—</td>
+          <td class="num">4</td>
+          <td class="date">2026-03-05</td>
+          <td class="date">2026-06-18</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
           data-status="In Review"
           data-release="2025.3.4"
         >
@@ -128,24 +416,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000672rFAAQ&title=tableau-cloud--savecancel-buttons-disappear-from-permissions-grid-when-switching-tabs-with-pending-edits" target="_blank" rel="noopener">Tableau Cloud - Save/Cancel buttons disappear from permissions grid when switching tabs with pending edits</a>
-            <div class="summary">When switching tabs with pending permission edits, the Save/Cancel button panel disappears entirely from the permissions grid, blocking the permission change. This issue occurs when the permission list is above 20</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-07-16</td>
-          <td class="date">2026-07-16</td>
-        </tr>
-
-        <tr
           data-product="Tableau Server"
           data-status="Solution in Progress"
           data-release="2024.2.10"
@@ -160,24 +430,6 @@
           <td class="release">—</td>
           <td class="num">1</td>
           <td class="date">2025-12-10</td>
-          <td class="date">2026-07-16</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="Solution Scheduled"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mH3nUIAS&title=tableau-server-switching-between-sites-fails-with-using-trusted-authentication" target="_blank" rel="noopener">Tableau Server: Switching between sites fails with using Trusted Authentication.</a>
-            <div class="summary">On Tableau Server 2025.3, users who sign in using Trusted Authentication may experience an error when attempting to switch between different sites.The switch to a different site fails unexpectedly, and a NullPointerException error is returned.This issue affects environments with </div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Server</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-06-10</td>
           <td class="date">2026-07-16</td>
         </tr>
 
@@ -436,24 +688,6 @@
         <tr
           data-product="Tableau Next"
           data-status="Solution in Progress"
-          data-release="Summer '26"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000005zsTdAAI&title=tableau-next-dashboard-receiving-internal-error-in-lightning-data-service-adapter-occurred-in-lightning-web-component-app-builder-page" target="_blank" rel="noopener">Tableau Next Dashboard Receiving 'Internal error in Lightning Data Service adapter occurred' in Lightning Web Component App Builder Page</a>
-            <div class="summary">Tableau Next Dashboard embedded in a custom Lightning Web Component deployed on a Lightning App Builder page. The dashboard fails to render entirely — the component loads but the dashboard never displays</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Next</td>
-          <td class="release">Summer '26</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-07-10</td>
-          <td class="date">2026-07-14</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Next"
-          data-status="Solution in Progress"
           data-release="Spring '26"
         >
           <td class="title-cell">
@@ -485,24 +719,6 @@
           <td class="num">0</td>
           <td class="date">2026-07-13</td>
           <td class="date">2026-07-15</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="Solution in Progress"
-          data-release="2025.1"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mUW20IAG&title=flow-run-history-overwritten-by-failed-steps-in-tableau-server-20251-or-later" target="_blank" rel="noopener">Flow Run History Overwritten by Failed Steps in Tableau Server 2025.1 or Later</a>
-            <div class="summary">In Tableau Server 2025.1 and later, when a flow with multiple output steps fails at any point, the run history (status and row counts) for previously successful steps is incorrectly overwritten as failed.The following issues occur on the Run History screen:Status Synchronization:</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2025.1</td>
-          <td class="release">—</td>
-          <td class="num">4</td>
-          <td class="date">2026-03-05</td>
-          <td class="date">2026-06-18</td>
         </tr>
 
         <tr
@@ -661,60 +877,6 @@
           <td><span class="badge" style="background:#e8a838">In Review</span></td>
           <td>Tableau Cloud</td>
           <td class="release">2026.2.0</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-07-14</td>
-          <td class="date">2026-07-14</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="In Review"
-          data-release="2026.2.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000005gxwrAAA&title=" target="_blank" rel="noopener">Table names are blank when connecting to Published Data Sources with an inner join on Tableau Desktop 2026.2.0</a>
-            <div class="summary">In Tableau Desktop 2026.2.0, Table names appear blank for tables connected via joins in published datasources on Tableau Cloud and Tableau Server; however, the table names appear correctly when opening a locally saved .tds file or in Tableau Desktop 2026.1.2 or below.</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">2026.2.0</td>
-          <td class="release">—</td>
-          <td class="num">6</td>
-          <td class="date">2026-06-30</td>
-          <td class="date">2026-07-01</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="In Review"
-          data-release="2024.2.1+"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000fs6DiIAI&title=server-administrator-role-is-not-showing-in-user-filter-options" target="_blank" rel="noopener">“Server Administrator” role is not showing in user filter options.</a>
-            <div class="summary">User filter options does not show &quot;Server Administrator&quot; role.</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2024.2.1+</td>
-          <td class="release">—</td>
-          <td class="num">11</td>
-          <td class="date">2025-06-11</td>
-          <td class="date">2025-06-27</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution in Progress"
-          data-release="2026.2.x"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g70000064P1BAAU&title=stale-content-appears-and-admin-insights-disappears-on-tableau-cloud-site-status-page-after-refresh" target="_blank" rel="noopener">Stale Content appears and Admin Insights Disappears on Tableau Cloud Site Status Page After Refresh</a>
-            <div class="summary">When navigating to the Site Status section in Tableau Cloud, users may experience a display inconsistency. On the initial page load, the Admin Insights folder is visible while the Stale Content link is missing. If the browser is refreshed, the Stale Content link appears, but the </div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2.x</td>
           <td class="release">—</td>
           <td class="num">0</td>
           <td class="date">2026-07-14</td>
@@ -1730,24 +1892,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release="2026.2.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mHHGCIA4&title=work-tableau-cloud--cannot-connect-or-refresh-redshift-via-pingfederate-custom-idp-oauth-with-single-use-refresh-tokens" target="_blank" rel="noopener">Work Tableau Cloud - cannot connect or refresh Redshift via PingFederate (custom IdP) OAUTH with single-use refresh tokens</a>
-            <div class="summary">On Tableau Cloud, an Amazon Redshift data source that uses a custom OAuth identity provider (IdP), such as PingFederate, configured with single-use (rolling) refresh tokens, fails on the initial connection attempt with an authentication error.  Observed symptoms include the follo</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2.0</td>
-          <td class="release">—</td>
-          <td class="num">2</td>
-          <td class="date">2026-06-18</td>
-          <td class="date">2026-06-18</td>
-        </tr>
-
-        <tr
           data-product="Tableau Next"
           data-status="In Review"
           data-release="Summer '26"
@@ -1982,42 +2126,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Server"
-          data-status="Solution Scheduled"
-          data-release="2025.3"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mH4bBIAS&title=tsm-maintenance-backupziplog-fails-when-specified-filename-contains-cjk-characters" target="_blank" rel="noopener">TSM Maintenance Backup/Ziplog Fails When Specified Filename Contains CJK Characters</a>
-            <div class="summary">After upgrading Tableau Server from v2024.2 to v2025.3, various tsm maintenance commands (such as backup, ziplogs, etc.) now throw an error if the specified filename contains CJK characters (such as Japanese or Chinese). This issue has only been confirmed on Tableau Server for Wi</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2025.3</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-06-11</td>
-          <td class="date">2026-07-01</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="In Review"
-          data-release="2024.2.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a028c00000zhBCdAAM&title=the-encryption-job-fails-every-hour-on-tableau-server-20242-without-tableau-data-management-add-on-license" target="_blank" rel="noopener">The encryption job fails every hour on Tableau Server 2024.2 without Tableau Data Management Add-on License</a>
-            <div class="summary">Failed encryption jobs are listed on Jobs page in &#39;All Sites&#39; when Data Management is not enabled on Tableau Server 2024.2. This issue does not reproduce on TS2023.3.9 or earlier.If Tableau Server has Tableau Data Management Add-on license, the issue doesn&#39;t occur. Fo</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2024.2.0</td>
-          <td class="release">—</td>
-          <td class="num">52</td>
-          <td class="date">2024-09-18</td>
-          <td class="date">2025-06-18</td>
-        </tr>
-
-        <tr
           data-product="Tableau Cloud"
           data-status="Solution Scheduled"
           data-release="2026.2"
@@ -2231,24 +2339,6 @@
           <td class="num">6</td>
           <td class="date">2026-06-12</td>
           <td class="date">2026-06-12</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution in Progress"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000loDAaIAM&title=tableau-cloud-modified-records-appended-as-duplicates-when-performing-an-incremental-refresh-on-salesforce-data-sources-using-systemmodstamp" target="_blank" rel="noopener">Tableau Cloud- Modified records appended as duplicates when performing an Incremental Refresh on Salesforce Data Sources using SystemModstamp</a>
-            <div class="summary">When an incremental refresh is performed on Salesforce or Salesforce Data Cloud data sources, Tableau Cloud appends modified and existing records as new rows rather than updating the existing entries. This leads to data duplication and exponential dataset growth whenever records </div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">3</td>
-          <td class="date">2026-01-26</td>
-          <td class="date">2026-02-10</td>
         </tr>
 
         <tr
@@ -2866,24 +2956,6 @@
         <tr
           data-product="Tableau Cloud"
           data-status="Solution Scheduled"
-          data-release="2025.2.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000kUGE8IAO&title=tableau-cloud-opening-a-view-may-return-the-following-error-service-unavailable-verify-that-the-service-is-running" target="_blank" rel="noopener">Tableau Cloud: Opening a view may return the following error "Service unavailable. Verify that the service is running."</a>
-            <div class="summary">In Tableau Cloud when opening a view/dashboard an error can happen:TableauException: Service unavailable. Verify that the service is running.</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2025.2.0</td>
-          <td class="release">—</td>
-          <td class="num">2</td>
-          <td class="date">2025-10-31</td>
-          <td class="date">2026-06-16</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution Scheduled"
           data-release=""
         >
           <td class="title-cell">
@@ -2897,24 +2969,6 @@
           <td class="num">0</td>
           <td class="date">2026-06-03</td>
           <td class="date">2026-06-16</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution Scheduled"
-          data-release="2026.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mH3FoIAK&title=receiving-an-unknown-worksheet-name-error-when-attempting-to-access-dashboards-on-tableau-cloud" target="_blank" rel="noopener">Receiving an 'Unknown Worksheet Name' Error When Attempting To Access Dashboard(s) on Tableau Cloud</a>
-            <div class="summary">When attempting to access Dashboards on a Tableau Cloud site, users are receiving an &#39;Unknown Worksheet Name&#39; error when attempting to load the Views.</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2</td>
-          <td class="release">—</td>
-          <td class="num">2</td>
-          <td class="date">2026-06-09</td>
-          <td class="date">2026-06-12</td>
         </tr>
 
         <tr
@@ -3131,24 +3185,6 @@
           <td class="num">18</td>
           <td class="date">2025-01-27</td>
           <td class="date">2026-02-10</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Prep Builder"
-          data-status="Solution Scheduled"
-          data-release="2025.3.1+"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mT7SEIA0&title=tableau-prep-builder-202531-fails-to-launch-on-azure-virtual-desktop" target="_blank" rel="noopener">Tableau Prep Builder 2025.3.1+ Fails to Launch on Azure Virtual Desktop</a>
-            <div class="summary">Tableau Prep Builder 2025.3.1+ fails to launch in virtual machine environments, specifically Azure Virtual Desktop. The Windows Task Manager shows that the Tableau Prep Builder.exe is running, but the splash screen and UI do not appear.</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Prep Builder</td>
-          <td class="release">2025.3.1+</td>
-          <td class="release">—</td>
-          <td class="num">7</td>
-          <td class="date">2026-02-27</td>
-          <td class="date">2026-03-20</td>
         </tr>
 
         <tr
@@ -5098,24 +5134,6 @@
         <tr
           data-product="Tableau Server"
           data-status="Solution Scheduled"
-          data-release="2024.2.1, 2025.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000lHrFwIAK&title=tableau-resource-monitoring-tool-rmt-202421-20252-exhibits-continuous-disk-space-consumption-over-time" target="_blank" rel="noopener">Tableau Resource Monitoring Tool (RMT) 2024.2.1 / 2025.2 exhibits continuous disk space consumption over time</a>
-            <div class="summary">Tableau RMT exhibits continuous disk space consumption over time, as the Resource Monitoring Tool’s PostgreSQL database progressively grows, particularly within the Hangfire schema.</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2024.2.1, 2025.2</td>
-          <td class="release">—</td>
-          <td class="num">7</td>
-          <td class="date">2025-11-17</td>
-          <td class="date">2026-03-25</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="Solution Scheduled"
           data-release="2025.1.0"
         >
           <td class="title-cell">
@@ -5745,24 +5763,6 @@
 
         <tr
           data-product="Tableau Server"
-          data-status="Solution Scheduled"
-          data-release="2025.3"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mQlXWIA0&title=no-queries-appear-under-data-queries-in-the-tableau-resource-monitoring-tool-version-20253" target="_blank" rel="noopener">No Queries Appear Under Data Queries In The Tableau Resource Monitoring Tool Version 2025.3</a>
-            <div class="summary">After upgrading or with a fresh install to the Tableau Resource Monitoring Tool Version 2025.3, the Data Queries tab will appear empty.</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2025.3</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-02-02</td>
-          <td class="date">2026-02-10</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
           data-status="In Review"
           data-release="2024.2.7"
         >
@@ -5777,24 +5777,6 @@
           <td class="num">1</td>
           <td class="date">2025-10-14</td>
           <td class="date">2025-10-14</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution Scheduled"
-          data-release="2025.3.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000ilcldIAA&title=showing-partial-results-still-loading-lineage-information-try-again-later-displayed-on-lineage-tab-in-tableau-cloud" target="_blank" rel="noopener">"Showing partial results. Still loading lineage information. Try again later." Displayed on Lineage Tab in Tableau Cloud</a>
-            <div class="summary">When a user navigates to the Lineage tab of a Data Source (or other assets) in Tableau Cloud, the following warning message appears at the top of the page:&quot;Showing partial results. Still loading lineage information. Try again later.&quot;The message persists even after waiti</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2025.3.0</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2025-11-21</td>
-          <td class="date">2026-02-10</td>
         </tr>
 
         <tr
