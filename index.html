@@ -53,7 +53,7 @@
 
 <header>
   <h1>Tableau Known Issues</h1>
-  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-08-06 12:31:11</p>
+  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-08-07 09:37:37</p>
 </header>
 
 <div class="controls">
@@ -89,7 +89,7 @@
     <input type="text" id="f-search" placeholder="e.g. upgrade, extract, login…">
   </div>
   <div class="stat">
-    Showing <strong id="visible-count">452</strong> of <strong>452</strong> issues
+    Showing <strong id="visible-count">456</strong> of <strong>456</strong> issues
   </div>
 </div>
 
@@ -122,9 +122,171 @@
           <td>Tableau Cloud</td>
           <td class="release">2026.2</td>
           <td class="release">—</td>
-          <td class="num">7</td>
+          <td class="num">8</td>
           <td class="date">2026-07-21</td>
           <td class="date">2026-07-21</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="In Review"
+          data-release="2025.3, 2026.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000006qD8zAAE&title=" target="_blank" rel="noopener">Tableau Server to Salesforce or Salesforce Data 360 Connection Fails with "OAuth Refresh Token Expired" on Subsequent Attempts or Scheduled Refreshes</a>
+            <div class="summary">When connecting Tableau Server to Salesforce or Salesforce Data 360 (the connector name is Salesforce Data Cloud) using a newly created External Client App (ECA) where Refresh Token Rotation is enabled by default, OAuth authentication succeeds on the initial connection attempt bu</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2025.3, 2026.2</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-08-06</td>
+          <td class="date">2026-08-07</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution Scheduled"
+          data-release="2026.2.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000005gxwrAAA&title=table-names-are-blank-when-connecting-to-published-data-sources-with-an-inner-join-on-tableau-desktop-202620" target="_blank" rel="noopener">Table names are blank when connecting to Published Data Sources with an inner join on Tableau Desktop 2026.2.0</a>
+            <div class="summary">In Tableau Desktop 2026.2.0, Table names appear blank for tables connected via joins in published datasources on Tableau Cloud and Tableau Server; however, the table names appear correctly when opening a locally saved .tds file or in Tableau Desktop 2026.1.2 or below.</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">2026.2.0</td>
+          <td class="release">—</td>
+          <td class="num">11</td>
+          <td class="date">2026-06-30</td>
+          <td class="date">2026-07-20</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution Scheduled"
+          data-release="2026.2.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g70000063OTlAAM&title=extract-refresh-jobs-on-tableau-cloud-are-being-auto-suspended-for-inactivity-even-when-active-subscriptions-exist" target="_blank" rel="noopener">Extract refresh jobs on Tableau Cloud are being auto-suspended for inactivity even when active subscriptions exist</a>
+            <div class="summary">Extract refresh jobs on Tableau Cloud are being auto-suspended for inactivity even when active subscriptions exist on the workbook. According to documentation, subscriptions should reset the workbook&#39;s inactivity timer and prevent the 32-day auto-suspend threshold from trigge</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2.0</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-07-13</td>
+          <td class="date">2026-07-15</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="In Review"
+          data-release="2025.1"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000006kE7lAAE&title=safari-fails-to-download-view-images-and-csv-files-when-content-security-policy-enforcement-is-enabled" target="_blank" rel="noopener">Safari Fails to Download View Images and CSV Files When Content Security Policy Enforcement Is Enabled</a>
+            <div class="summary">Beginning in Tableau Server 2025.1, users on Safari browsers are unable to download view images or CSV files when Content Security Policy (CSP) enforcement is enabled (content_security_policy.enforce_enabled = true). The download produces no visible error to the user, but the bro</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2025.1</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-07-31</td>
+          <td class="date">2026-08-06</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Prep Builder"
+          data-status="In Review"
+          data-release="Summer '16"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000006oUNdAAM&title=" target="_blank" rel="noopener">Tableau Prep flows that write to Databricks may create less rows than the source table even after the flow completed successfully.</a>
+            <div class="summary">In Tableau Prep Builder and Tableau Cloud, Prep flows that write data to a Databricks table may reports as successful showing the expected number of rows. However, the target table may contain less rows than expected, indicating that the data did not completely write despite show</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Prep Builder</td>
+          <td class="release">Summer '16</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-08-04</td>
+          <td class="date">2026-08-06</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution Scheduled"
+          data-release="2025.2.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000ll5C9IAI&title=users-see-wrong-user-data--dynamic-parameter-in-rls-calculation-not-properly-warned-when-syntax-is-invalid" target="_blank" rel="noopener">Users see wrong user data - Dynamic Parameter in RLS calculation not properly warned when syntax is invalid</a>
+            <div class="summary">When evaluated within a calculation syntax, a dynamic parameter reference may fail to recognize a dependency on user functions used to update it. This can be too permissive in allowing for invalid logic, specifically permitting user functions to appear usable in cases only behind</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2025.2.0</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2025-12-18</td>
+          <td class="date">2026-08-05</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="In Review"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000006qLpiAAE&title=" target="_blank" rel="noopener">Tableau Desktop: Unable to sign in to Tableau Public via external browser when EnableExternalBrowserSignInFromDesktop registry key is enabled</a>
+            <div class="summary">Users who have the EnableExternalBrowserSignInFromDesktop Windows registry key set to 1 are unable to sign in to Tableau Public from Tableau Desktop. When this registry key is enabled, Tableau Desktop incorrectly routes Tableau Public sign-in through the Tableau Server OAuth flow</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-08-06</td>
+          <td class="date">2026-08-06</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="In Review"
+          data-release="2026.1.1"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g70000063MOjAAM&title=tableau-desktop-fails-to-open-workbooks-containing-calculated-fields-that-reference-filter-groups-when-vizdataservice-is-enabled" target="_blank" rel="noopener">Tableau Desktop fails to open workbooks containing calculated fields that reference filter groups when VizDataService is enabled</a>
+            <div class="summary">The error “The connection to the data source might have been lost” (error code 0x0AB819AC) prevents users from accessing their workbooks by prompting for authentication after being dismissed, then reappearing when a new connection is established, creating an endless loop.</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">2026.1.1</td>
+          <td class="release">—</td>
+          <td class="num">3</td>
+          <td class="date">2026-07-13</td>
+          <td class="date">2026-07-13</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release="2026.1.5"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mGtRJIA0&title=tableau-cloud-subscription-failures-due-to-pdf-export-timeout" target="_blank" rel="noopener">Tableau Cloud: Subscription Failures due to PDF export timeout</a>
+            <div class="summary">When a subscription is configured to deliver an entire workbook as a PDF, the export process may stall at the begin-export-pdf.render-pages stage and never complete. Although individual view images render successfully, the PDF assembly step hangs without producing an error, causi</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.1.5</td>
+          <td class="release">—</td>
+          <td class="num">2</td>
+          <td class="date">2026-06-03</td>
+          <td class="date">2026-06-03</td>
         </tr>
 
         <tr
@@ -160,24 +322,6 @@
           <td class="release">—</td>
           <td class="num">1</td>
           <td class="date">2026-08-05</td>
-          <td class="date">2026-08-05</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution Scheduled"
-          data-release="2025.2.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000ll5C9IAI&title=users-see-wrong-user-data--dynamic-parameter-in-rls-calculation-not-properly-warned-when-syntax-is-invalid" target="_blank" rel="noopener">Users see wrong user data - Dynamic Parameter in RLS calculation not properly warned when syntax is invalid</a>
-            <div class="summary">When evaluated within a calculation syntax, a dynamic parameter reference may fail to recognize a dependency on user functions used to update it. This can be too permissive in allowing for invalid logic, specifically permitting user functions to appear usable in cases only behind</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2025.2.0</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2025-12-18</td>
           <td class="date">2026-08-05</td>
         </tr>
 
@@ -647,42 +791,6 @@
           <td class="num">0</td>
           <td class="date">2026-07-31</td>
           <td class="date">2026-07-31</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="In Review"
-          data-release="2026.1.1"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g70000063MOjAAM&title=tableau-desktop-fails-to-open-workbooks-containing-calculated-fields-that-reference-filter-groups-when-vizdataservice-is-enabled" target="_blank" rel="noopener">Tableau Desktop fails to open workbooks containing calculated fields that reference filter groups when VizDataService is enabled</a>
-            <div class="summary">The error “The connection to the data source might have been lost” (error code 0x0AB819AC) prevents users from accessing their workbooks by prompting for authentication after being dismissed, then reappearing when a new connection is established, creating an endless loop.</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">2026.1.1</td>
-          <td class="release">—</td>
-          <td class="num">2</td>
-          <td class="date">2026-07-13</td>
-          <td class="date">2026-07-13</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="Solution Scheduled"
-          data-release="2026.2.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000005gxwrAAA&title=table-names-are-blank-when-connecting-to-published-data-sources-with-an-inner-join-on-tableau-desktop-202620" target="_blank" rel="noopener">Table names are blank when connecting to Published Data Sources with an inner join on Tableau Desktop 2026.2.0</a>
-            <div class="summary">In Tableau Desktop 2026.2.0, Table names appear blank for tables connected via joins in published datasources on Tableau Cloud and Tableau Server; however, the table names appear correctly when opening a locally saved .tds file or in Tableau Desktop 2026.1.2 or below.</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">2026.2.0</td>
-          <td class="release">—</td>
-          <td class="num">10</td>
-          <td class="date">2026-06-30</td>
-          <td class="date">2026-07-20</td>
         </tr>
 
         <tr
@@ -2756,24 +2864,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Cloud"
-          data-status="Solution Scheduled"
-          data-release="2026.2.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g70000063OTlAAM&title=extract-refresh-jobs-on-tableau-cloud-are-being-auto-suspended-for-inactivity-even-when-active-subscriptions-exist" target="_blank" rel="noopener">Extract refresh jobs on Tableau Cloud are being auto-suspended for inactivity even when active subscriptions exist</a>
-            <div class="summary">Extract refresh jobs on Tableau Cloud are being auto-suspended for inactivity even when active subscriptions exist on the workbook. According to documentation, subscriptions should reset the workbook&#39;s inactivity timer and prevent the 32-day auto-suspend threshold from trigge</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2.0</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-07-13</td>
-          <td class="date">2026-07-15</td>
-        </tr>
-
-        <tr
           data-product="Tableau Server"
           data-status="Solution in Progress"
           data-release="2025.1.5"
@@ -4121,24 +4211,6 @@
           <td class="num">3</td>
           <td class="date">2026-04-24</td>
           <td class="date">2026-06-04</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release="2026.1.5"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mGtRJIA0&title=tableau-cloud-subscription-failures-due-to-pdf-export-timeout" target="_blank" rel="noopener">Tableau Cloud: Subscription Failures due to PDF export timeout</a>
-            <div class="summary">When a subscription is configured to deliver an entire workbook as a PDF, the export process may stall at the begin-export-pdf.render-pages stage and never complete. Although individual view images render successfully, the PDF assembly step hangs without producing an error, causi</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.1.5</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-06-03</td>
-          <td class="date">2026-06-03</td>
         </tr>
 
         <tr
