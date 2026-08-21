@@ -53,7 +53,7 @@
 
 <header>
   <h1>Tableau Known Issues</h1>
-  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-08-20 06:53:02</p>
+  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-08-21 06:54:09</p>
 </header>
 
 <div class="controls">
@@ -89,7 +89,7 @@
     <input type="text" id="f-search" placeholder="e.g. upgrade, extract, login…">
   </div>
   <div class="stat">
-    Showing <strong id="visible-count">474</strong> of <strong>474</strong> issues
+    Showing <strong id="visible-count">477</strong> of <strong>477</strong> issues
   </div>
 </div>
 
@@ -108,6 +108,114 @@
       </tr>
     </thead>
     <tbody id="issues-body">
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution Scheduled"
+          data-release="2025.1"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000eN90gIAC&title=tableau-cloud-user-attribute-functions-userattributeincludes-for-published-data-sources-is-not-functioning-as-expected" target="_blank" rel="noopener">Tableau Cloud: User Attribute Functions (USERATTRIBUTEINCLUDES) for published data sources is not functioning as expected</a>
+            <div class="summary">When using the function USERATTRIBUTE(&#39;attribute_name&#39;), it does show the first element of the list. However, the function is not accessing multiple values in the token claim. Row level security does not function correctly due to this.Trying to use USERATTRIBUTEINCLUDES(&</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2025.1</td>
+          <td class="release">—</td>
+          <td class="num">3</td>
+          <td class="date">2025-03-17</td>
+          <td class="date">2025-04-03</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="In Review"
+          data-release="2025.3.7"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000007OubJAAS&title=" target="_blank" rel="noopener">Extract Refreshes Fail After Rotating an OAuth Client Secret, Even When Saved Credentials Test Successful.</a>
+            <div class="summary">When an OAuth client secret used for a data source connection is rotated, scheduled extract refreshes can fail even though the saved credentials pass a successful connection test. This happens because the saved credential&#39;s refresh token was issued under the previous client s</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2025.3.7</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-08-20</td>
+          <td class="date">2026-08-20</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="In Review"
+          data-release="2026.2.1"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000006fItaAAE&title=" target="_blank" rel="noopener">Audit events missing for implicit site-user creation (admin promotion) and site-level user deletion</a>
+            <div class="summary">Inconsistent logging of user creation and deletion events in the Tableau Server Repository historical tables.</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2026.2.1</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-07-27</td>
+          <td class="date">2026-07-27</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="In Review"
+          data-release="2025.3.5"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000007IuKfAAK&title=" target="_blank" rel="noopener">OAuth Sign-In Prompt Not Triggered for Expired Token in Workbook with a Live Federated PDS Connection in Tableau Server</a>
+            <div class="summary">When a Tableau workbook is connected to a live federated published data source containing an OAuth connection where the refresh token expires, users are met with an &quot;Unknown Server Error&quot; or &quot;An error occurred&quot; message instead of a sign-in prompt for the affec</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2025.3.5</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-08-19</td>
+          <td class="date">2026-08-20</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Next"
+          data-status="In Review"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000006yOs1AAE&title=" target="_blank" rel="noopener">Analytics and Visualization Agent Fails to Render Responses with "There was a problem rendering."</a>
+            <div class="summary">The Analytics and Visualization agent in Tableau Next may fail to display its response, showing the error &quot;There was a problem rendering.&quot; even though the underlying query completed successfully. Users who ask the agent analytical questions (for example, requesting a me</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Next</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">6</td>
+          <td class="date">2026-08-13</td>
+          <td class="date">2026-08-13</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Prep Builder"
+          data-status="In Review"
+          data-release="Summer '16"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000007LNGvAAO&title=tableau-prep-inconsistent-results-between-preview-and-actual-results-of-output-step-when-joined-fields-are-unioned-and-merged" target="_blank" rel="noopener">Tableau Prep: Inconsistent Results Between Preview and Actual Results of Output Step When Joined Fields Are Unioned and Merged</a>
+            <div class="summary">In Tableau Prep, joining, unioning, and merging fields may result in inconsistent output data compared to the preview pane. The final output may unexpectedly show null values for the merged field, even though the data appears correct in the preview.</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Prep Builder</td>
+          <td class="release">Summer '16</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-08-20</td>
+          <td class="date">2026-08-20</td>
+        </tr>
 
         <tr
           data-product="Tableau Desktop"
@@ -143,24 +251,6 @@
           <td class="num">0</td>
           <td class="date">2026-07-28</td>
           <td class="date">2026-08-19</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Next"
-          data-status="In Review"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000006yOs1AAE&title=" target="_blank" rel="noopener">Analytics and Visualization Agent Fails to Render Responses with "There was a problem rendering."</a>
-            <div class="summary">The Analytics and Visualization agent in Tableau Next may fail to display its response, showing the error &quot;There was a problem rendering.&quot; even though the underlying query completed successfully. Users who ask the agent analytical questions (for example, requesting a me</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Next</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">5</td>
-          <td class="date">2026-08-13</td>
-          <td class="date">2026-08-13</td>
         </tr>
 
         <tr
@@ -2086,24 +2176,6 @@
           <td class="release">—</td>
           <td class="num">0</td>
           <td class="date">2026-07-24</td>
-          <td class="date">2026-07-27</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="In Review"
-          data-release="2026.2.1"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000006fItaAAE&title=" target="_blank" rel="noopener">Audit events missing for implicit site-user creation (admin promotion) and site-level user deletion</a>
-            <div class="summary">Inconsistent logging of user creation and deletion events in the Tableau Server Repository historical tables.</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2026.2.1</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-07-27</td>
           <td class="date">2026-07-27</td>
         </tr>
 
@@ -6155,24 +6227,6 @@
           <td class="num">4</td>
           <td class="date">2024-07-30</td>
           <td class="date">2025-03-18</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution Scheduled"
-          data-release="2025.1"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000eN90gIAC&title=tableau-cloud-user-attribute-functions-userattributeincludes-for-published-data-sources-is-not-functioning-as-expected" target="_blank" rel="noopener">Tableau Cloud: User Attribute Functions (USERATTRIBUTEINCLUDES) for published data sources is not functioning as expected</a>
-            <div class="summary">When using the function USERATTRIBUTE(&#39;attribute_name&#39;), it does show the first element of the list. However, the function is not accessing multiple values in the token claim. Row level security does not function correctly due to this.Trying to use USERATTRIBUTEINCLUDES(&</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2025.1</td>
-          <td class="release">—</td>
-          <td class="num">2</td>
-          <td class="date">2025-03-17</td>
-          <td class="date">2025-04-03</td>
         </tr>
 
         <tr
