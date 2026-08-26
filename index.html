@@ -53,7 +53,7 @@
 
 <header>
   <h1>Tableau Known Issues</h1>
-  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-08-25 06:55:28</p>
+  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-08-26 06:56:34</p>
 </header>
 
 <div class="controls">
@@ -89,7 +89,7 @@
     <input type="text" id="f-search" placeholder="e.g. upgrade, extract, login…">
   </div>
   <div class="stat">
-    Showing <strong id="visible-count">480</strong> of <strong>480</strong> issues
+    Showing <strong id="visible-count">481</strong> of <strong>481</strong> issues
   </div>
 </div>
 
@@ -108,6 +108,96 @@
       </tr>
     </thead>
     <tbody id="issues-body">
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000007awsfAAA&title=" target="_blank" rel="noopener">Tableau Cloud sends invite emails when re-adding a user, despite the "Enable Site invite emails" setting is turned off.</a>
+            <div class="summary">Administrators can turn off the &quot;Enable Site invite emails&quot; setting in Tableau Cloud. When this setting is off, adding a new user correctly sends no email.However, if you add that exact same user again, the system sends them an invite email.This issue happens on sites t</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-08-24</td>
+          <td class="date">2026-08-24</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release="2026.2.4"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000007SFjFAAW&title=" target="_blank" rel="noopener">Tableau Cloud Site User Count May Not Match Tableau Cloud Manager (TCM)</a>
+            <div class="summary">The user count displayed on a Tableau Cloud site may not match the count shown in Tableau Cloud Manager (TCM) for the same site.</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2.4</td>
+          <td class="release">—</td>
+          <td class="num">2</td>
+          <td class="date">2026-08-21</td>
+          <td class="date">2026-08-21</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="In Review"
+          data-release="2026.2.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000006VzdFAAS&title=ad-groups-with-distinguished-names-containing-special-characters-are-not-syncingimporting-users-correctly" target="_blank" rel="noopener">AD Groups with Distinguished Names Containing Special Characters are Not Syncing/Importing Users Correctly</a>
+            <div class="summary">For groups containing members with Distinguished Names containing special characters, such as &#39;,&#39; or &#39;*&#39;, \users in those AD groups are not getting added or getting deleted after a sync of the group is performed, starting in version 2026.2.0. New groups get added </div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2026.2.0</td>
+          <td class="release">—</td>
+          <td class="num">10</td>
+          <td class="date">2026-07-22</td>
+          <td class="date">2026-07-22</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Prep Builder"
+          data-status="In Review"
+          data-release="2026.1"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000007ep6QAAQ&title=" target="_blank" rel="noopener">Refresh All no longer reconnects broken input connections in Prep Builder</a>
+            <div class="summary">When using Refresh All in Prep Builder, broken input connections are no longer automatically restored. Previously, selecting Refresh All from the toolbar would attempt to restore any broken input connections within the flow. Now, Refresh All skips inputs with connection errors, a</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Prep Builder</td>
+          <td class="release">2026.1</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-08-24</td>
+          <td class="date">2026-08-25</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution Scheduled"
+          data-release="2026.2.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000005gxwrAAA&title=table-names-are-blank-when-connecting-to-published-data-sources-with-an-inner-join-on-tableau-desktop-202620" target="_blank" rel="noopener">Table names are blank when connecting to Published Data Sources with an inner join on Tableau Desktop 2026.2.0</a>
+            <div class="summary">In Tableau Desktop 2026.2.0, Table names appear blank for tables connected via joins in published datasources on Tableau Cloud and Tableau Server; however, the table names appear correctly when opening a locally saved .tds file or in Tableau Desktop 2026.1.2 or below.</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">2026.2.0</td>
+          <td class="release">—</td>
+          <td class="num">15</td>
+          <td class="date">2026-06-30</td>
+          <td class="date">2026-07-20</td>
+        </tr>
 
         <tr
           data-product="Tableau Cloud"
@@ -161,42 +251,6 @@
           <td class="num">2</td>
           <td class="date">2026-07-03</td>
           <td class="date">2026-08-17</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="In Review"
-          data-release="2026.2.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000006VzdFAAS&title=ad-groups-with-distinguished-names-containing-special-characters-are-not-syncingimporting-users-correctly" target="_blank" rel="noopener">AD Groups with Distinguished Names Containing Special Characters are Not Syncing/Importing Users Correctly</a>
-            <div class="summary">For groups containing members with Distinguished Names containing special characters, such as &#39;,&#39; or &#39;*&#39;, \users in those AD groups are not getting added or getting deleted after a sync of the group is performed, starting in version 2026.2.0. New groups get added </div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2026.2.0</td>
-          <td class="release">—</td>
-          <td class="num">9</td>
-          <td class="date">2026-07-22</td>
-          <td class="date">2026-07-22</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="Solution Scheduled"
-          data-release="2026.2.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000005gxwrAAA&title=table-names-are-blank-when-connecting-to-published-data-sources-with-an-inner-join-on-tableau-desktop-202620" target="_blank" rel="noopener">Table names are blank when connecting to Published Data Sources with an inner join on Tableau Desktop 2026.2.0</a>
-            <div class="summary">In Tableau Desktop 2026.2.0, Table names appear blank for tables connected via joins in published datasources on Tableau Cloud and Tableau Server; however, the table names appear correctly when opening a locally saved .tds file or in Tableau Desktop 2026.1.2 or below.</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">2026.2.0</td>
-          <td class="release">—</td>
-          <td class="num">13</td>
-          <td class="date">2026-06-30</td>
-          <td class="date">2026-07-20</td>
         </tr>
 
         <tr
@@ -254,24 +308,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000007awsfAAA&title=" target="_blank" rel="noopener">Tableau Cloud sends invite emails when re-adding a user, despite the "Enable Site invite emails" setting is turned off.</a>
-            <div class="summary">Administrators can turn off the &quot;Enable Site invite emails&quot; setting in Tableau Cloud. When this setting is off, adding a new user correctly sends no email.However, if you add that exact same user again, the system sends them an invite email.This issue happens on sites t</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-08-24</td>
-          <td class="date">2026-08-24</td>
-        </tr>
-
-        <tr
           data-product="Tableau Server"
           data-status="In Review"
           data-release="2026.2, 2026.3"
@@ -285,24 +321,6 @@
           <td class="release">2026.2, 2026.3</td>
           <td class="release">—</td>
           <td class="num">2</td>
-          <td class="date">2026-08-21</td>
-          <td class="date">2026-08-21</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release="2026.2.4"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000007SFjFAAW&title=" target="_blank" rel="noopener">Tableau Cloud Site User Count May Not Match Tableau Cloud Manager (TCM)</a>
-            <div class="summary">The user count displayed on a Tableau Cloud site may not match the count shown in Tableau Cloud Manager (TCM) for the same site.</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2.4</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
           <td class="date">2026-08-21</td>
           <td class="date">2026-08-21</td>
         </tr>
