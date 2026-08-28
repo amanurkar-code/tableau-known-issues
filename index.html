@@ -53,7 +53,7 @@
 
 <header>
   <h1>Tableau Known Issues</h1>
-  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-08-27 17:29:54</p>
+  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-08-28 18:24:23</p>
 </header>
 
 <div class="controls">
@@ -89,7 +89,7 @@
     <input type="text" id="f-search" placeholder="e.g. upgrade, extract, login…">
   </div>
   <div class="stat">
-    Showing <strong id="visible-count">464</strong> of <strong>464</strong> issues
+    Showing <strong id="visible-count">455</strong> of <strong>455</strong> issues
   </div>
 </div>
 
@@ -108,6 +108,294 @@
       </tr>
     </thead>
     <tbody id="issues-body">
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution in Progress"
+          data-release="2026.2.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000005gxwrAAA&title=table-names-are-blank-when-connecting-to-published-data-sources-with-an-inner-join-on-tableau-desktop-202620" target="_blank" rel="noopener">Table names are blank when connecting to Published Data Sources with an inner join on Tableau Desktop 2026.2.0</a>
+            <div class="summary">In Tableau Desktop 2026.2.0, Table names appear blank for tables connected via joins in published datasources on Tableau Cloud and Tableau Server; however, the table names appear correctly when opening a locally saved .tds file or in Tableau Desktop 2026.1.2 or below.</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">2026.2.0</td>
+          <td class="release">—</td>
+          <td class="num">16</td>
+          <td class="date">2026-06-30</td>
+          <td class="date">2026-08-28</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Next"
+          data-status="Solution Scheduled"
+          data-release="Summer '26"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g70000074bmXAAQ&title=tableau-next-non-sysadmin-users-experience-intermittent-access_denied-errors-when-opening-tableau-next-dashboards-containing-lwc-extension-widgets" target="_blank" rel="noopener">[Tableau Next] Non-Sysadmin Users Experience Intermittent ACCESS_DENIED Errors When Opening Tableau Next Dashboards Containing LWC Extension Widgets</a>
+            <div class="summary">Non-sysadmin users intermittently see an ACCESS_DENIED error (HTTP 403, message: &quot;Please add the necessary permissions to access dashboard&quot;) when opening a Tableau Next dashboard. The error is misleading — it is not a permissions issue.</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Next</td>
+          <td class="release">Summer '26</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-08-17</td>
+          <td class="date">2026-08-28</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Prep Builder"
+          data-status="Solution in Progress"
+          data-release="Summer '16"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000006oUNdAAM&title=tableau-prep-flows-that-write-to-databricks-may-create-less-rows-than-the-source-table-even-after-the-flow-completed-successfully" target="_blank" rel="noopener">Tableau Prep flows that write to Databricks may create less rows than the source table even after the flow completed successfully.</a>
+            <div class="summary">In Tableau Prep Builder and Tableau Cloud, Prep flows that write data to a Databricks table may reports as successful showing the expected number of rows. However, the target table may contain less rows than expected, indicating that the data did not completely write despite show</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Prep Builder</td>
+          <td class="release">Summer '16</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-08-04</td>
+          <td class="date">2026-08-28</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution Scheduled"
+          data-release="Tableau Desktop 2025.3.7, 2026.2.1"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000006mZfxAAE&title=invalid-credentials-error-when-editing-downloaded-snowflake-key-pair-data-source-in-tableau-desktop" target="_blank" rel="noopener">"Invalid Credentials" Error When Editing Downloaded Snowflake Key-Pair Data Source in Tableau Desktop</a>
+            <div class="summary">After upgrading Tableau Desktop to version 2025.3.7 or later, users are unable to edit published Snowflake data sources (authenticated via Key-Pair) after downloading them from Tableau Server or Tableau Cloud.</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">Tableau Desktop 2025.3.7, 2026.2.1</td>
+          <td class="release">—</td>
+          <td class="num">3</td>
+          <td class="date">2026-08-03</td>
+          <td class="date">2026-08-26</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution Scheduled"
+          data-release="2025.1.10"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mGu3cIAC&title=tableau-prep-flow-execution-causes-high-load-on-rdbms-due-to-query-pushdown-optimization-in-tableau-prep-builder-tableau-server" target="_blank" rel="noopener">Tableau Prep Flow Execution Causes High Load on RDBMS Due to Query Pushdown Optimization in Tableau Prep Builder / Tableau Server</a>
+            <div class="summary">Under specific flow configurations, the query pushdown optimization mechanism in Tableau Prep Engine (Tableau Prep Conductor and Tableau Prep Builder) generates a disproportionately large number of queries against the connected Relational Database Management System (RDBMS). This </div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2025.1.10</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-06-03</td>
+          <td class="date">2026-08-26</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release="Winter '27"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g70000089RQzAAM&title=tableau-ai-returns-something-went-wrong-try-again-error-when-sending-prompts-while-creating-new-workbooks" target="_blank" rel="noopener">Tableau AI Returns "Something went wrong. Try again" Error When Sending Prompts While Creating New Workbooks</a>
+            <div class="summary">The user completed the required Salesforce setup, including Data Cloud and Einstein connectivity, and the Tableau AI integration test showed as properly configured. When using Tableau AI to help build a new workbook in Tableau Cloud, some users see a generic &quot;Something went </div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">Winter '27</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-08-28</td>
+          <td class="date">2026-08-28</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution in Progress"
+          data-release="2026.1, 2025.3, 2025.2, 2025.1"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mGg6sIAC&title=parameters-on-dashboards-used-to-control-visibility-not-working-as-expected-when-using-a-cube-data-source" target="_blank" rel="noopener">Parameters on Dashboards Used to Control Visibility Not Working as Expected When Using a Cube Data Source</a>
+            <div class="summary">When attempting to use a parameter to control visibility on a dashboard and a cube is being used as the data source the parameter does not work as expected.</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">2026.1, 2025.3, 2025.2, 2025.1</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-05-26</td>
+          <td class="date">2026-05-27</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution Scheduled"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000005ekm1AAA&title=error-running-run-optimizer-in-tableau-desktop-20262" target="_blank" rel="noopener">Error running "Run Optimizer" in Tableau Desktop 2026.2.</a>
+            <div class="summary">In Tableau Desktop 2026.2, attempting to run the Run Optimizer function from the Server menu results in a script error, preventing users from successfully optimizing their workbooks.When clicking &quot;Run Optimizer&quot;, the application throws the following error messages and a</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">9</td>
+          <td class="date">2026-06-29</td>
+          <td class="date">2026-07-13</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution in Progress"
+          data-release="2026.2.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000005s7o1AAA&title=error-code-d2e8da72-when-loading-workbooks-with-unused-extensions-in-tableau-desktop-and-in-web-authoring" target="_blank" rel="noopener">Error Code: D2E8DA72 when loading workbooks with unused extensions in Tableau Desktop and in web authoring</a>
+            <div class="summary">In Tableau Desktop 2026.2.0 and web authoring in Tableau Cloud and Tableau Server 2026.2.0, workbooks can be saved with one or more unused extensions. These unused extension are not tied to any worksheet, dashboard or storypoints. When opening workbooks that contain unused extens</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">2026.2.0</td>
+          <td class="release">—</td>
+          <td class="num">2</td>
+          <td class="date">2026-07-08</td>
+          <td class="date">2026-08-28</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution in Progress"
+          data-release="2025.1.8"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mTJjrIAG&title=extract-refresh-fails-with-error-couldnt-find-a-key-during-dictionary-lookup-after-upgrading-tableau-server-from-202317-to-202518" target="_blank" rel="noopener">Extract refresh fails with error "Couldn't find a key during dictionary lookup" after upgrading Tableau Server from 2023.1.7 to 2025.1.8</a>
+            <div class="summary">Extract refresh fails with error &quot;Couldn&#39;t find a key during dictionary lookup&quot; after upgrading  Tableau Server from 2023.1.7 to 2025.1.8 for Hyper files originally created in version 2023.1.7.The issue observed in 2025.1.8 and newer.</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2025.1.8</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-03-03</td>
+          <td class="date">2026-08-26</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution Scheduled"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g70000088oKnAAI&title=" target="_blank" rel="noopener">Tableau Cloud User-removal and site-role change activity logs show a service account instead of the admin who made the change</a>
+            <div class="summary">On Tableau Cloud through Tableau Cloud Manager (TCM) OR Tableau Cloud Site , user add, site-role update, and removal actions performed across many sites at once can be recorded in the activity log with no identified actor, or with an internal service account shown as the actor in</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-08-28</td>
+          <td class="date">2026-08-28</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution in Progress"
+          data-release="2023.3, 2024.2, 2025.1, 2025.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000fu9sSIAQ&title=the-standard-deviation-is-not-calculated-as-expected-in-the-tableau-products" target="_blank" rel="noopener">The Standard Deviation is not calculated as expected in the Tableau products</a>
+            <div class="summary">The calculation results of functions (STDEVP, STDEV) are different from Excel functions(STDEV.P, STDEVA).</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">2023.3, 2024.2, 2025.1, 2025.2</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2025-06-19</td>
+          <td class="date">2026-08-28</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution Scheduled"
+          data-release="2026.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000005enf3AAA&title=unable-to-load-histogram-details-for-a-virtual-connection-table-in-tableau-cloud-and-tableau-server" target="_blank" rel="noopener">Unable to load histogram details for a Virtual Connection table in Tableau Cloud and Tableau Server</a>
+            <div class="summary">When users click the &quot;Show profile pane&quot; icon to load histogram information in a Virtual Connection (VConn) Table Details, the operation fails with the generic error: &quot;An error has occurred. Please try again.&quot;</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-06-29</td>
+          <td class="date">2026-08-28</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Prep Builder"
+          data-status="In Review"
+          data-release="2026.1"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000007ep6QAAQ&title=refresh-all-no-longer-reconnects-broken-input-connections-in-prep-builder" target="_blank" rel="noopener">Refresh All no longer reconnects broken input connections in Prep Builder</a>
+            <div class="summary">When using Refresh All in Prep Builder, broken input connections are no longer automatically restored. Previously, selecting Refresh All from the toolbar would attempt to restore any broken input connections within the flow. Now, Refresh All skips inputs with connection errors, a</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Prep Builder</td>
+          <td class="release">2026.1</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-08-24</td>
+          <td class="date">2026-08-25</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="In Review"
+          data-release="2025.3.5"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g70000087iu9AAA&title=" target="_blank" rel="noopener">Tableau Server Intermittent SAML Login Failures with "Existing Single Site Context is different from the new context" Error After Upgrade to 2025.3.x</a>
+            <div class="summary">After upgrading Tableau Server to 2025.3.x, users on multi-site environments with SAML authentication may intermittently fail to log in. The failure occurs after the SAML identity provider (IdP) successfully authenticates the user, during the site context resolution step in vizpo</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2025.3.5</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-08-27</td>
+          <td class="date">2026-08-27</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution Scheduled"
+          data-release="2026.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000007Nf4rAAC&title=tableau-desktop-lblm-auto-sign-in-and-licensing-fail-on-relaunch-when-last-sign-in-used-a-custom-domain" target="_blank" rel="noopener">Tableau Desktop LBLM Auto Sign-In and Licensing Fail on Relaunch When Last Sign-In Used a Custom Domain</a>
+            <div class="summary">In Tableau Desktop, users who last signed in to Tableau Server/Cloud via a custom domain (e.g., custom.domain.com) may experience silent failures of License-Based License Management (LBLM) licensing and auto sign-in on application relaunch. Additionally, the sign-in dialog may pr</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">2026.2</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-08-20</td>
+          <td class="date">2026-08-27</td>
+        </tr>
 
         <tr
           data-product="Tableau Cloud"
@@ -238,42 +526,6 @@
         <tr
           data-product="Tableau Cloud"
           data-status="Solution Scheduled"
-          data-release="2026.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000005eoWHAAY&title=vertical-text-in-dashboard-headers-renders-horizontally-in-tableau-cloud-and-tableau-server" target="_blank" rel="noopener">Vertical text in dashboard headers renders horizontally in Tableau Cloud and Tableau Server</a>
-            <div class="summary">Vertical text configured in dashboard headers is rendering horizontally instead of vertically in Tableau Cloud. This causes text overlap and significantly impacts readability. The issue is isolated to client-side rendering.</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2</td>
-          <td class="release">—</td>
-          <td class="num">4</td>
-          <td class="date">2026-06-29</td>
-          <td class="date">2026-07-10</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="Solution Scheduled"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000005ekm1AAA&title=error-running-run-optimizer-in-tableau-desktop-20262" target="_blank" rel="noopener">Error running "Run Optimizer" in Tableau Desktop 2026.2.</a>
-            <div class="summary">In Tableau Desktop 2026.2, attempting to run the Run Optimizer function from the Server menu results in a script error, preventing users from successfully optimizing their workbooks.When clicking &quot;Run Optimizer&quot;, the application throws the following error messages and a</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">8</td>
-          <td class="date">2026-06-29</td>
-          <td class="date">2026-07-13</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution Scheduled"
           data-release="2026.2.3"
         >
           <td class="title-cell">
@@ -380,24 +632,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Prep Builder"
-          data-status="In Review"
-          data-release="2026.1"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000007ep6QAAQ&title=refresh-all-no-longer-reconnects-broken-input-connections-in-prep-builder" target="_blank" rel="noopener">Refresh All no longer reconnects broken input connections in Prep Builder</a>
-            <div class="summary">When using Refresh All in Prep Builder, broken input connections are no longer automatically restored. Previously, selecting Refresh All from the toolbar would attempt to restore any broken input connections within the flow. Now, Refresh All skips inputs with connection errors, a</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Prep Builder</td>
-          <td class="release">2026.1</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-08-24</td>
-          <td class="date">2026-08-25</td>
-        </tr>
-
-        <tr
           data-product="Tableau Cloud"
           data-status="In Review"
           data-release=""
@@ -485,24 +719,6 @@
           <td class="num">0</td>
           <td class="date">2026-08-17</td>
           <td class="date">2026-08-18</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Next"
-          data-status="Solution in Progress"
-          data-release="Summer '26"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g70000074bmXAAQ&title=tableau-next-non-sysadmin-users-experience-intermittent-access_denied-errors-when-opening-tableau-next-dashboards-containing-lwc-extension-widgets" target="_blank" rel="noopener">[Tableau Next] Non-Sysadmin Users Experience Intermittent ACCESS_DENIED Errors When Opening Tableau Next Dashboards Containing LWC Extension Widgets</a>
-            <div class="summary">Non-sysadmin users intermittently see an ACCESS_DENIED error (HTTP 403, message: &quot;Please add the necessary permissions to access dashboard&quot;) when opening a Tableau Next dashboard. The error is misleading — it is not a permissions issue.</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Next</td>
-          <td class="release">Summer '26</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-08-17</td>
-          <td class="date">2026-08-26</td>
         </tr>
 
         <tr
@@ -921,24 +1137,6 @@
 
         <tr
           data-product="Tableau Server"
-          data-status="In Review"
-          data-release="2026.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000006hhavAAA&title=google-workspace-addon-saving-site-config-for-tableau-server-not-working" target="_blank" rel="noopener">[Google Workspace Addon] Saving site config for Tableau Server not working</a>
-            <div class="summary">When trying to save a site config for Tableau Server on the Tableau Add-on for Google Workspace the request is being rejected.</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2026.2</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-07-29</td>
-          <td class="date">2026-07-29</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
           data-status="Solution in Progress"
           data-release="2025.1"
         >
@@ -992,24 +1190,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Prep Builder"
-          data-status="In Review"
-          data-release="Summer '16"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000006oUNdAAM&title=tableau-prep-flows-that-write-to-databricks-may-create-less-rows-than-the-source-table-even-after-the-flow-completed-successfully" target="_blank" rel="noopener">Tableau Prep flows that write to Databricks may create less rows than the source table even after the flow completed successfully.</a>
-            <div class="summary">In Tableau Prep Builder and Tableau Cloud, Prep flows that write data to a Databricks table may reports as successful showing the expected number of rows. However, the target table may contain less rows than expected, indicating that the data did not completely write despite show</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Prep Builder</td>
-          <td class="release">Summer '16</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-08-04</td>
-          <td class="date">2026-08-06</td>
-        </tr>
-
-        <tr
           data-product="Tableau Cloud"
           data-status="In Review"
           data-release="2026.2.0"
@@ -1025,24 +1205,6 @@
           <td class="num">1</td>
           <td class="date">2026-07-29</td>
           <td class="date">2026-07-30</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="Solution Scheduled"
-          data-release="Tableau Desktop 2025.3.7, 2026.2.1"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000006mZfxAAE&title=invalid-credentials-error-when-editing-downloaded-snowflake-key-pair-data-source-in-tableau-desktop" target="_blank" rel="noopener">"Invalid Credentials" Error When Editing Downloaded Snowflake Key-Pair Data Source in Tableau Desktop</a>
-            <div class="summary">After upgrading Tableau Desktop to version 2025.3.7 or later, users are unable to edit published Snowflake data sources (authenticated via Key-Pair) after downloading them from Tableau Server or Tableau Cloud.</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">Tableau Desktop 2025.3.7, 2026.2.1</td>
-          <td class="release">—</td>
-          <td class="num">2</td>
-          <td class="date">2026-08-03</td>
-          <td class="date">2026-08-26</td>
         </tr>
 
         <tr
@@ -1588,42 +1750,6 @@
         <tr
           data-product="Tableau Cloud"
           data-status="Solution Scheduled"
-          data-release="2026.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000005fPxFAAU&title=editing-published-redshift-data-sources-using-oauth-and-tableau-bridge-return-this-server-violates-the-ip-allowlistblocklist-restrictions" target="_blank" rel="noopener">Editing Published Redshift Data Sources using Oauth and Tableau Bridge Return "This server violates the IP allowlist/blocklist restrictions."</a>
-            <div class="summary">When using the recently released feature of web editing from Tableau Cloud for data sources using Tableau Bridge, there is an error when using extracts of Redshift data sources using OAuth authentication:This server violates the IP allowlist/blocklist restrictions.﻿The error only</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-06-29</td>
-          <td class="date">2026-08-10</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="Solution in Progress"
-          data-release="2026.2.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000005gxwrAAA&title=table-names-are-blank-when-connecting-to-published-data-sources-with-an-inner-join-on-tableau-desktop-202620" target="_blank" rel="noopener">Table names are blank when connecting to Published Data Sources with an inner join on Tableau Desktop 2026.2.0</a>
-            <div class="summary">In Tableau Desktop 2026.2.0, Table names appear blank for tables connected via joins in published datasources on Tableau Cloud and Tableau Server; however, the table names appear correctly when opening a locally saved .tds file or in Tableau Desktop 2026.1.2 or below.</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">2026.2.0</td>
-          <td class="release">—</td>
-          <td class="num">16</td>
-          <td class="date">2026-06-30</td>
-          <td class="date">2026-08-26</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution Scheduled"
           data-release="2026.1.0"
         >
           <td class="title-cell">
@@ -1709,24 +1835,6 @@
           <td class="num">2</td>
           <td class="date">2026-04-13</td>
           <td class="date">2026-05-28</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution Scheduled"
-          data-release="All"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mHPyBIAW&title=flow-name-is-missing-when-opening-job-details-from-job-list" target="_blank" rel="noopener">Flow Name Is Missing When Opening Job Details From Job List</a>
-            <div class="summary">A flow&#39;s name and link disappear from previous job details, though they remain visible for the current run. This occurs under the following conditions:Using Tableau Cloud, or Tableau Server without Data Management.A flow with existing job history is re-published and run.Note:</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">All</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-06-23</td>
-          <td class="date">2026-08-26</td>
         </tr>
 
         <tr
@@ -1856,42 +1964,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Server"
-          data-status="Solution in Progress"
-          data-release="2025.1.8"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mTJjrIAG&title=extract-refresh-fails-with-error-couldnt-find-a-key-during-dictionary-lookup-after-upgrading-tableau-server-from-202317-to-202518" target="_blank" rel="noopener">Extract refresh fails with error "Couldn't find a key during dictionary lookup" after upgrading Tableau Server from 2023.1.7 to 2025.1.8</a>
-            <div class="summary">Extract refresh fails with error &quot;Couldn&#39;t find a key during dictionary lookup&quot; after upgrading  Tableau Server from 2023.1.7 to 2025.1.8 for Hyper files originally created in version 2023.1.7.The issue observed in 2025.1.8 and newer.</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2025.1.8</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-03-03</td>
-          <td class="date">2026-08-26</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="Solution Scheduled"
-          data-release="2025.1.10"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mGu3cIAC&title=tableau-prep-flow-execution-causes-high-load-on-rdbms-due-to-query-pushdown-optimization-in-tableau-prep-builder-tableau-server" target="_blank" rel="noopener">Tableau Prep Flow Execution Causes High Load on RDBMS Due to Query Pushdown Optimization in Tableau Prep Builder / Tableau Server</a>
-            <div class="summary">Under specific flow configurations, the query pushdown optimization mechanism in Tableau Prep Engine (Tableau Prep Conductor and Tableau Prep Builder) generates a disproportionately large number of queries against the connected Relational Database Management System (RDBMS). This </div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2025.1.10</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-06-03</td>
-          <td class="date">2026-08-26</td>
-        </tr>
-
-        <tr
           data-product="Tableau Cloud"
           data-status="Solution Scheduled"
           data-release="2026.1"
@@ -1997,24 +2069,6 @@
           <td class="num">2</td>
           <td class="date">2026-05-21</td>
           <td class="date">2026-08-26</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="Solution in Progress"
-          data-release="2026.1, 2025.3, 2025.2, 2025.1"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mGg6sIAC&title=parameters-on-dashboards-used-to-control-visibility-not-working-as-expected-when-using-a-cube-data-source" target="_blank" rel="noopener">Parameters on Dashboards Used to Control Visibility Not Working as Expected When Using a Cube Data Source</a>
-            <div class="summary">When attempting to use a parameter to control visibility on a dashboard and a cube is being used as the data source the parameter does not work as expected.</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">2026.1, 2025.3, 2025.2, 2025.1</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-05-26</td>
-          <td class="date">2026-05-27</td>
         </tr>
 
         <tr
@@ -2667,24 +2721,6 @@
 
         <tr
           data-product="Tableau Cloud"
-          data-status="Solution Scheduled"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000005iQqLAAU&title=tableau-cloud-dashboards-unable-to-load-after-asjudting-filters-with-error-resource-limit-exceeded" target="_blank" rel="noopener">Dashboards are unable to load after adjusting Filters with Error "Resource Limit Exceeded" in Tableau Server and Tableau Cloud</a>
-            <div class="summary">Customer dashboards in Tableau Cloud and Tableau Server are failing to load after adjusting filter values. The views get stuck on &quot;Computing Models&quot; and eventually time out with a &quot;Resource Limit Exceeded&quot; error</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">2</td>
-          <td class="date">2026-07-01</td>
-          <td class="date">2026-07-21</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
           data-status="In Review"
           data-release="2026.1.5"
         >
@@ -3172,24 +3208,6 @@
         <tr
           data-product="Tableau Server"
           data-status="Solution Scheduled"
-          data-release="2025.1"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mUW20IAG&title=flow-run-history-overwritten-by-failed-steps-in-tableau-server-20251-or-later" target="_blank" rel="noopener">Flow Run History Overwritten by Failed Steps in Tableau Server 2025.1 or Later</a>
-            <div class="summary">In Tableau Server 2025.1 and later, when a flow with multiple output steps fails at any point, the run history (status and row counts) for previously successful steps is incorrectly overwritten as failed.The following issues occur on the Run History screen:Status Synchronization:</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2025.1</td>
-          <td class="release">—</td>
-          <td class="num">4</td>
-          <td class="date">2026-03-05</td>
-          <td class="date">2026-07-27</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="Solution Scheduled"
           data-release="2024.2.x, 2025.1.x, 2025.3.x"
         >
           <td class="title-cell">
@@ -3494,24 +3512,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Desktop"
-          data-status="In Review"
-          data-release="2026.2.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000005s7o1AAA&title=" target="_blank" rel="noopener">Error Code: D2E8DA72 when loading workbooks with unused extensions in Tableau Desktop and in web authoring</a>
-            <div class="summary">In Tableau Desktop 2026.2.0 and web authoring in Tableau Cloud and Tableau Server 2026.2.0, workbooks can be saved with one or more unused extensions. These unused extension are not tied to any worksheet, dashboard or storypoints. When opening workbooks that contain unused extens</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">2026.2.0</td>
-          <td class="release">—</td>
-          <td class="num">2</td>
-          <td class="date">2026-07-08</td>
-          <td class="date">2026-07-09</td>
-        </tr>
-
-        <tr
           data-product="Tableau Cloud"
           data-status="Solution Scheduled"
           data-release="Tableau Cloud 2025.3.7"
@@ -3617,24 +3617,6 @@
           <td class="num">1</td>
           <td class="date">2026-05-20</td>
           <td class="date">2026-07-15</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="Solution Scheduled"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mnMqQIAU&title=error-connecting-to-data-sources-published-to-tableau-cloud-20261-from-tableau-desktop-when-the-authentication-mode-is-set-to-prompt-user" target="_blank" rel="noopener">Error connecting to data sources published to Tableau Cloud 2026.1 from Tableau Desktop when the authentication mode is set to "Prompt User."</a>
-            <div class="summary">Issue impacts datasources published from Tableau Desktop (TD) to Tableau Cloud when the authentication mode is set to “Prompt User.”If a user attempts to use a published datasource from TD 2025, they will receive an error message with the code 0xECF5AA2A.</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-04-15</td>
-          <td class="date">2026-07-14</td>
         </tr>
 
         <tr
@@ -3797,24 +3779,6 @@
           <td class="num">6</td>
           <td class="date">2026-06-02</td>
           <td class="date">2026-06-18</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="Solution Scheduled"
-          data-release="2024.2.5"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mmzqjIAA&title=idp-initiated-single-logout-not-behaving-as-expected" target="_blank" rel="noopener">IDP-Initiated Single Logout Not Behaving as Expected</a>
-            <div class="summary">When signing out of OKTA via front-channel single logout, IDP-initiated single log out is not working as expected.</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2024.2.5</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-04-03</td>
-          <td class="date">2026-07-11</td>
         </tr>
 
         <tr
@@ -4211,24 +4175,6 @@
           <td class="num">6</td>
           <td class="date">2026-06-12</td>
           <td class="date">2026-06-12</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release="2026.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000005enf3AAA&title=unable-to-load-histogram-details-for-a-virtual-connection-table-in-tableau-cloud-and-tableau-server" target="_blank" rel="noopener">Unable to load histogram details for a Virtual Connection table in Tableau Cloud and Tableau Server</a>
-            <div class="summary">When users click the &quot;Show profile pane&quot; icon to load histogram information in a Virtual Connection (VConn) Table Details, the operation fails with the generic error: &quot;An error has occurred. Please try again.&quot;</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-06-29</td>
-          <td class="date">2026-06-29</td>
         </tr>
 
         <tr
@@ -4840,24 +4786,6 @@
           <td class="release">—</td>
           <td class="num">0</td>
           <td class="date">2026-05-21</td>
-          <td class="date">2026-05-21</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution Scheduled"
-          data-release="2025.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000ji9neIAA&title=data-update-time-dashboard-parameter-shows-incorrect-time-when-extract-is-published-by-a-flow-output" target="_blank" rel="noopener">"Data Update Time" Dashboard Parameter Shows Incorrect Time when Extract is Published by a Flow Output</a>
-            <div class="summary">The &quot;Data Update Time&quot; dynamic text parameter on a dashboard shows an incorrect update time if the extract is generated by a flow output. For other extracts not generated from a flow output, the &quot;Data Update Time&quot; parameter shows the time when the extract was </div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2025.2</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2025-10-13</td>
           <td class="date">2026-05-21</td>
         </tr>
 
@@ -5615,24 +5543,6 @@
           <td class="num">4</td>
           <td class="date">2025-01-16</td>
           <td class="date">2025-02-25</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="Solution Scheduled"
-          data-release="2022.1.15"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a028c00000zK7bIAAS&title=incorrect-username-or-password-when-connecting-to-snowflake-using-account-with-special-characters-in-password" target="_blank" rel="noopener">"Incorrect Username or Password" When Connecting to Snowflake Using Account With Special Characters in Password</a>
-            <div class="summary">When attempting to connect to Snowflake using Tableau Desktop, Tableau Server web authoring, or Tableau Cloud web authoring, passwords containing certain special characters may result in the following error: Incorrect username or password was specified.[Snowflake][Snowflake] (17)</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">2022.1.15</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2024-07-16</td>
-          <td class="date">2024-07-16</td>
         </tr>
 
         <tr
@@ -6986,24 +6896,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Cloud"
-          data-status="Solution Scheduled"
-          data-release="2023.1+"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a028c00000uX4xUAAS&title=tableau-clouddesktop--filter-in-dashboard-returns-error-code-d6944d11-when-selecting-value-in-20231" target="_blank" rel="noopener">Tableau Cloud/Desktop - Filter in dashboard returns Error code D6944D11 when selecting value in 2023.1+</a>
-            <div class="summary">When certain values are selected in a filter dropdown, the following error may intermittently occurRequest Rejected by ServerLogicException: Internal Error - An unexpected error occurred and the operation could not be completed.Error Code: D6944D11</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2023.1+</td>
-          <td class="release">—</td>
-          <td class="num">25</td>
-          <td class="date">2023-08-21</td>
-          <td class="date">2024-01-06</td>
-        </tr>
-
-        <tr
           data-product="Tableau Server"
           data-status="Solution Scheduled"
           data-release="2023.3.12, 2024.2.2, 2024.2.8"
@@ -7288,24 +7180,6 @@
           <td class="release">—</td>
           <td class="num">0</td>
           <td class="date">2025-06-20</td>
-          <td class="date">2025-06-20</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="In Review"
-          data-release="2023.3, 2024.2, 2025.1, 2025.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000fu9sSIAQ&title=the-standard-deviation-is-not-calculated-as-expected-in-the-tableau-products" target="_blank" rel="noopener">The Standard Deviation is not calculated as expected in the Tableau products</a>
-            <div class="summary">The calculation results of functions (STDEVP, STDEV) are different from Excel functions(STDEV.P, STDEVA).</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">2023.3, 2024.2, 2025.1, 2025.2</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2025-06-19</td>
           <td class="date">2025-06-20</td>
         </tr>
 
@@ -7793,24 +7667,6 @@
           <td class="num">5</td>
           <td class="date">2024-08-13</td>
           <td class="date">2024-10-08</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="Solution in Progress"
-          data-release="2021.4.18 - 2024.3.1+"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a028c00000zjL99AAE&title=connecting-to-or-refreshing-extracts-from-intuit-quickbooks-online-fails-by-spinningloading-indefinitely" target="_blank" rel="noopener">Connecting to or Refreshing Extracts from Intuit Quickbooks Online Fails by Spinning/Loading Indefinitely</a>
-            <div class="summary">Attempting to connect to or refresh existing extracts from Intuit Quickbooks Online fails with the connection dialog box spinning/loading indefinitely.</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">2021.4.18 - 2024.3.1+</td>
-          <td class="release">—</td>
-          <td class="num">10</td>
-          <td class="date">2024-11-25</td>
-          <td class="date">2025-03-11</td>
         </tr>
 
         <tr
@@ -8423,24 +8279,6 @@
           <td class="num">0</td>
           <td class="date">2023-08-28</td>
           <td class="date">2024-02-01</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution in Progress"
-          data-release="2023.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a028c00000uY6aQAAS&title=performance-degradation-with-athena-workbooks-and-datasources-due-to-username-mismatch-in-connection-dialog-and-jdbc-connection-properties" target="_blank" rel="noopener">Performance degradation with Athena workbooks and datasources due to username mismatch in connection dialog and JDBC connection properties</a>
-            <div class="summary">Some customers are experiencing a performance degradation with Athena workbooks and datasources. Although this is observed as a performance related issue on the front end, in the back end, we can see that the the delay is due to the following Athena error:[Simba][AthenaJDBC](1000</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2023.2</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2023-07-07</td>
-          <td class="date">2023-07-07</td>
         </tr>
 
         <tr
