@@ -53,7 +53,7 @@
 
 <header>
   <h1>Tableau Known Issues</h1>
-  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-08-30 11:36:12</p>
+  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-08-31 13:11:28</p>
 </header>
 
 <div class="controls">
@@ -89,7 +89,7 @@
     <input type="text" id="f-search" placeholder="e.g. upgrade, extract, login…">
   </div>
   <div class="stat">
-    Showing <strong id="visible-count">440</strong> of <strong>440</strong> issues
+    Showing <strong id="visible-count">441</strong> of <strong>441</strong> issues
   </div>
 </div>
 
@@ -108,6 +108,114 @@
       </tr>
     </thead>
     <tbody id="issues-body">
+
+        <tr
+          data-product="Tableau APIs and Extensions"
+          data-status="In Review"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mQlqyIAC&title=bulk-deletion-of-users-using-csv-and-tableau-rest-api-fails" target="_blank" rel="noopener">Bulk deletion of users using CSV and Tableau REST API fails.</a>
+            <div class="summary">When attempting to delete users in bulk via the Tableau REST API using a CSV file, the job fails with finishCode = 1.</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau APIs and Extensions</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">5</td>
+          <td class="date">2026-02-03</td>
+          <td class="date">2026-02-04</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release="2026.2.6"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000008JQwfAAG&title=graphql-metadata-api-fails-to-return-lineage-information-for-workbooks-that-are-confirmed-to-exist-and-are-active-in-tableau-cloud" target="_blank" rel="noopener">GraphQL Metadata API fails to return lineage information for Workbooks that are confirmed to exist and are active in Tableau Cloud.</a>
+            <div class="summary">Although certain active workbooks are visible and fully accessible within the Tableau Cloud environment, they are unexpectedly omitted from query results when using the GraphQL Metadata API.This discrepancy is caused by a flaw in the product&#39;s pagination logic, where workbook</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2.6</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-08-31</td>
+          <td class="date">2026-08-31</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution in Progress"
+          data-release="2025.1"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mHFEnIAO&title=incorrect-grand-totals-and-subtotals-on-dashboards-using-include-lod-expressions" target="_blank" rel="noopener">Incorrect Grand Totals and Subtotals on Dashboards Using INCLUDE LOD Expressions</a>
+            <div class="summary">Grand totals and subtotals may be calculated incorrectly on certain dashboards that use INCLUDE Level of Detail expressions. This issue is observed when workbooks created in Tableau Desktop versions prior to 2023.2 are migrated to Tableau Cloud or opened on Tableau Desktop 2025.1</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">2025.1</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-06-16</td>
+          <td class="date">2026-08-31</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution in Progress"
+          data-release="2024.2.10"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000lbJXmIAM&title=in-a-rare-case-where-one-of-the-gateway-nodes-is-down-all-published-data-source-become-inaccessible" target="_blank" rel="noopener">In a Rare Case where One of the Gateway Nodes is Down All Published Data Source Become Inaccessible</a>
+            <div class="summary">When one node in the cluster is down, all published data sources become inaccessible.Connecting to the data source results in:&quot;Datasource error&quot;&quot;Unable to proceed because of an error from the data source.&quot;</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2024.2.10</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2025-12-10</td>
+          <td class="date">2026-07-16</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution Scheduled"
+          data-release="2026.1.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mnBAiIAM&title=tableau-cloud-web-authoring-fails-to-clear-snowflake-role-attribute-from-connection-xml-when-cleared-via-ui" target="_blank" rel="noopener">Tableau Cloud Web Authoring Fails to Clear Snowflake "Role" Attribute from Connection XML When Cleared via UI</a>
+            <div class="summary">In Tableau Cloud Web Authoring, when using a Snowflake live connection with OAuth, the following behavior occurs:Even after clearing the &quot;Role&quot; field and republishing the workbook via the Web Editor, the previous role attribute is not properly erased.Consequently, when </div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.1.0</td>
+          <td class="release">—</td>
+          <td class="num">2</td>
+          <td class="date">2026-04-09</td>
+          <td class="date">2026-08-26</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Prep Builder"
+          data-status="In Review"
+          data-release="Summer '16"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000007LNGvAAO&title=tableau-prep-inconsistent-results-between-preview-and-actual-results-of-output-step-when-joined-fields-are-unioned-and-merged" target="_blank" rel="noopener">Tableau Prep: Inconsistent Results Between Preview and Actual Results of Output Step When Joined Fields Are Unioned and Merged</a>
+            <div class="summary">In Tableau Prep, joining, unioning, and merging fields may result in inconsistent output data compared to the preview pane. The final output may unexpectedly show null values for the merged field, even though the data appears correct in the preview.</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Prep Builder</td>
+          <td class="release">Summer '16</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-08-20</td>
+          <td class="date">2026-08-20</td>
+        </tr>
 
         <tr
           data-product="Tableau Cloud"
@@ -665,24 +773,6 @@
           <td class="num">1</td>
           <td class="date">2026-08-24</td>
           <td class="date">2026-08-24</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Prep Builder"
-          data-status="In Review"
-          data-release="Summer '16"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000007LNGvAAO&title=tableau-prep-inconsistent-results-between-preview-and-actual-results-of-output-step-when-joined-fields-are-unioned-and-merged" target="_blank" rel="noopener">Tableau Prep: Inconsistent Results Between Preview and Actual Results of Output Step When Joined Fields Are Unioned and Merged</a>
-            <div class="summary">In Tableau Prep, joining, unioning, and merging fields may result in inconsistent output data compared to the preview pane. The final output may unexpectedly show null values for the merged field, even though the data appears correct in the preview.</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Prep Builder</td>
-          <td class="release">Summer '16</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-08-20</td>
-          <td class="date">2026-08-20</td>
         </tr>
 
         <tr
@@ -1676,24 +1766,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Cloud"
-          data-status="Solution Scheduled"
-          data-release="2026.1.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mnBAiIAM&title=tableau-cloud-web-authoring-fails-to-clear-snowflake-role-attribute-from-connection-xml-when-cleared-via-ui" target="_blank" rel="noopener">Tableau Cloud Web Authoring Fails to Clear Snowflake "Role" Attribute from Connection XML When Cleared via UI</a>
-            <div class="summary">In Tableau Cloud Web Authoring, when using a Snowflake live connection with OAuth, the following behavior occurs:Even after clearing the &quot;Role&quot; field and republishing the workbook via the Web Editor, the previous role attribute is not properly erased.Consequently, when </div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.1.0</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-04-09</td>
-          <td class="date">2026-08-26</td>
-        </tr>
-
-        <tr
           data-product="Tableau Server"
           data-status="Solution in Progress"
           data-release="2023.3.0"
@@ -2105,24 +2177,6 @@
           <td class="num">11</td>
           <td class="date">2026-05-11</td>
           <td class="date">2026-08-26</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="Solution in Progress"
-          data-release="2024.2.10"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000lbJXmIAM&title=in-a-rare-case-where-one-of-the-gateway-nodes-is-down-all-published-data-source-become-inaccessible" target="_blank" rel="noopener">In a Rare Case where One of the Gateway Nodes is Down All Published Data Source Become Inaccessible</a>
-            <div class="summary">When one node in the cluster is down, all published data sources become inaccessible.Connecting to the data source results in:&quot;Datasource error&quot;&quot;Unable to proceed because of an error from the data source.&quot;</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2024.2.10</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2025-12-10</td>
-          <td class="date">2026-07-16</td>
         </tr>
 
         <tr
@@ -4196,24 +4250,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Desktop"
-          data-status="In Review"
-          data-release="2025.1"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mHFEnIAO&title=" target="_blank" rel="noopener">Incorrect Grand Totals and Subtotals on Dashboards Using INCLUDE LOD Expressions</a>
-            <div class="summary">Grand totals and subtotals may be calculated incorrectly on certain dashboards that use INCLUDE Level of Detail expressions. This issue is observed when workbooks created in Tableau Desktop versions prior to 2023.2 are migrated to Tableau Cloud or opened on Tableau Desktop 2025.1</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">2025.1</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-06-16</td>
-          <td class="date">2026-06-17</td>
-        </tr>
-
-        <tr
           data-product="Tableau Server"
           data-status="In Review"
           data-release="2025.3"
@@ -4913,24 +4949,6 @@
           <td class="num">12</td>
           <td class="date">2024-09-02</td>
           <td class="date">2024-09-30</td>
-        </tr>
-
-        <tr
-          data-product="Tableau APIs and Extensions"
-          data-status="In Review"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mQlqyIAC&title=bulk-deletion-of-users-using-csv-and-tableau-rest-api-fails" target="_blank" rel="noopener">Bulk deletion of users using CSV and Tableau REST API fails.</a>
-            <div class="summary">When attempting to delete users in bulk via the Tableau REST API using a CSV file, the job fails with finishCode = 1.</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau APIs and Extensions</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">4</td>
-          <td class="date">2026-02-03</td>
-          <td class="date">2026-02-04</td>
         </tr>
 
         <tr
