@@ -53,7 +53,7 @@
 
 <header>
   <h1>Tableau Known Issues</h1>
-  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-09-10 10:58:16</p>
+  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-09-11 10:56:47</p>
 </header>
 
 <div class="controls">
@@ -89,7 +89,7 @@
     <input type="text" id="f-search" placeholder="e.g. upgrade, extract, login…">
   </div>
   <div class="stat">
-    Showing <strong id="visible-count">459</strong> of <strong>459</strong> issues
+    Showing <strong id="visible-count">464</strong> of <strong>464</strong> issues
   </div>
 </div>
 
@@ -110,6 +110,60 @@
     <tbody id="issues-body">
 
         <tr
+          data-product="Tableau Server"
+          data-status="In Review"
+          data-release="2025.3.4"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000009JcM9AAK&title=tableau-server-duplicate-group-membership-records-can-be-silently-created-due-to-a-missing-database-constraint" target="_blank" rel="noopener">Tableau Server — Duplicate group membership records can be silently created due to a missing database constraint</a>
+            <div class="summary">In some environments, the underlying group membership table does not enforce a uniqueness constraint on the combination of site, user, and group. As a result, certain internal write paths that do not pre-check for existing membership can insert duplicate membership rows for the s</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2025.3.4</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-09-11</td>
+          <td class="date">2026-09-11</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Prep Builder"
+          data-status="Solution in Progress"
+          data-release="Summer '16"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000006oUNdAAM&title=tableau-prep-flows-that-write-to-databricks-may-create-less-rows-than-the-source-table-even-after-the-flow-completed-successfully" target="_blank" rel="noopener">Tableau Prep flows that write to Databricks may create less rows than the source table even after the flow completed successfully.</a>
+            <div class="summary">In Tableau Prep Builder and Tableau Cloud, Prep flows that write data to a Databricks table may reports as successful showing the expected number of rows. However, the target table may contain less rows than expected, indicating that the data did not completely write despite show</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Prep Builder</td>
+          <td class="release">Summer '16</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-08-04</td>
+          <td class="date">2026-08-28</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000008tqEHAAY&title=job-performance-data-source-shows-blank-project-name-for-manually-triggered-extract-refreshes" target="_blank" rel="noopener">Job Performance Data Source Shows Blank Project Name for Manually Triggered Extract Refreshes</a>
+            <div class="summary">When an extract refresh is triggered on demand — such as through the REST API &quot;Update Data Source Now&quot; endpoint or a customer script — rather than by a recurring schedule, the resulting job record in the Job Performance data source (an Admin Insights data source) shows </div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-09-07</td>
+          <td class="date">2026-09-11</td>
+        </tr>
+
+        <tr
           data-product="Tableau Cloud"
           data-status="Solution in Progress"
           data-release=""
@@ -128,21 +182,148 @@
         </tr>
 
         <tr
-          data-product="Tableau Desktop"
-          data-status="In Review"
-          data-release="2025.3"
+          data-product="Tableau Server"
+          data-status="Solution in Progress"
+          data-release="2025.1.7, 2025.3.0"
         >
           <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000009DF8vAAG&title=manual-sort-on-an-msasssas-named-set-is-lost-when-reopening-a-workbook-in-tableau-desktop" target="_blank" rel="noopener">Manual sort on an MSAS/SSAS named set is lost when reopening a workbook in Tableau Desktop</a>
-            <div class="summary">When a workbook containing a manual sort applied to a Microsoft Analysis Services (MSAS/SSAS) named set with the hierarchy dimension members are at levels less than the hierarchy&#39;s maximum level is closed and reopened in Tableau Desktop, the sort is silently dropped</div>
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000006gU9VAAU&title=live-published-data-sources-connected-to-sybase-iq-with-iso_bineng-collation-in-tableau-server-results-in-a-removed-duplicate-members-from-group-error" target="_blank" rel="noopener">Live Published Data Sources connected to Sybase IQ with ISO_BINENG collation in Tableau Server results in a removed duplicate members from group error</a>
+            <div class="summary">When a published data source is selected in Tableau Desktop’s Search for Data dialog and Connect is clicked for a live connection to the data source, the following error is returned from Tableau Server:Unable to complete actionThe connection to the data source might have been los</div>
           </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">2025.3</td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2025.1.7, 2025.3.0</td>
           <td class="release">—</td>
           <td class="num">1</td>
+          <td class="date">2026-07-28</td>
+          <td class="date">2026-08-26</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Next"
+          data-status="Solution in Progress"
+          data-release="Winter '27"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000009FkASAA0&title=ai-powered-features-failing-in-semantic-model-builder" target="_blank" rel="noopener">AI-powered features failing in Semantic Model Builder</a>
+            <div class="summary">Customers using the Semantic Model Builder may find that AI-powered features (including Suggest Relationships, Suggest Description, and Suggest Calculated Field) fail to complete. The team is actively working on a fix, and there is a workaround.</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Next</td>
+          <td class="release">Winter '27</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
           <td class="date">2026-09-10</td>
+          <td class="date">2026-09-11</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release="2026.1.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mo7KvIAI&title=tableau-cloud-filtering-by-keyword-causes-an-unexpected-error-occurred" target="_blank" rel="noopener">Tableau Cloud: Filtering by keyword causes "an unexpected error occurred"</a>
+            <div class="summary">Receiving An Unexpected error on Tableau Cloud while trying to pull up Data Sources under Explore using keywords in filter option on the right side of the menu.</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.1.0</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-04-21</td>
+          <td class="date">2026-09-11</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Next"
+          data-status="In Review"
+          data-release="Summer '26"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000009DrirAAC&title=" target="_blank" rel="noopener">Tableau Next Direct View: Quick sort on a table returns "INVALID_ARGUMENT: unknown table <table_name>" error.</a>
+            <div class="summary">On a Tableau Next Direct View visualization, performing a quick sort (clicking a column header) can fail with a &quot;INVALID_ARGUMENT: unknown table &lt;table_name&gt;&quot; error. This occurs when the sort action targets a calculated dimension (e.g., a date-part calculation) th</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Next</td>
+          <td class="release">Summer '26</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
           <td class="date">2026-09-10</td>
+          <td class="date">2026-09-11</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution Scheduled"
+          data-release="Summer '16"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000fAnYhIAK&title=tableau-server-lineage-doesnt-show-databases-and-tables-for-embedded-datasources" target="_blank" rel="noopener">Tableau Server Lineage doesn't show Databases and Tables for Embedded Datasources</a>
+            <div class="summary">Lineage doesn&#39;t contain Databases and Tables for Embedded Datasources. But it&#39;s showing other fields apart from these two things. When try to republish the workbook with a different name, the Database and tables are showing for that new published workbook.</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Server</td>
+          <td class="release">Summer '16</td>
+          <td class="release">—</td>
+          <td class="num">5</td>
+          <td class="date">2025-05-28</td>
+          <td class="date">2026-03-27</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="In Review"
+          data-release="2026.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000009HosrAAC&title=" target="_blank" rel="noopener">Tableau GET REST API request triggers org.springframework.beans.factory.NoSuchBeanDefinitionException in Dynatrace</a>
+            <div class="summary">Following exception is observed in Dynatrace when making GET REST API requests (getViews, getWorkbooks, getDatasources) against Tableau Server:org.springframework.beans.factory.NoSuchBeanDefinitionException:
+ No bean named &#39;NonMock&#39; available: No matching TransactionManag</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2026.2</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-09-11</td>
+          <td class="date">2026-09-11</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release="2026.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000005g2c1AAA&title=" target="_blank" rel="noopener">Some User Management Activities Are Not Recorded in Activity Log</a>
+            <div class="summary">Following user management activities are not recorded in Tableau Cloud Activity Log although these are listed in Online Help Activity Log Tenant Event Type Reference.hist_delete_userhist_delete_user_from_grouphist_update_user_site_role</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2</td>
+          <td class="release">—</td>
+          <td class="num">3</td>
+          <td class="date">2026-06-30</td>
+          <td class="date">2026-07-01</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g70000068SjdAAE&title=tableau-cloud-embedded-dashboard-authentication-is-failing-with-http-500-errors-when-using-with-a-custom-domain-configured" target="_blank" rel="noopener">Tableau Cloud: Embedded dashboard authentication is failing with HTTP 500 Errors when using with a Custom Domain configured</a>
+            <div class="summary">Embedded Dashboard authentication is failing with a HTTP 500 error when a custom domain is configured on Tableau Cloud. The dashboards are embedded using Connected apps with Direct Trust and the Tableau Embedding API v3.</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-07-17</td>
+          <td class="date">2026-09-11</td>
         </tr>
 
         <tr
@@ -158,9 +339,153 @@
           <td>Tableau Next</td>
           <td class="release">Summer '26</td>
           <td class="release">—</td>
-          <td class="num">2</td>
+          <td class="num">3</td>
           <td class="date">2026-09-09</td>
           <td class="date">2026-09-09</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution Scheduled"
+          data-release="TABCMD Versions:  2.0.20 2.0.21"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000757pdAAA&title=unable-to-publish-workbook-with-embedded-credentials-parameters-via-tabcmd" target="_blank" rel="noopener">Unable to publish workbook with embedded credentials parameters via Tabcmd</a>
+            <div class="summary">When publishing a workbook that has embedded connection credentials using tabcmd, the publish operation fails with an error instead of completing. Customers attempting to script or automate workbook deployment with tabcmd&#39;s publish command may see this failure specifically wh</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">TABCMD Versions:  2.0.20 2.0.21</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-08-17</td>
+          <td class="date">2026-09-10</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release="Summer '16"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000006rH0rAAE&title=blurry-or-pixelated-text-on-tableau-phone-layout-after-selecting-filters-in-a-vertical-container" target="_blank" rel="noopener">Blurry or pixelated text on Tableau phone layout after selecting filters in a vertical container</a>
+            <div class="summary">When viewing a dashboard with a custom phone layout (mobile device view) that contains a vertical filter container, text and visualization elements can appear blurry or pixelated after two or more filters have been selected. This has been observed across Tableau Mobile app, and m</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">Summer '16</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-08-07</td>
+          <td class="date">2026-09-10</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution Scheduled"
+          data-release="2025.1.8"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mTJjrIAG&title=extract-refresh-fails-with-error-couldnt-find-a-key-during-dictionary-lookup-after-upgrading-tableau-server-from-202317-to-202518" target="_blank" rel="noopener">Extract refresh fails with error "Couldn't find a key during dictionary lookup" after upgrading Tableau Server from 2023.1.7 to 2025.1.8</a>
+            <div class="summary">Extract refresh fails with error &quot;Couldn&#39;t find a key during dictionary lookup&quot; after upgrading  Tableau Server from 2023.1.7 to 2025.1.8 for Hyper files originally created in version 2023.1.7.The issue observed in 2025.1.8 and newer.</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2025.1.8</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-03-03</td>
+          <td class="date">2026-09-10</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution in Progress"
+          data-release="Tableau Server 2025.1.6"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mHF0xIAG&title=users-intermittently-receiving-duplicate-email-subscriptions" target="_blank" rel="noopener">Users Intermittently Receiving Duplicate Email Subscriptions</a>
+            <div class="summary">When subscribed to a subscription that is scheduled to run after an extract refresh occurs, intermittently some users are receiving duplicate emails even though the refresh only occurred once.</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Server</td>
+          <td class="release">Tableau Server 2025.1.6</td>
+          <td class="release">—</td>
+          <td class="num">7</td>
+          <td class="date">2026-06-16</td>
+          <td class="date">2026-08-26</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release="2026.1.5"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mGtRJIA0&title=tableau-cloud-subscription-failures-due-to-pdf-export-timeout" target="_blank" rel="noopener">Tableau Cloud: Subscription Failures due to PDF export timeout</a>
+            <div class="summary">When a subscription is configured to deliver an entire workbook as a PDF, the export process may stall at the begin-export-pdf.render-pages stage and never complete. Although individual view images render successfully, the PDF assembly step hangs without producing an error, causi</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.1.5</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-06-03</td>
+          <td class="date">2026-09-08</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release="2026.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g70000099EbFAAU&title=tableau-prep-flows-connecting-to-amazon-athena-run-significantly-slower-on-tableau-cloud-via-bridge-than-on-tableau-server" target="_blank" rel="noopener">Tableau Prep flows connecting to Amazon Athena run significantly slower on Tableau Cloud (via Bridge) than on Tableau Server</a>
+            <div class="summary">Under certain conditions, Tableau Prep flows that connect to Amazon Athena and run through Tableau Bridge on Tableau Cloud can take substantially longer to complete than the same flow run on Tableau Server. Customers may notice flow run times of several hours on Tableau Cloud for</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-09-09</td>
+          <td class="date">2026-09-10</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="In Review"
+          data-release="Tableau Desktop 2026.1 and Tableau Desktop 2026.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mHGL2IAO&title=tableau-desktop-crashes-silently-on-apple-silicon-mac-when-publishing-to-tableau-cloud" target="_blank" rel="noopener">Tableau Desktop Crashes Silently on Apple Silicon Mac When Publishing to Tableau Cloud</a>
+            <div class="summary">Users running Tableau Desktop on Mac devices with Apple Silicon processors (M-series chips) may experience a silent crash — with no error dialog — when attempting to publish a workbook to Tableau Cloud or Tableau Server. The crash occurs during the publish operation and results i</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">Tableau Desktop 2026.1 and Tableau Desktop 2026.2</td>
+          <td class="release">—</td>
+          <td class="num">11</td>
+          <td class="date">2026-06-17</td>
+          <td class="date">2026-07-22</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="In Review"
+          data-release="2025.3"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000009DF8vAAG&title=manual-sort-on-an-msasssas-named-set-is-lost-when-reopening-a-workbook-in-tableau-desktop" target="_blank" rel="noopener">Manual sort on an MSAS/SSAS named set is lost when reopening a workbook in Tableau Desktop</a>
+            <div class="summary">When a workbook containing a manual sort applied to a Microsoft Analysis Services (MSAS/SSAS) named set with the hierarchy dimension members are at levels less than the hierarchy&#39;s maximum level is closed and reopened in Tableau Desktop, the sort is silently dropped</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">2025.3</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-09-10</td>
+          <td class="date">2026-09-10</td>
         </tr>
 
         <tr
@@ -218,24 +543,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Server"
-          data-status="Solution Scheduled"
-          data-release="Summer '16"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000fAnYhIAK&title=tableau-server-lineage-doesnt-show-databases-and-tables-for-embedded-datasources" target="_blank" rel="noopener">Tableau Server Lineage doesn't show Databases and Tables for Embedded Datasources</a>
-            <div class="summary">Lineage doesn&#39;t contain Databases and Tables for Embedded Datasources. But it&#39;s showing other fields apart from these two things. When try to republish the workbook with a different name, the Database and tables are showing for that new published workbook.</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Server</td>
-          <td class="release">Summer '16</td>
-          <td class="release">—</td>
-          <td class="num">3</td>
-          <td class="date">2025-05-28</td>
-          <td class="date">2026-03-27</td>
-        </tr>
-
-        <tr
           data-product="Tableau Cloud"
           data-status="Solution in Progress"
           data-release="2026.1"
@@ -269,24 +576,6 @@
           <td class="num">11</td>
           <td class="date">2026-06-29</td>
           <td class="date">2026-07-13</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution Scheduled"
-          data-release="TABCMD Versions:  2.0.20 2.0.21"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000757pdAAA&title=unable-to-publish-workbook-with-embedded-credentials-parameters-via-tabcmd" target="_blank" rel="noopener">Unable to publish workbook with embedded credentials parameters via Tabcmd</a>
-            <div class="summary">When publishing a workbook that has embedded connection credentials using tabcmd, the publish operation fails with an error instead of completing. Customers attempting to script or automate workbook deployment with tabcmd&#39;s publish command may see this failure specifically wh</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">TABCMD Versions:  2.0.20 2.0.21</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-08-17</td>
-          <td class="date">2026-09-09</td>
         </tr>
 
         <tr
@@ -377,24 +666,6 @@
           <td class="num">8</td>
           <td class="date">2026-03-05</td>
           <td class="date">2026-08-26</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution in Progress"
-          data-release="2026.1.5"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mGtRJIA0&title=tableau-cloud-subscription-failures-due-to-pdf-export-timeout" target="_blank" rel="noopener">Tableau Cloud: Subscription Failures due to PDF export timeout</a>
-            <div class="summary">When a subscription is configured to deliver an entire workbook as a PDF, the export process may stall at the begin-export-pdf.render-pages stage and never complete. Although individual view images render successfully, the PDF assembly step hangs without producing an error, causi</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.1.5</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-06-03</td>
-          <td class="date">2026-09-08</td>
         </tr>
 
         <tr
@@ -701,24 +972,6 @@
           <td class="num">0</td>
           <td class="date">2026-09-08</td>
           <td class="date">2026-09-08</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000008tqEHAAY&title=job-performance-data-source-shows-blank-project-name-for-manually-triggered-extract-refreshes" target="_blank" rel="noopener">Job Performance Data Source Shows Blank Project Name for Manually Triggered Extract Refreshes</a>
-            <div class="summary">When an extract refresh is triggered on demand — such as through the REST API &quot;Update Data Source Now&quot; endpoint or a customer script — rather than by a recurring schedule, the resulting job record in the Job Performance data source (an Admin Insights data source) shows </div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-09-07</td>
-          <td class="date">2026-09-07</td>
         </tr>
 
         <tr
@@ -1316,24 +1569,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Desktop"
-          data-status="In Review"
-          data-release="Tableau Desktop 2026.1 and Tableau Desktop 2026.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mHGL2IAO&title=tableau-desktop-crashes-silently-on-apple-silicon-mac-when-publishing-to-tableau-cloud" target="_blank" rel="noopener">Tableau Desktop Crashes Silently on Apple Silicon Mac When Publishing to Tableau Cloud</a>
-            <div class="summary">Users running Tableau Desktop on Mac devices with Apple Silicon processors (M-series chips) may experience a silent crash — with no error dialog — when attempting to publish a workbook to Tableau Cloud or Tableau Server. The crash occurs during the publish operation and results i</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">Tableau Desktop 2026.1 and Tableau Desktop 2026.2</td>
-          <td class="release">—</td>
-          <td class="num">10</td>
-          <td class="date">2026-06-17</td>
-          <td class="date">2026-07-22</td>
-        </tr>
-
-        <tr
           data-product="Tableau Cloud"
           data-status="In Review"
           data-release=""
@@ -1478,24 +1713,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Prep Builder"
-          data-status="Solution in Progress"
-          data-release="Summer '16"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000006oUNdAAM&title=tableau-prep-flows-that-write-to-databricks-may-create-less-rows-than-the-source-table-even-after-the-flow-completed-successfully" target="_blank" rel="noopener">Tableau Prep flows that write to Databricks may create less rows than the source table even after the flow completed successfully.</a>
-            <div class="summary">In Tableau Prep Builder and Tableau Cloud, Prep flows that write data to a Databricks table may reports as successful showing the expected number of rows. However, the target table may contain less rows than expected, indicating that the data did not completely write despite show</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Prep Builder</td>
-          <td class="release">Summer '16</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-08-04</td>
-          <td class="date">2026-08-28</td>
-        </tr>
-
-        <tr
           data-product="Tableau Desktop"
           data-status="Solution Scheduled"
           data-release="Tableau Desktop 2025.3.7, 2026.2.1"
@@ -1547,24 +1764,6 @@
           <td class="num">1</td>
           <td class="date">2026-05-26</td>
           <td class="date">2026-05-27</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="Solution in Progress"
-          data-release="2025.1.8"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mTJjrIAG&title=extract-refresh-fails-with-error-couldnt-find-a-key-during-dictionary-lookup-after-upgrading-tableau-server-from-202317-to-202518" target="_blank" rel="noopener">Extract refresh fails with error "Couldn't find a key during dictionary lookup" after upgrading Tableau Server from 2023.1.7 to 2025.1.8</a>
-            <div class="summary">Extract refresh fails with error &quot;Couldn&#39;t find a key during dictionary lookup&quot; after upgrading  Tableau Server from 2023.1.7 to 2025.1.8 for Hyper files originally created in version 2023.1.7.The issue observed in 2025.1.8 and newer.</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2025.1.8</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-03-03</td>
-          <td class="date">2026-08-26</td>
         </tr>
 
         <tr
@@ -1912,24 +2111,6 @@
         <tr
           data-product="Tableau Cloud"
           data-status="In Review"
-          data-release="Summer '16"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000006rH0rAAE&title=blurry-or-pixelated-text-on-tableau-phone-layout-after-selecting-filters-in-a-vertical-container" target="_blank" rel="noopener">Blurry or pixelated text on Tableau phone layout after selecting filters in a vertical container</a>
-            <div class="summary">When viewing a dashboard with a custom phone layout (mobile device view) that contains a vertical filter container, text and visualization elements can appear blurry or pixelated after two or more filters have been selected. This has been observed across Tableau Mobile app, and m</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">Summer '16</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-08-07</td>
-          <td class="date">2026-08-11</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
           data-release="2026.2"
         >
           <td class="title-cell">
@@ -2270,24 +2451,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Server"
-          data-status="Solution in Progress"
-          data-release="2025.1.7, 2025.3.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000006gU9VAAU&title=live-published-data-sources-connected-to-sybase-iq-with-iso_bineng-collation-in-tableau-server-results-in-a-removed-duplicate-members-from-group-error" target="_blank" rel="noopener">Live Published Data Sources connected to Sybase IQ with ISO_BINENG collation in Tableau Server results in a removed duplicate members from group error</a>
-            <div class="summary">When a published data source is selected in Tableau Desktop’s Search for Data dialog and Connect is clicked for a live connection to the data source, the following error is returned from Tableau Server:Unable to complete actionThe connection to the data source might have been los</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2025.1.7, 2025.3.0</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-07-28</td>
-          <td class="date">2026-08-26</td>
-        </tr>
-
-        <tr
           data-product="Tableau Next"
           data-status="Solution Scheduled"
           data-release=""
@@ -2555,24 +2718,6 @@
           <td class="num">1</td>
           <td class="date">2026-06-18</td>
           <td class="date">2026-07-07</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="Solution in Progress"
-          data-release="Tableau Server 2025.1.6"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mHF0xIAG&title=users-intermittently-receiving-duplicate-email-subscriptions" target="_blank" rel="noopener">Users Intermittently Receiving Duplicate Email Subscriptions</a>
-            <div class="summary">When subscribed to a subscription that is scheduled to run after an extract refresh occurs, intermittently some users are receiving duplicate emails even though the refresh only occurred once.</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Server</td>
-          <td class="release">Tableau Server 2025.1.6</td>
-          <td class="release">—</td>
-          <td class="num">6</td>
-          <td class="date">2026-06-16</td>
-          <td class="date">2026-08-26</td>
         </tr>
 
         <tr
@@ -3314,24 +3459,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Cloud"
-          data-status="Solution in Progress"
-          data-release="2026.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000005g2c1AAA&title=" target="_blank" rel="noopener">Some User Management Activities Are Not Recorded in Activity Log</a>
-            <div class="summary">Following user management activities are not recorded in Tableau Cloud Activity Log although these are listed in Online Help Activity Log Tenant Event Type Reference.hist_delete_userhist_delete_user_from_grouphist_update_user_site_role</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2</td>
-          <td class="release">—</td>
-          <td class="num">2</td>
-          <td class="date">2026-06-30</td>
-          <td class="date">2026-07-01</td>
-        </tr>
-
-        <tr
           data-product="Tableau Server"
           data-status="Solution Scheduled"
           data-release=""
@@ -3940,24 +4067,6 @@
           <td class="release">—</td>
           <td class="num">0</td>
           <td class="date">2026-02-05</td>
-          <td class="date">2026-07-17</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g70000068SjdAAE&title=tableau-cloud-embedded-dashboard-authentication-is-failing-with-http-500-errors-when-using-with-a-custom-domain-configured" target="_blank" rel="noopener">Tableau Cloud: Embedded dashboard authentication is failing with HTTP 500 Errors when using with a Custom Domain configured</a>
-            <div class="summary">Embedded Dashboard authentication is failing with a HTTP 500 error when a custom domain is configured on Tableau Cloud. The dashboards are embedded using Connected apps with Direct Trust and the Tableau Embedding API v3.</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-07-17</td>
           <td class="date">2026-07-17</td>
         </tr>
 
@@ -5309,24 +5418,6 @@
           <td class="num">12</td>
           <td class="date">2024-09-02</td>
           <td class="date">2024-09-30</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release="2026.1.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mo7KvIAI&title=tableau-cloud-filtering-by-keyword-causes-an-unexpected-error-occurred" target="_blank" rel="noopener">Tableau Cloud: Filtering by keyword causes "an unexpected error occurred"</a>
-            <div class="summary">Receiving An Unexpected error on Tableau Cloud while trying to pull up Data Sources under Explore using keywords in filter option on the right side of the menu.</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.1.0</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-04-21</td>
-          <td class="date">2026-04-21</td>
         </tr>
 
         <tr
