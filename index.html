@@ -53,7 +53,7 @@
 
 <header>
   <h1>Tableau Known Issues</h1>
-  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-09-27 11:44:58</p>
+  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-09-28 13:23:04</p>
 </header>
 
 <div class="controls">
@@ -89,7 +89,7 @@
     <input type="text" id="f-search" placeholder="e.g. upgrade, extract, login…">
   </div>
   <div class="stat">
-    Showing <strong id="visible-count">465</strong> of <strong>465</strong> issues
+    Showing <strong id="visible-count">468</strong> of <strong>468</strong> issues
   </div>
 </div>
 
@@ -108,6 +108,169 @@
       </tr>
     </thead>
     <tbody id="issues-body">
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release="2026.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000AbzWbAAJ&title=" target="_blank" rel="noopener">Tableau Pulse LWC Displays Blank Page with Dynamic Filters</a>
+            <div class="summary">When embedding a Tableau Pulse Lightning Web Component (LWC) into a Salesforce Record Page, the metric fails to load and a blank page is displayed.This issue occurs whenthe Filter on Record ID option is enabled anddynamic filters are usede.g., setting an object ID (e.g., Account </div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-09-25</td>
+          <td class="date">2026-09-28</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release="2026.2.6"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000AjemjAAB&title=" target="_blank" rel="noopener">A published datasource's .tds XML metadata is not being updated on flow re-runs</a>
+            <div class="summary">When a flow is changed such that the Published Data Source (PDS) output has a new schema (eg new fields added) the .tds XML metadata is not updated. This causes downstream issues includingFields to be missing in Tableau Pulse &quot;Adjustable metric filters&quot; dropdown lists o</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2.6</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-09-28</td>
+          <td class="date">2026-09-28</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release="2026.2.6"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000Aj91NAAR&title=" target="_blank" rel="noopener">Tableau Cloud Subscription Failed with "missing in the subquery result for relation "[$subquery].[xxxx]";Unable to generate the view" intermittently</a>
+            <div class="summary">When Tableau Cloud processes a subscription, it’s possible for one or more views in the workbook to fail to render, resulting in the subscription not being delivered and displaying a &quot;1 of N views failed&quot; error along with a VisitRelation field-missing message.This issue</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2.6</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-09-28</td>
+          <td class="date">2026-09-28</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="In Review"
+          data-release="2026.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000009HosrAAC&title=tableau-get-rest-api-request-triggers-orgspringframeworkbeansfactorynosuchbeandefinitionexception-in-dynatrace" target="_blank" rel="noopener">Tableau GET REST API request triggers org.springframework.beans.factory.NoSuchBeanDefinitionException in Dynatrace</a>
+            <div class="summary">Following exception is observed in Dynatrace when making GET REST API requests (getViews, getWorkbooks, getDatasources) against Tableau Server:org.springframework.beans.factory.NoSuchBeanDefinitionException:
+ No bean named &#39;NonMock&#39; available: No matching TransactionManag</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2026.2</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-09-11</td>
+          <td class="date">2026-09-11</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution Scheduled"
+          data-release="Summer '26"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000008hLqzAAE&title=synchronizing-ad-groups-fails-in-tableau-server-after-update-to-202620-due-to-missing-permissions" target="_blank" rel="noopener">Synchronizing AD groups fails in Tableau Server after update to 2026.2.0 due to missing permissions</a>
+            <div class="summary">When &quot;Managing Users&quot; is set to &quot;Only Server Administrators,&quot; synchronizing more than one Active Directory (AD) group on Tableau Server fails with a permission error, even when the user performing the sync is a Server Administrator. This affects both manual sy</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Server</td>
+          <td class="release">Summer '26</td>
+          <td class="release">—</td>
+          <td class="num">4</td>
+          <td class="date">2026-09-04</td>
+          <td class="date">2026-09-28</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Next"
+          data-status="Solution Scheduled"
+          data-release="Summer '26"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000AIRATAA5&title=semantic-layer-query-fails-when-nested-calculated-fields-depend-on-cio-backed-metrics" target="_blank" rel="noopener">Semantic Layer query fails when nested calculated fields depend on CIO-backed metrics</a>
+            <div class="summary">Under certain conditions, generating SQL for a semantic model with deeply nested calculated fields that depend on CIO (Calculated Insights Objects)-backed metrics can fail with an internal error.</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Next</td>
+          <td class="release">Summer '26</td>
+          <td class="release">—</td>
+          <td class="num">3</td>
+          <td class="date">2026-09-22</td>
+          <td class="date">2026-09-24</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="In Review"
+          data-release="2021.4 or later"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000AbeggAAB&title=field-notation-differences-field_name-vs-data_source_namefield_name-when-adding-url-actions" target="_blank" rel="noopener">Field notation differences (<Field_Name> vs <Data_Source_Name.Field_Name>) when adding URL actions</a>
+            <div class="summary">When configuring a Go to URL action in Tableau Desktop or Web Edit, clicking the Insert menu in the URL section displays the available fields in the format &lt;Data_Source_Name.Field_Name&gt; instead of the expected &lt;Field_Name&gt;.This behavior reduces the visibility of the f</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">2021.4 or later</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-09-25</td>
+          <td class="date">2026-09-25</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution in Progress"
+          data-release="2024.2.24, 2025.1.18, 2025.3.6"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000008ToRRAA0&title=flow-editor-validation-takes-a-long-time-to-complete-for-flows-connecting-to-xlsx-files-with-multiple-sheets-configured-as-input-fields" target="_blank" rel="noopener">Flow Editor validation takes a long time to complete for flows connecting to XLSX files with multiple sheets configured as input fields</a>
+            <div class="summary">When a flow uses Excel (.xlsx) files with multiple sheets configured as input fields, validating connections in the Flow Editor can take significantly longer than expected. Users may see validation take two minutes or more, and the data preview may take several minutes to load. T</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2024.2.24, 2025.1.18, 2025.3.6</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-09-02</td>
+          <td class="date">2026-09-21</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution Scheduled"
+          data-release="2026.2.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000005gxwrAAA&title=table-names-are-blank-when-connecting-to-published-data-sources-with-an-inner-join-on-tableau-desktop-202620" target="_blank" rel="noopener">Table names are blank when connecting to Published Data Sources with an inner join on Tableau Desktop 2026.2.0</a>
+            <div class="summary">In Tableau Desktop 2026.2.0, Table names appear blank for tables connected via joins in published datasources on Tableau Cloud and Tableau Server; however, the table names appear correctly when opening a locally saved .tds file or in Tableau Desktop 2026.1.2 or below.</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">2026.2.0</td>
+          <td class="release">—</td>
+          <td class="num">19</td>
+          <td class="date">2026-06-30</td>
+          <td class="date">2026-09-27</td>
+        </tr>
 
         <tr
           data-product="Tableau Next"
@@ -236,24 +399,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Server"
-          data-status="Solution in Progress"
-          data-release="Summer '26"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000008hLqzAAE&title=synchronizing-ad-groups-fails-in-tableau-server-after-update-to-202620-due-to-missing-permissions" target="_blank" rel="noopener">Synchronizing AD groups fails in Tableau Server after update to 2026.2.0 due to missing permissions</a>
-            <div class="summary">When &quot;Managing Users&quot; is set to &quot;Only Server Administrators,&quot; synchronizing more than one Active Directory (AD) group on Tableau Server fails with a permission error, even when the user performing the sync is a Server Administrator. This affects both manual sy</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Server</td>
-          <td class="release">Summer '26</td>
-          <td class="release">—</td>
-          <td class="num">4</td>
-          <td class="date">2026-09-04</td>
-          <td class="date">2026-09-25</td>
-        </tr>
-
-        <tr
           data-product="Tableau Cloud"
           data-status="In Review"
           data-release="2026.2.6"
@@ -340,24 +485,6 @@
           <td class="release">—</td>
           <td class="num">0</td>
           <td class="date">2026-08-20</td>
-          <td class="date">2026-09-25</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="In Review"
-          data-release="2021.4 or later"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000AbeggAAB&title=field-notation-differences-field_name-vs-data_source_namefield_name-when-adding-url-actions" target="_blank" rel="noopener">Field notation differences (<Field_Name> vs <Data_Source_Name.Field_Name>) when adding URL actions</a>
-            <div class="summary">When configuring a Go to URL action in Tableau Desktop or Web Edit, clicking the Insert menu in the URL section displays the available fields in the format &lt;Data_Source_Name.Field_Name&gt; instead of the expected &lt;Field_Name&gt;.This behavior reduces the visibility of the f</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">2021.4 or later</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-09-25</td>
           <td class="date">2026-09-25</td>
         </tr>
 
@@ -575,24 +702,6 @@
           <td class="num">15</td>
           <td class="date">2026-06-29</td>
           <td class="date">2026-07-13</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Next"
-          data-status="Solution Scheduled"
-          data-release="Summer '26"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000AIRATAA5&title=semantic-layer-query-fails-when-nested-calculated-fields-depend-on-cio-backed-metrics" target="_blank" rel="noopener">Semantic Layer query fails when nested calculated fields depend on CIO-backed metrics</a>
-            <div class="summary">Under certain conditions, generating SQL for a semantic model with deeply nested calculated fields that depend on CIO (Calculated Insights Objects)-backed metrics can fail with an internal error.</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Next</td>
-          <td class="release">Summer '26</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-09-22</td>
-          <td class="date">2026-09-24</td>
         </tr>
 
         <tr
@@ -1168,24 +1277,6 @@
           <td class="release">—</td>
           <td class="num">4</td>
           <td class="date">2026-09-11</td>
-          <td class="date">2026-09-21</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="Solution in Progress"
-          data-release="2024.2.24, 2025.1.18, 2025.3.6"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000008ToRRAA0&title=flow-editor-validation-takes-a-long-time-to-complete-for-flows-connecting-to-xlsx-files-with-multiple-sheets-configured-as-input-fields" target="_blank" rel="noopener">Flow Editor validation takes a long time to complete for flows connecting to XLSX files with multiple sheets configured as input fields</a>
-            <div class="summary">When a flow uses Excel (.xlsx) files with multiple sheets configured as input fields, validating connections in the Flow Editor can take significantly longer than expected. Users may see validation take two minutes or more, and the data preview may take several minutes to load. T</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2024.2.24, 2025.1.18, 2025.3.6</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-09-02</td>
           <td class="date">2026-09-21</td>
         </tr>
 
@@ -1858,25 +1949,6 @@
         <tr
           data-product="Tableau Server"
           data-status="In Review"
-          data-release="2026.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000009HosrAAC&title=" target="_blank" rel="noopener">Tableau GET REST API request triggers org.springframework.beans.factory.NoSuchBeanDefinitionException in Dynatrace</a>
-            <div class="summary">Following exception is observed in Dynatrace when making GET REST API requests (getViews, getWorkbooks, getDatasources) against Tableau Server:org.springframework.beans.factory.NoSuchBeanDefinitionException:
- No bean named &#39;NonMock&#39; available: No matching TransactionManag</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2026.2</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-09-11</td>
-          <td class="date">2026-09-11</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="In Review"
           data-release="2025.3.4"
         >
           <td class="title-cell">
@@ -2286,24 +2358,6 @@
           <td class="num">0</td>
           <td class="date">2026-06-16</td>
           <td class="date">2026-08-31</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="Solution in Progress"
-          data-release="2026.2.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000005gxwrAAA&title=table-names-are-blank-when-connecting-to-published-data-sources-with-an-inner-join-on-tableau-desktop-202620" target="_blank" rel="noopener">Table names are blank when connecting to Published Data Sources with an inner join on Tableau Desktop 2026.2.0</a>
-            <div class="summary">In Tableau Desktop 2026.2.0, Table names appear blank for tables connected via joins in published datasources on Tableau Cloud and Tableau Server; however, the table names appear correctly when opening a locally saved .tds file or in Tableau Desktop 2026.1.2 or below.</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">2026.2.0</td>
-          <td class="release">—</td>
-          <td class="num">19</td>
-          <td class="date">2026-06-30</td>
-          <td class="date">2026-08-28</td>
         </tr>
 
         <tr
