@@ -53,7 +53,7 @@
 
 <header>
   <h1>Tableau Known Issues</h1>
-  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-10-09 12:53:20</p>
+  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-10-10 12:11:29</p>
 </header>
 
 <div class="controls">
@@ -110,6 +110,150 @@
     <tbody id="issues-body">
 
         <tr
+          data-product="Tableau Cloud"
+          data-status="Solution Scheduled"
+          data-release="2026.2.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g70000085xKbAAI&title=slow-performance-when-querying-composable-data-sources-built-from-multiple-published-extracts" target="_blank" rel="noopener">Slow Performance When Querying Composable Data Sources Built From Multiple Published Extracts</a>
+            <div class="summary">Workbooks using composable data sources that combine multiple published extracts can experience significantly slower query performance, particularly when queries join data across the combined extracts. This issue can result in longer load times or query timeouts, especially when </div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2.2</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-08-27</td>
+          <td class="date">2026-10-09</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release="2026.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000Ak3UzAAJ&title=jobs-page-displays-a-random-recurring-time-based-subscription-schedule-when-subscription-frequency-is-set-to-when-data-refreshes-which-is-misleading" target="_blank" rel="noopener">Jobs page displays a random recurring time based subscription schedule when subscription frequency is set to "When Data Refreshes" which is misleading</a>
+            <div class="summary">On the Jobs page, subscriptions set to &quot;When Data Refreshes&quot; show a misleading time-based schedule name like &quot;Every Monday at 2:10 PM&quot;. These subscriptions do not run on a specific schedule but get triggered when the extract refresh finishes.</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-09-28</td>
+          <td class="date">2026-10-05</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release="2026.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000009z8ujAAA&title=renamed-physical-table-or-union-name-on-published-data-source-not-reflected-in-workbook-data-pane" target="_blank" rel="noopener">Renamed Physical Table or Union Name on Published Data Source Not Reflected in Workbook Data Pane</a>
+            <div class="summary">When connected to a Published Data Source on Tableau Cloud or Tableau Server 2026.2 or later, physical table or union names renamed in the data source editor fail to update in the workbook data pane and display original object names.This issue can be reproduced in Tableau Server </div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-09-19</td>
+          <td class="date">2026-10-01</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release="2026.2.x"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000BIk7hAAD&title=in-tableau-cloud-admin-insights-tokens-data-source-last-updated-field-moves-forward-daily-due-to-keychain-rewrites" target="_blank" rel="noopener">In Tableau Cloud Admin Insights (Tokens Data Source): ‘Last Updated’ Field Moves Forward Daily Due to Keychain Rewrites</a>
+            <div class="summary">When the SnowflakeSingleUseRefreshToken feature flag is enabled on Tableau Cloud, the Credentials Service rewrites the keychain upon every successful refresh, even though the actual refresh token remains unchanged. As a result, the “Last Updated” field in the Admin Insights Token</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2.x</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-10-09</td>
+          <td class="date">2026-10-09</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release="2025.2.3"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000lmO0bIAE&title=quick-table-calculations-option-missing-when-connecting-to-a-published-data-source-on-tableau-cloud-using-tableau-desktop" target="_blank" rel="noopener">Quick Table Calculations option missing when connecting to a published data source on Tableau Cloud using Tableau Desktop</a>
+            <div class="summary">When connecting to a published data source on Tableau Cloud using Tableau Desktop 2025.2.3 and later, the Quick Table Calculations option is missing from the field context menu. The issue does not appear in 2023.3.20 or older but does appear in 2024.x versions including any new v</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2025.2.3</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-01-14</td>
+          <td class="date">2026-07-28</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release="2026.2.x"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000Az8PVAAZ&title=error-visitrelation-field-is-missing-in-the-subquery-result-when-viewing-a-workbook-in-tableau-cloud" target="_blank" rel="noopener">Error "VisitRelation: Field is missing in the subquery result" when viewing a workbook in Tableau Cloud</a>
+            <div class="summary">Some users may encounter an &quot;Unknown Server Error&quot; or a &quot;VisitRelation: Field ... is missing in the subquery result for relation ...&quot; error when opening or interacting with a workbook in Tableau Cloud. The error can occur immediately on opening a workbook or a</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2.x</td>
+          <td class="release">—</td>
+          <td class="num">9</td>
+          <td class="date">2026-10-02</td>
+          <td class="date">2026-10-07</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release="2026.2.x"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000008UFwHAAW&title=tc--authentication-failure-when-updating-starburst-connection-details-in-tableau-data-source" target="_blank" rel="noopener">TC - Authentication Failure When Updating Starburst Connection Details in Tableau Data Source</a>
+            <div class="summary">Unable to update existing Starburst connection due to the below error: Can&#39;t connect to Starburst by StarburstDetailed Error MessageAuthentication failed: Authentication requiredUnable to connect to the Starburst by Starburst server &quot;xxxxxxxxxxx&quot;. Check that the ser</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2.x</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-09-02</td>
+          <td class="date">2026-09-02</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release="2026.2.x"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000006ZWZRAA4&title=tableau-cloud-pulse-daily-digest-delivery-times-are-inconsistent" target="_blank" rel="noopener">Tableau Cloud: Pulse Daily Digest Delivery Times Are Inconsistent</a>
+            <div class="summary">Under certain conditions on Tableau Cloud on prod-uk-a, users who have configured a Pulse daily digest for a specific delivery time (for example, 8:00 AM) may find that digests arrive at widely varying times — sometimes hours early or late, and with no consistent pattern across d</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2.x</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-07-24</td>
+          <td class="date">2026-10-09</td>
+        </tr>
+
+        <tr
           data-product="Tableau Desktop"
           data-status="In Review"
           data-release=""
@@ -143,42 +287,6 @@
           <td class="num">18</td>
           <td class="date">2026-06-29</td>
           <td class="date">2026-07-13</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release="2026.2.x"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000BIk7hAAD&title=" target="_blank" rel="noopener">In Tableau Cloud Admin Insights (Tokens Data Source): ‘Last Updated’ Field Moves Forward Daily Due to Keychain Rewrites</a>
-            <div class="summary">When the SnowflakeSingleUseRefreshToken feature flag is enabled on Tableau Cloud, the Credentials Service rewrites the keychain upon every successful refresh, even though the actual refresh token remains unchanged. As a result, the “Last Updated” field in the Admin Insights Token</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2.x</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-10-09</td>
-          <td class="date">2026-10-09</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution in Progress"
-          data-release="2026.2.x"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000Az8PVAAZ&title=error-visitrelation-field-is-missing-in-the-subquery-result-when-viewing-a-workbook-in-tableau-cloud" target="_blank" rel="noopener">Error "VisitRelation: Field is missing in the subquery result" when viewing a workbook in Tableau Cloud</a>
-            <div class="summary">Some users may encounter an &quot;Unknown Server Error&quot; or a &quot;VisitRelation: Field ... is missing in the subquery result for relation ...&quot; error when opening or interacting with a workbook in Tableau Cloud. The error can occur immediately on opening a workbook or a</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2.x</td>
-          <td class="release">—</td>
-          <td class="num">7</td>
-          <td class="date">2026-10-02</td>
-          <td class="date">2026-10-07</td>
         </tr>
 
         <tr
@@ -486,24 +594,6 @@
           <td class="num">6</td>
           <td class="date">2026-08-21</td>
           <td class="date">2026-09-29</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution in Progress"
-          data-release="2026.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000Ak3UzAAJ&title=jobs-page-displays-a-random-recurring-time-based-subscription-schedule-when-subscription-frequency-is-set-to-when-data-refreshes-which-is-misleading" target="_blank" rel="noopener">Jobs page displays a random recurring time based subscription schedule when subscription frequency is set to "When Data Refreshes" which is misleading</a>
-            <div class="summary">On the Jobs page, subscriptions set to &quot;When Data Refreshes&quot; show a misleading time-based schedule name like &quot;Every Monday at 2:10 PM&quot;. These subscriptions do not run on a specific schedule but get triggered when the extract refresh finishes.</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-09-28</td>
-          <td class="date">2026-10-05</td>
         </tr>
 
         <tr
@@ -1173,42 +1263,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Cloud"
-          data-status="Solution in Progress"
-          data-release="2026.2.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g70000085xKbAAI&title=slow-performance-when-querying-composable-data-sources-built-from-multiple-published-extracts" target="_blank" rel="noopener">Slow Performance When Querying Composable Data Sources Built From Multiple Published Extracts</a>
-            <div class="summary">Workbooks using composable data sources that combine multiple published extracts can experience significantly slower query performance, particularly when queries join data across the combined extracts. This issue can result in longer load times or query timeouts, especially when </div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2.2</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-08-27</td>
-          <td class="date">2026-08-27</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution in Progress"
-          data-release="2026.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000009z8ujAAA&title=renamed-physical-table-or-union-name-on-published-data-source-not-reflected-in-workbook-data-pane" target="_blank" rel="noopener">Renamed Physical Table or Union Name on Published Data Source Not Reflected in Workbook Data Pane</a>
-            <div class="summary">When connected to a Published Data Source on Tableau Cloud or Tableau Server 2026.2 or later, physical table or union names renamed in the data source editor fail to update in the workbook data pane and display original object names.This issue can be reproduced in Tableau Server </div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-09-19</td>
-          <td class="date">2026-10-01</td>
-        </tr>
-
-        <tr
           data-product="Tableau Server"
           data-status="Solution Scheduled"
           data-release="2025.3.1"
@@ -1296,24 +1350,6 @@
           <td class="num">4</td>
           <td class="date">2026-06-29</td>
           <td class="date">2026-06-29</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release="2026.2.x"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000006ZWZRAA4&title=tableau-cloud-pulse-daily-digest-delivery-times-are-inconsistent" target="_blank" rel="noopener">Tableau Cloud: Pulse Daily Digest Delivery Times Are Inconsistent</a>
-            <div class="summary">Under certain conditions on Tableau Cloud on prod-uk-a, users who have configured a Pulse daily digest for a specific delivery time (for example, 8:00 AM) may find that digests arrive at widely varying times — sometimes hours early or late, and with no consistent pattern across d</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2.x</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-07-24</td>
-          <td class="date">2026-10-01</td>
         </tr>
 
         <tr
@@ -3045,24 +3081,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release="2026.2.x"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000008UFwHAAW&title=tc--authentication-failure-when-updating-starburst-connection-details-in-tableau-data-source" target="_blank" rel="noopener">TC - Authentication Failure When Updating Starburst Connection Details in Tableau Data Source</a>
-            <div class="summary">Unable to update existing Starburst connection due to the below error: Can&#39;t connect to Starburst by StarburstDetailed Error MessageAuthentication failed: Authentication requiredUnable to connect to the Starburst by Starburst server &quot;xxxxxxxxxxx&quot;. Check that the ser</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2.x</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-09-02</td>
-          <td class="date">2026-09-02</td>
-        </tr>
-
-        <tr
           data-product="Tableau Next"
           data-status="In Review"
           data-release="262.12"
@@ -3960,24 +3978,6 @@
           <td class="num">1</td>
           <td class="date">2026-05-14</td>
           <td class="date">2026-05-20</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release="2025.2.3"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000lmO0bIAE&title=quick-table-calculations-option-missing-when-connecting-to-a-published-data-source-on-tableau-cloud-using-tableau-desktop" target="_blank" rel="noopener">Quick Table Calculations option missing when connecting to a published data source on Tableau Cloud using Tableau Desktop</a>
-            <div class="summary">When connecting to a published data source on Tableau Cloud using Tableau Desktop 2025.2.3 and later, the Quick Table Calculations option is missing from the field context menu. The issue does not appear in 2023.3.20 or older but does appear in 2024.x versions including any new v</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2025.2.3</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-01-14</td>
-          <td class="date">2026-07-28</td>
         </tr>
 
         <tr
