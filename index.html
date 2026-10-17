@@ -53,7 +53,7 @@
 
 <header>
   <h1>Tableau Known Issues</h1>
-  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-10-16 11:02:24</p>
+  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-10-17 10:23:43</p>
 </header>
 
 <div class="controls">
@@ -89,7 +89,7 @@
     <input type="text" id="f-search" placeholder="e.g. upgrade, extract, login…">
   </div>
   <div class="stat">
-    Showing <strong id="visible-count">451</strong> of <strong>451</strong> issues
+    Showing <strong id="visible-count">453</strong> of <strong>453</strong> issues
   </div>
 </div>
 
@@ -111,6 +111,42 @@
 
         <tr
           data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release="2026.3.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000BteHpAAJ&title=" target="_blank" rel="noopener">Tableau Cloud 2026.3: Original Calculated Field Names Replaced with Calculation_... Names in Extract-Based Workbooks and Data Sources</a>
+            <div class="summary">After the Tableau Cloud 2026.3 upgrade, calculated fields in some workbooks and data sources show internal names such as Calculation_0036... instead of their original names.</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.3.0</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-10-16</td>
+          <td class="date">2026-10-16</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release="2026.2.6"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000Aj91NAAR&title=tableau-cloud-subscription-failed-with-missing-in-the-subquery-result-for-relation-subqueryxxxxunable-to-generate-the-view-intermittently" target="_blank" rel="noopener">Tableau Cloud Subscription/Downloading PDF/Image Failed with "missing in the subquery result for relation "[$subquery].[xxxx]"" intermittently</a>
+            <div class="summary">When Tableau Cloud processes a subscription, it’s possible for one or more views in the workbook to fail to render, resulting in the subscription not being delivered and displaying a &quot;1 of N views failed&quot; error along with a VisitRelation field-missing message.This issue</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2.6</td>
+          <td class="release">—</td>
+          <td class="num">6</td>
+          <td class="date">2026-09-28</td>
+          <td class="date">2026-10-06</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
           data-status="Solution in Progress"
           data-release="2026.2.x"
         >
@@ -122,9 +158,117 @@
           <td>Tableau Cloud</td>
           <td class="release">2026.2.x</td>
           <td class="release">—</td>
-          <td class="num">13</td>
+          <td class="num">15</td>
           <td class="date">2026-10-02</td>
           <td class="date">2026-10-07</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution Scheduled"
+          data-release="2026.2.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000006VzdFAAS&title=ad-groups-with-distinguished-names-containing-special-characters-are-not-syncingimporting-users-correctly" target="_blank" rel="noopener">AD Groups with Distinguished Names Containing Special Characters are Not Syncing/Importing Users Correctly</a>
+            <div class="summary">For groups containing members with Distinguished Names containing special characters, such as &#39;,&#39; or &#39;*&#39;, \users in those AD groups are not getting added or getting deleted after a sync of the group is performed, starting in version 2026.2.0. New groups get added </div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2026.2.0</td>
+          <td class="release">—</td>
+          <td class="num">15</td>
+          <td class="date">2026-07-22</td>
+          <td class="date">2026-08-26</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution in Progress"
+          data-release="Summer '16"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000BstscAAB&title=tableau-semantics-connector-returns-incomplete-data-for-large-query-results" target="_blank" rel="noopener">Tableau Semantics Connector returns incomplete data for large query results</a>
+            <div class="summary">Tableau Desktop may display only part of the data when a query through the Tableau Semantics Connector returns a large result set. When the response exceeds roughly 2 MB, only the first portion of rows is returned and the remaining rows are not retrieved. For example, a view that</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">Summer '16</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-10-16</td>
+          <td class="date">2026-10-16</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release="20262.26.0828.1819"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000AGRBNAA5&title=intermittent-virtual-connection-extract-refresh-failures-in-tableau-cloud" target="_blank" rel="noopener">Intermittent Virtual Connection extract refresh failures in Tableau Cloud</a>
+            <div class="summary">In Tableau Cloud, extract refreshes for published data sources using Virtual Connections may intermittently fail while the refresh is in progress.The issue occurs when an active extract refresh is interrupted by a backend service condition. The previously delivered mitigation for</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">20262.26.0828.1819</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-09-21</td>
+          <td class="date">2026-10-16</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution Scheduled"
+          data-release="2026.2.1"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000006fItaAAE&title=audit-events-missing-for-implicit-site-user-creation-admin-promotion-and-site-level-user-deletion" target="_blank" rel="noopener">Audit events missing for implicit site-user creation (admin promotion) and site-level user deletion</a>
+            <div class="summary">Inconsistent logging of user creation and deletion events in the Tableau Server Repository historical tables.</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2026.2.1</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-07-27</td>
+          <td class="date">2026-10-16</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000AyZ5BAAV&title=dashboards-may-fail-to-load-with-an-unexpected-error-occurred-under-high-concurrent-usage" target="_blank" rel="noopener">Dashboards may fail to load with "An Unexpected Error Occurred" under high concurrent usage</a>
+            <div class="summary">Under certain conditions, dashboards may fail to load and display an &quot;An Unexpected Error Occurred&quot; message. This issue occurs when a dashboard is accessed by many users at the same time, particularly when the dashboard contains certain calculated fields used in tooltip</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-10-02</td>
+          <td class="date">2026-10-02</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution in Progress"
+          data-release="2026.2.x"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000ANKZlAAP&title=prep-conductor-no-longer-reads-custom-connection-files-from-the-legacy-datasources-folder-after-upgrading-to-tableau-server-20262" target="_blank" rel="noopener">Prep Conductor no longer reads custom connection files from the legacy Datasources folder after upgrading to Tableau Server 2026.2</a>
+            <div class="summary">On Tableau Server 2026.2, Prep Conductor no longer reads customization files (such as .tds/.tdc or .properties files) placed in the previous flowprocessor/Datasources directory. Customers who rely on custom connection files for scheduled Prep flows — for example, files enabling d</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2026.2.x</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-09-22</td>
+          <td class="date">2026-10-14</td>
         </tr>
 
         <tr
@@ -287,60 +431,6 @@
           <td class="num">1</td>
           <td class="date">2026-10-13</td>
           <td class="date">2026-10-13</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000AyZ5BAAV&title=dashboards-may-fail-to-load-with-an-unexpected-error-occurred-under-high-concurrent-usage" target="_blank" rel="noopener">Dashboards may fail to load with "An Unexpected Error Occurred" under high concurrent usage</a>
-            <div class="summary">Under certain conditions, dashboards may fail to load and display an &quot;An Unexpected Error Occurred&quot; message. This issue occurs when a dashboard is accessed by many users at the same time, particularly when the dashboard contains certain calculated fields used in tooltip</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-10-02</td>
-          <td class="date">2026-10-02</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="Solution in Progress"
-          data-release="2026.2.1"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000006fItaAAE&title=audit-events-missing-for-implicit-site-user-creation-admin-promotion-and-site-level-user-deletion" target="_blank" rel="noopener">Audit events missing for implicit site-user creation (admin promotion) and site-level user deletion</a>
-            <div class="summary">Inconsistent logging of user creation and deletion events in the Tableau Server Repository historical tables.</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2026.2.1</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-07-27</td>
-          <td class="date">2026-10-15</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release="2026.2.6"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000Aj91NAAR&title=tableau-cloud-subscription-failed-with-missing-in-the-subquery-result-for-relation-subqueryxxxxunable-to-generate-the-view-intermittently" target="_blank" rel="noopener">Tableau Cloud Subscription/Downloading PDF/Image Failed with "missing in the subquery result for relation "[$subquery].[xxxx]"" intermittently</a>
-            <div class="summary">When Tableau Cloud processes a subscription, it’s possible for one or more views in the workbook to fail to render, resulting in the subscription not being delivered and displaying a &quot;1 of N views failed&quot; error along with a VisitRelation field-missing message.This issue</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2.6</td>
-          <td class="release">—</td>
-          <td class="num">5</td>
-          <td class="date">2026-09-28</td>
-          <td class="date">2026-10-06</td>
         </tr>
 
         <tr
@@ -629,24 +719,6 @@
           <td class="release">—</td>
           <td class="num">2</td>
           <td class="date">2026-07-03</td>
-          <td class="date">2026-10-14</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="Solution in Progress"
-          data-release="2026.2.x"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000ANKZlAAP&title=prep-conductor-no-longer-reads-custom-connection-files-from-the-legacy-datasources-folder-after-upgrading-to-tableau-server-20262" target="_blank" rel="noopener">Prep Conductor no longer reads custom connection files from the legacy Datasources folder after upgrading to Tableau Server 2026.2</a>
-            <div class="summary">On Tableau Server 2026.2, Prep Conductor no longer reads customization files (such as .tds/.tdc or .properties files) placed in the previous flowprocessor/Datasources directory. Customers who rely on custom connection files for scheduled Prep flows — for example, files enabling d</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2026.2.x</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-09-22</td>
           <td class="date">2026-10-14</td>
         </tr>
 
@@ -1767,24 +1839,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Server"
-          data-status="Solution Scheduled"
-          data-release="2026.2.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000006VzdFAAS&title=ad-groups-with-distinguished-names-containing-special-characters-are-not-syncingimporting-users-correctly" target="_blank" rel="noopener">AD Groups with Distinguished Names Containing Special Characters are Not Syncing/Importing Users Correctly</a>
-            <div class="summary">For groups containing members with Distinguished Names containing special characters, such as &#39;,&#39; or &#39;*&#39;, \users in those AD groups are not getting added or getting deleted after a sync of the group is performed, starting in version 2026.2.0. New groups get added </div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2026.2.0</td>
-          <td class="release">—</td>
-          <td class="num">14</td>
-          <td class="date">2026-07-22</td>
-          <td class="date">2026-08-26</td>
-        </tr>
-
-        <tr
           data-product="Tableau Desktop"
           data-status="Solution in Progress"
           data-release="2024.2"
@@ -2610,24 +2664,6 @@
           <td class="num">0</td>
           <td class="date">2026-09-10</td>
           <td class="date">2026-09-18</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release="20262.26.0828.1819"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000AGRBNAA5&title=intermittent-virtual-connection-extract-refresh-failures-in-tableau-cloud" target="_blank" rel="noopener">Intermittent Virtual Connection extract refresh failures in Tableau Cloud</a>
-            <div class="summary">In Tableau Cloud, extract refreshes for published data sources using Virtual Connections may intermittently fail while the refresh is in progress.The issue occurs when an active extract refresh is interrupted by a backend service condition. The previously delivered mitigation for</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">20262.26.0828.1819</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-09-21</td>
-          <td class="date">2026-09-21</td>
         </tr>
 
         <tr
