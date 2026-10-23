@@ -53,7 +53,7 @@
 
 <header>
   <h1>Tableau Known Issues</h1>
-  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-10-22 11:27:44</p>
+  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-10-23 11:22:26</p>
 </header>
 
 <div class="controls">
@@ -89,7 +89,7 @@
     <input type="text" id="f-search" placeholder="e.g. upgrade, extract, login…">
   </div>
   <div class="stat">
-    Showing <strong id="visible-count">458</strong> of <strong>458</strong> issues
+    Showing <strong id="visible-count">463</strong> of <strong>463</strong> issues
   </div>
 </div>
 
@@ -110,20 +110,236 @@
     <tbody id="issues-body">
 
         <tr
+          data-product="Tableau Server"
+          data-status="Solution Scheduled"
+          data-release="2025.1, 2025.3"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mH5pKIAS&title=incorrect-checkbox-selections-displayed-in-set-field-filter-after-deselecting-all-and-then-searching-when-show-apply-button-is-enabled" target="_blank" rel="noopener">Incorrect Checkbox Selections Displayed in Set Field Filter After Deselecting 'All' and then Searching When "Show Apply Button" is Enabled</a>
+            <div class="summary">When using a Set field filter with the &quot;Show Apply Button&quot; option enabled in Tableau Server, incorrect checkbox selections are displayed after a user deselects &quot;all&quot; followed by a searching for a new field value. Specifically, items that were never individuall</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2025.1, 2025.3</td>
+          <td class="release">—</td>
+          <td class="num">2</td>
+          <td class="date">2026-06-12</td>
+          <td class="date">2026-08-26</td>
+        </tr>
+
+        <tr
           data-product="Tableau Cloud"
-          data-status="In Review"
+          data-status="Solution in Progress"
+          data-release="2026.3.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000CIx2kAAD&title=unable-to-edit-multiple-data-source-connections-simultaneously-in-tableau-cloud" target="_blank" rel="noopener">Unable to Edit Multiple Data Source Connections Simultaneously in Tableau Cloud</a>
+            <div class="summary">Following the Tableau Cloud 2026.3 release, users are unable to edit multiple data source connections at the same time if the data sources use username and password authentication. This includes Service Principal authentication (such as Databricks) that utilizes Client ID and Sec</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.3.0</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-10-23</td>
+          <td class="date">2026-10-23</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
           data-release="2026.2"
         >
           <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000CCcKMAA1&title=" target="_blank" rel="noopener">The URL action triggered using the Select action button does not work on the first click. Double click returned expected result.</a>
-            <div class="summary">After a parameter (wildcard search) as a URL filter is added. When we enter a custom value through the URL, Tableau Cloud expects a double time click on the parameter for value to be recognized/applied.Expected Result: The search should return results with one click on search.</div>
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000CE1mvAAD&title=rest-api-get-datasourcesluid-returns-error-403004-in-customizable-project-when-user-has-explicit-datasource-permissions-but-view-is-denied" target="_blank" rel="noopener">REST API GET /datasources/{luid} Returns Error 403004 In Customizable Project When User Has Explicit Datasource Permissions But View is Denied</a>
+            <div class="summary">When a non-administrator user calls the Tableau REST API endpoint GET /api/&lt;version&gt;/sites/&lt;siteId&gt;/datasources/&lt;datasourceLuid&gt;, the request returns a 403004 (Forbidden) error, even when the user has been explicitly granted View (Read) and Connect permissions o</div>
           </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
           <td>Tableau Cloud</td>
           <td class="release">2026.2</td>
           <td class="release">—</td>
           <td class="num">0</td>
           <td class="date">2026-10-22</td>
+          <td class="date">2026-10-22</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Bridge"
+          data-status="Solution in Progress"
+          data-release="2025.3.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000moCyyIAE&title=when-a-tableau-bridge-live-query-exceeds-15-minutes-retry-attempts-are-made-resulting-in-duplicate-concurrent-queries-sent-to-sql-server" target="_blank" rel="noopener">When a Tableau Bridge Live Query exceeds 15 minutes, retry attempts are made resulting in duplicate concurrent queries sent to SQL Server.</a>
+            <div class="summary">When a Tableau Bridge Live Query exceeds 15 minutes, retry attempts are made resulting in duplicate concurrent queries sent to SQL Server.There may be situations where the queries fail to complete resulting in the extract timing out and the job will fail with the error &quot;Malf</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Bridge</td>
+          <td class="release">2025.3.0</td>
+          <td class="release">—</td>
+          <td class="num">4</td>
+          <td class="date">2026-04-24</td>
+          <td class="date">2026-10-23</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Prep Builder"
+          data-status="Solution in Progress"
+          data-release="2023.1.1 and later"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000008P2MzAAK&title=tableau-prep-flow-output-fails-with-sqlstate42703-unknown-column-source-row-number-when-using-wildcard-union-and-range-of-values-filter" target="_blank" rel="noopener">Tableau Prep Flow Output Fails with "SQLSTATE:42703 unknown column 'Source Row Number'" When Using Wildcard Union and Range of Values Filter</a>
+            <div class="summary">When running a Tableau Prep flow, the flow execution may fail with a system error if it combines multiple Excel files using a Wildcard Union (Union multiple tables) and applies a &quot;Range of Values&quot; filter on a calculated field. Instead of completing the output, the flow </div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Prep Builder</td>
+          <td class="release">2023.1.1 and later</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-09-01</td>
+          <td class="date">2026-10-19</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution in Progress"
+          data-release="Summer '16"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000BZtuXAAT&title=parameter-using-current-value-value-when-workbook-opens-is-displaying-cache-instead-of-latest-data" target="_blank" rel="noopener">Parameter using Current value "Value when workbook opens" is displaying cache instead of latest data</a>
+            <div class="summary">When a workbook that uses a parameter which shows the latest value from the database, upon refreshing the underlying published extract, the workbook doesn&#39;t show the latest data (via tabcmd export, REST API export, or in the UI). Within the UI, the user would need to click on</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Server</td>
+          <td class="release">Summer '16</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-10-13</td>
+          <td class="date">2026-10-23</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution in Progress"
+          data-release="2025.3.7"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000C24NBAAZ&title=teradata-extract-refresh-performance-degradation-in-tableau-server-202537" target="_blank" rel="noopener">Teradata Extract Refresh Performance Degradation in Tableau Server 2025.3.7</a>
+            <div class="summary">Teradata extract refreshes may take significantly longer than expected to complete in the Tableau Server 2025.3 and later versions. This behavior can potentially lead to refresh failures due to timeouts in Tableau Server. The issue may also impact Teradata extract refresh operati</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2025.3.7</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-10-19</td>
+          <td class="date">2026-10-20</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution in Progress"
+          data-release="2026.3.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000CBLtRAAX&title=installing-or-upgrading-tableau-server-202630-on-windows-server-2016-or-windows-10-will-fail-and-may-require-restoring-from-backup" target="_blank" rel="noopener">Installing or upgrading Tableau Server 2026.3.0 on Windows Server 2016 or Windows 10 will fail and may require restoring from backup</a>
+            <div class="summary">Installing or upgrading Tableau Server 2026.3.0 on Windows Server 2016 or Windows 10 will fail and may require restoring from backup.A fresh install simply fails after initial tsm configuration and may not completely install all packages.Upgrading an existing installation with th</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2026.3.0</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-10-21</td>
+          <td class="date">2026-10-22</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution in Progress"
+          data-release="2026.3.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000CHDRlAAP&title=" target="_blank" rel="noopener">Table names are blank when connecting to Published Data Sources with an inner join on Tableau Desktop 2026.3.0</a>
+            <div class="summary">In Tableau Desktop 2026.3.0, Table names appear blank for tables connected via joins in published datasources on Tableau Cloud and Tableau Server; however, the table names appear correctly when opening a locally saved .tds file or in Tableau Desktop 2026.2.3 or below.</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">2026.3.0</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-10-22</td>
+          <td class="date">2026-10-22</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000007awsfAAA&title=tableau-cloud-sends-invite-emails-when-re-adding-a-user-despite-the-enable-site-invite-emails-setting-is-turned-off" target="_blank" rel="noopener">Tableau Cloud sends invite emails when re-adding a user, despite the "Enable Site invite emails" setting is turned off.</a>
+            <div class="summary">Administrators can turn off the &quot;Enable Site invite emails&quot; setting in Tableau Cloud. When this setting is off, adding a new user correctly sends no email.However, if you add that exact same user again, the system sends them an invite email.This issue happens on sites t</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-08-24</td>
+          <td class="date">2026-10-22</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution Scheduled"
+          data-release="2026.3"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000C52NFAAZ&title=tableau-cloud-jobs-page-loads-slowly-or-returns-no-results" target="_blank" rel="noopener">Tableau Cloud Jobs page loads slowly or returns no results</a>
+            <div class="summary">The Jobs page in Tableau Cloud may take a long time to load after the 2026.3 release. Under certain conditions, users may wait more than one minute for the page to load, and in some cases the page may display no results.</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.3</td>
+          <td class="release">—</td>
+          <td class="num">2</td>
+          <td class="date">2026-10-20</td>
+          <td class="date">2026-10-22</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Next"
+          data-status="In Review"
+          data-release="Summer '26"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000008Oq2TAAS&title=dashboard-image-download-causes-browser-unresponsiveness-and-high-memory-usage" target="_blank" rel="noopener">Dashboard Image Download Causes Browser Unresponsiveness and High Memory Usage</a>
+            <div class="summary">Customers may experience browser unresponsiveness, significant memory consumption, and prolonged processing when using the  &quot;Download Image &quot; functionality on complex dashboards. The image export process performs extensive client-side processing, which can result in hig</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Next</td>
+          <td class="release">Summer '26</td>
+          <td class="release">—</td>
+          <td class="num">4</td>
+          <td class="date">2026-09-01</td>
+          <td class="date">2026-09-01</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution in Progress"
+          data-release="2021.4 or later"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000AbeggAAB&title=field-notation-differences-field_name-vs-data_source_namefield_name-when-adding-url-actions" target="_blank" rel="noopener">Field notation differences (<Field_Name> vs <Data_Source_Name.Field_Name>) when adding URL actions</a>
+            <div class="summary">When configuring a Go to URL action in Tableau Desktop or Web Edit, clicking the Insert menu in the URL section displays the available fields in the format &lt;Data_Source_Name.Field_Name&gt; instead of the expected &lt;Field_Name&gt;.This behavior reduces the visibility of the f</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">2021.4 or later</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-09-25</td>
           <td class="date">2026-10-22</td>
         </tr>
 
@@ -140,9 +356,117 @@
           <td>Tableau Cloud</td>
           <td class="release">2026.2.x</td>
           <td class="release">—</td>
-          <td class="num">21</td>
+          <td class="num">22</td>
           <td class="date">2026-10-02</td>
           <td class="date">2026-10-07</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release="2026.2.1"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000006tuZBAAY&title=embedded-connections-disappear-from-selection-after-republishing-a-flow-in-tableau-cloud-and-tableau-server" target="_blank" rel="noopener">Embedded connections disappear from selection after republishing a flow in Tableau Cloud and Tableau Server</a>
+            <div class="summary">When a user web-edits and republishes a Tableau Prep flow that contains an embedded Salesforce connection, the connection settings may incorrectly update to show &quot;No authentication&quot;. The saved embedded credentials dropdown becomes empty and cannot be selected.Note: Even</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2.1</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-08-10</td>
+          <td class="date">2026-08-26</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="In Review"
+          data-release="Tableau Server 2025.1.10 and 2025.3.9"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000CD5HLAA1&title=tableau-server-vizdata-native-service-may-stop-unexpectedly-and-restart-causing-service-unavailable-errors" target="_blank" rel="noopener">Tableau Server VizData Native Service may stop unexpectedly and restart, causing "Service Unavailable" errors</a>
+            <div class="summary">When interacting with a workbook having published datasources, the VizData Native Service on Tableau Server for Windows may stop unexpectedly and restart automatically. While the service restarts, users may see the error &quot;Service Unavailable&quot; in Tableau Desktop or the b</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Server</td>
+          <td class="release">Tableau Server 2025.1.10 and 2025.3.9</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-10-22</td>
+          <td class="date">2026-10-22</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Prep Builder"
+          data-status="Solution in Progress"
+          data-release="2026.1"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000007ep6QAAQ&title=refresh-all-no-longer-reconnects-broken-input-connections-in-prep-builder" target="_blank" rel="noopener">Refresh All no longer reconnects broken input connections in Prep Builder</a>
+            <div class="summary">When using Refresh All in Prep Builder, broken input connections are no longer automatically restored. Previously, selecting Refresh All from the toolbar would attempt to restore any broken input connections within the flow. Now, Refresh All skips inputs with connection errors, a</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Prep Builder</td>
+          <td class="release">2026.1</td>
+          <td class="release">—</td>
+          <td class="num">2</td>
+          <td class="date">2026-08-24</td>
+          <td class="date">2026-09-16</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="In Review"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000008tpjdAAA&title=relationships-drop-between-composed-data-sources-sharing-the-same-source-published-data-source" target="_blank" rel="noopener">Relationships Drop Between Composed Data Sources Sharing the Same Source Published Data Source</a>
+            <div class="summary">When a workbook contains two composed data sources that both use the same underlying published data source, the relationships in the non-active composed data source are lost after saving and reopening the workbook, or after publishing to Tableau Cloud. Only the composed data sour</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">4</td>
+          <td class="date">2026-09-07</td>
+          <td class="date">2026-09-07</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release="2026.3.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000BteHpAAJ&title=tableau-cloud-20263-original-calculated-field-names-replaced-with-calculation_-names-in-extract-based-workbooks-and-data-sources" target="_blank" rel="noopener">Tableau Cloud 2026.3: Original Calculated Field Names Replaced with Calculation_... Names in Extract-Based Workbooks and Data Sources</a>
+            <div class="summary">After the Tableau Cloud 2026.3 upgrade, calculated fields in some workbooks and data sources show internal names such as Calculation_0036... instead of their original names.</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.3.0</td>
+          <td class="release">—</td>
+          <td class="num">5</td>
+          <td class="date">2026-10-16</td>
+          <td class="date">2026-10-16</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release="2026.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000CCcKMAA1&title=" target="_blank" rel="noopener">The URL action triggered using the Select action button does not work on the first click. Double click returned expected result.</a>
+            <div class="summary">After a parameter (wildcard search) as a URL filter is added. When we enter a custom value through the URL, Tableau Cloud expects a double time click on the parameter for value to be recognized/applied.Expected Result: The search should return results with one click on search.</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-10-22</td>
+          <td class="date">2026-10-22</td>
         </tr>
 
         <tr
@@ -219,24 +543,6 @@
 
         <tr
           data-product="Tableau Server"
-          data-status="In Review"
-          data-release="2026.3.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000CBLtRAAX&title=installing-or-upgrading-tableau-server-202630-on-windows-server-2016-will-fail-and-may-require-restoring-from-backup" target="_blank" rel="noopener">Installing or upgrading Tableau Server 2026.3.0 on Windows Server 2016 will fail and may require restoring from backup</a>
-            <div class="summary">Installing or upgrading Tableau Server 2026.3.0 on Windows Server 2016 will fail and may require restoring from backup.A fresh install simply fails after initial tsm configuration and may not completely install all packages. Upgrading an existing installation with the 2026.3.0 in</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2026.3.0</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-10-21</td>
-          <td class="date">2026-10-21</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
           data-status="Solution in Progress"
           data-release="2025.3.2, 2025.3.9, 2026.2.2"
         >
@@ -287,24 +593,6 @@
           <td class="num">4</td>
           <td class="date">2026-07-31</td>
           <td class="date">2026-10-12</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Prep Builder"
-          data-status="Solution in Progress"
-          data-release="2023.1.1 and later"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000008P2MzAAK&title=tableau-prep-flow-output-fails-with-sqlstate42703-unknown-column-source-row-number-when-using-wildcard-union-and-range-of-values-filter" target="_blank" rel="noopener">Tableau Prep Flow Output Fails with "SQLSTATE:42703 unknown column 'Source Row Number'" When Using Wildcard Union and Range of Values Filter</a>
-            <div class="summary">When running a Tableau Prep flow, the flow execution may fail with a system error if it combines multiple Excel files using a Wildcard Union (Union multiple tables) and applies a &quot;Range of Values&quot; filter on a calculated field. Instead of completing the output, the flow </div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Prep Builder</td>
-          <td class="release">2023.1.1 and later</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-09-01</td>
-          <td class="date">2026-10-19</td>
         </tr>
 
         <tr
@@ -394,24 +682,6 @@
           <td class="release">—</td>
           <td class="num">0</td>
           <td class="date">2026-05-28</td>
-          <td class="date">2026-10-20</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution in Progress"
-          data-release="2026.3"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000C52NFAAZ&title=tableau-cloud-jobs-page-loads-slowly-or-returns-no-results" target="_blank" rel="noopener">Tableau Cloud Jobs page loads slowly or returns no results</a>
-            <div class="summary">The Jobs page in Tableau Cloud may take a long time to load after the 2026.3 release. Under certain conditions, users may wait more than one minute for the page to load, and in some cases the page may display no results.</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.3</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-10-20</td>
           <td class="date">2026-10-20</td>
         </tr>
 
@@ -542,24 +812,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Next"
-          data-status="In Review"
-          data-release="Summer '26"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000008Oq2TAAS&title=dashboard-image-download-causes-browser-unresponsiveness-and-high-memory-usage" target="_blank" rel="noopener">Dashboard Image Download Causes Browser Unresponsiveness and High Memory Usage</a>
-            <div class="summary">Customers may experience browser unresponsiveness, significant memory consumption, and prolonged processing when using the  &quot;Download Image &quot; functionality on complex dashboards. The image export process performs extensive client-side processing, which can result in hig</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Next</td>
-          <td class="release">Summer '26</td>
-          <td class="release">—</td>
-          <td class="num">2</td>
-          <td class="date">2026-09-01</td>
-          <td class="date">2026-09-01</td>
-        </tr>
-
-        <tr
           data-product="Tableau Desktop"
           data-status="In Review"
           data-release="2025.3"
@@ -575,24 +827,6 @@
           <td class="num">1</td>
           <td class="date">2026-10-16</td>
           <td class="date">2026-10-19</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release="2026.3.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000BteHpAAJ&title=tableau-cloud-20263-original-calculated-field-names-replaced-with-calculation_-names-in-extract-based-workbooks-and-data-sources" target="_blank" rel="noopener">Tableau Cloud 2026.3: Original Calculated Field Names Replaced with Calculation_... Names in Extract-Based Workbooks and Data Sources</a>
-            <div class="summary">After the Tableau Cloud 2026.3 upgrade, calculated fields in some workbooks and data sources show internal names such as Calculation_0036... instead of their original names.</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.3.0</td>
-          <td class="release">—</td>
-          <td class="num">4</td>
-          <td class="date">2026-10-16</td>
-          <td class="date">2026-10-16</td>
         </tr>
 
         <tr
@@ -629,24 +863,6 @@
           <td class="num">1</td>
           <td class="date">2026-10-02</td>
           <td class="date">2026-10-02</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Bridge"
-          data-status="In Review"
-          data-release="2025.3.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000moCyyIAE&title=when-a-tableau-bridge-live-query-exceeds-15-minutes-retry-attempts-are-made-resulting-in-duplicate-concurrent-queries-sent-to-sql-server" target="_blank" rel="noopener">When a Tableau Bridge Live Query exceeds 15 minutes, retry attempts are made resulting in duplicate concurrent queries sent to SQL Server.</a>
-            <div class="summary">When a Tableau Bridge Live Query exceeds 15 minutes, retry attempts are made resulting in duplicate concurrent queries sent to SQL Server.There may be situations where the queries fail to complete resulting in the extract timing out and the job will fail with the error &quot;Malf</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Bridge</td>
-          <td class="release">2025.3.0</td>
-          <td class="release">—</td>
-          <td class="num">4</td>
-          <td class="date">2026-04-24</td>
-          <td class="date">2026-10-19</td>
         </tr>
 
         <tr
@@ -1046,24 +1262,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Prep Builder"
-          data-status="Solution in Progress"
-          data-release="2026.1"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000007ep6QAAQ&title=refresh-all-no-longer-reconnects-broken-input-connections-in-prep-builder" target="_blank" rel="noopener">Refresh All no longer reconnects broken input connections in Prep Builder</a>
-            <div class="summary">When using Refresh All in Prep Builder, broken input connections are no longer automatically restored. Previously, selecting Refresh All from the toolbar would attempt to restore any broken input connections within the flow. Now, Refresh All skips inputs with connection errors, a</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Prep Builder</td>
-          <td class="release">2026.1</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-08-24</td>
-          <td class="date">2026-09-16</td>
-        </tr>
-
-        <tr
           data-product="Tableau Cloud"
           data-status="In Review"
           data-release="2025.1"
@@ -1209,24 +1407,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Cloud"
-          data-status="Solution in Progress"
-          data-release="2026.2.1"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000006tuZBAAY&title=embedded-connections-disappear-from-selection-after-republishing-a-flow-in-tableau-cloud-and-tableau-server" target="_blank" rel="noopener">Embedded connections disappear from selection after republishing a flow in Tableau Cloud and Tableau Server</a>
-            <div class="summary">When a user web-edits and republishes a Tableau Prep flow that contains an embedded Salesforce connection, the connection settings may incorrectly update to show &quot;No authentication&quot;. The saved embedded credentials dropdown becomes empty and cannot be selected.Note: Even</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2.1</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-08-10</td>
-          <td class="date">2026-08-26</td>
-        </tr>
-
-        <tr
           data-product="Tableau Desktop"
           data-status="In Review"
           data-release="2026.2"
@@ -1328,24 +1508,6 @@
           <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
           <td>Tableau Cloud</td>
           <td class="release">2026.2.2</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-10-13</td>
-          <td class="date">2026-10-13</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="In Review"
-          data-release="Summer '16"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000BZtuXAAT&title=" target="_blank" rel="noopener">Parameter using Current value "Value when workbook opens" is displaying cache instead of latest data</a>
-            <div class="summary">When a workbook that uses a parameter which shows the latest value from the database, upon refreshing the underlying published extract, the workbook doesn&#39;t show the latest data (via tabcmd export, REST API export, or in the UI). Within the UI, the user would need to click on</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Server</td>
-          <td class="release">Summer '16</td>
           <td class="release">—</td>
           <td class="num">0</td>
           <td class="date">2026-10-13</td>
@@ -1620,24 +1782,6 @@
           <td class="num">1</td>
           <td class="date">2026-07-24</td>
           <td class="date">2026-10-09</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="In Review"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000008tpjdAAA&title=relationships-drop-between-composed-data-sources-sharing-the-same-source-published-data-source" target="_blank" rel="noopener">Relationships Drop Between Composed Data Sources Sharing the Same Source Published Data Source</a>
-            <div class="summary">When a workbook contains two composed data sources that both use the same underlying published data source, the relationships in the non-active composed data source are lost after saving and reopening the workbook, or after publishing to Tableau Cloud. Only the composed data sour</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">3</td>
-          <td class="date">2026-09-07</td>
-          <td class="date">2026-09-07</td>
         </tr>
 
         <tr
@@ -2592,24 +2736,6 @@
           <td class="num">3</td>
           <td class="date">2026-09-22</td>
           <td class="date">2026-09-24</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="In Review"
-          data-release="2021.4 or later"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000AbeggAAB&title=field-notation-differences-field_name-vs-data_source_namefield_name-when-adding-url-actions" target="_blank" rel="noopener">Field notation differences (<Field_Name> vs <Data_Source_Name.Field_Name>) when adding URL actions</a>
-            <div class="summary">When configuring a Go to URL action in Tableau Desktop or Web Edit, clicking the Insert menu in the URL section displays the available fields in the format &lt;Data_Source_Name.Field_Name&gt; instead of the expected &lt;Field_Name&gt;.This behavior reduces the visibility of the f</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">2021.4 or later</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-09-25</td>
-          <td class="date">2026-09-25</td>
         </tr>
 
         <tr
@@ -3945,24 +4071,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000007awsfAAA&title=tableau-cloud-sends-invite-emails-when-re-adding-a-user-despite-the-enable-site-invite-emails-setting-is-turned-off" target="_blank" rel="noopener">Tableau Cloud sends invite emails when re-adding a user, despite the "Enable Site invite emails" setting is turned off.</a>
-            <div class="summary">Administrators can turn off the &quot;Enable Site invite emails&quot; setting in Tableau Cloud. When this setting is off, adding a new user correctly sends no email.However, if you add that exact same user again, the system sends them an invite email.This issue happens on sites t</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-08-24</td>
-          <td class="date">2026-08-24</td>
-        </tr>
-
-        <tr
           data-product="Tableau Next"
           data-status="In Review"
           data-release="AC-264"
@@ -4391,24 +4499,6 @@
           <td class="release">—</td>
           <td class="num">0</td>
           <td class="date">2026-06-08</td>
-          <td class="date">2026-08-26</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="Solution Scheduled"
-          data-release="2025.1, 2025.3"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mH5pKIAS&title=incorrect-checkbox-selections-displayed-in-set-field-filter-after-deselecting-all-and-then-searching-when-show-apply-button-is-enabled" target="_blank" rel="noopener">Incorrect Checkbox Selections Displayed in Set Field Filter After Deselecting 'All' and then Searching When "Show Apply Button" is Enabled</a>
-            <div class="summary">When using a Set field filter with the &quot;Show Apply Button&quot; option enabled in Tableau Server, incorrect checkbox selections are displayed after a user deselects &quot;all&quot; followed by a searching for a new field value. Specifically, items that were never individuall</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2025.1, 2025.3</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-06-12</td>
           <td class="date">2026-08-26</td>
         </tr>
 
