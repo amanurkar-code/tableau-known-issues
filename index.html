@@ -53,7 +53,7 @@
 
 <header>
   <h1>Tableau Known Issues</h1>
-  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-11-23 17:45:52</p>
+  <p>Source: help.salesforce.com/s/issues &nbsp;|&nbsp; Generated: 2026-11-24 17:16:36</p>
 </header>
 
 <div class="controls">
@@ -130,19 +130,37 @@
         <tr
           data-product="Tableau Cloud"
           data-status="Solution Scheduled"
-          data-release="2026.3.0"
+          data-release="2026.3"
         >
           <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000007awsfAAA&title=tableau-cloud-sends-invite-emails-when-re-adding-a-user-despite-the-enable-site-invite-emails-setting-is-turned-off" target="_blank" rel="noopener">Tableau Cloud sends invite emails when re-adding a user, despite the "Enable Site invite emails" setting is turned off.</a>
-            <div class="summary">Administrators can turn off the &quot;Enable Site invite emails&quot; setting in Tableau Cloud. When this setting is off, adding a new user correctly sends no email.However, if you add that exact same user again, the system sends them an invite email.This issue happens on sites t</div>
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000C52NFAAZ&title=tableau-cloud-jobs-page-loads-slowly-or-returns-no-results" target="_blank" rel="noopener">Tableau Cloud Jobs page loads slowly or returns no results</a>
+            <div class="summary">The Jobs page in Tableau Cloud may take a long time to load after the 2026.3 release. Under certain conditions, users may wait more than one minute for the page to load, and in some cases the page may display no results.</div>
           </td>
           <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
           <td>Tableau Cloud</td>
-          <td class="release">2026.3.0</td>
+          <td class="release">2026.3</td>
+          <td class="release">—</td>
+          <td class="num">6</td>
+          <td class="date">2026-10-20</td>
+          <td class="date">2026-11-12</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="In Review"
+          data-release="2022.3.x, 2023.1.x, 2023.3.x, 2024.2.x"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a028c00000zhDWFAA2&title=the-number-of-users-on-the-all-sites-screen-does-not-match-the-total-number-of-users-shown-in-site-users-for-each-site" target="_blank" rel="noopener">The number of users on the All Sites screen does not match the total number of users shown in Site Users for each site</a>
+            <div class="summary">The number of users is inconsistent between the following two screens.All Sites &gt; Sites &gt; Number of Users in each lineEach Site &gt; Users &gt; Number of Site Users on top</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2022.3.x, 2023.1.x, 2023.3.x, 2024.2.x</td>
           <td class="release">—</td>
           <td class="num">1</td>
-          <td class="date">2026-08-24</td>
-          <td class="date">2026-11-23</td>
+          <td class="date">2024-09-19</td>
+          <td class="date">2024-09-20</td>
         </tr>
 
         <tr
@@ -158,9 +176,351 @@
           <td>Tableau Cloud</td>
           <td class="release">—</td>
           <td class="release">—</td>
+          <td class="num">5</td>
+          <td class="date">2026-11-20</td>
+          <td class="date">2026-11-20</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution Scheduled"
+          data-release="2026.2.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000009ntuDAAQ&title=snowflake-keypair-auth-tableau-desktop-refresh-from-source-fails-silently-for-published-datasources-e4daaec1" target="_blank" rel="noopener">Snowflake keypair auth: Tableau Desktop "Refresh from Source" fails silently for published datasources (E4DAAEC1)</a>
+            <div class="summary">Refreshing a published Snowflake datasource from Tableau Desktop using Refresh from Source fails when the datasource uses Snowflake key-pair authentication. Tableau Desktop does not have access to the private key used for key-pair authentication — similar to how embedded credenti</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">2026.2.2</td>
+          <td class="release">—</td>
           <td class="num">1</td>
-          <td class="date">2026-11-20</td>
-          <td class="date">2026-11-20</td>
+          <td class="date">2026-09-17</td>
+          <td class="date">2026-11-24</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release="2026.3.3"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000F7NP3AAN&title=extract-refresh-on-tableau-cloud-fails-with-received-rst_stream-with-error-code-2" target="_blank" rel="noopener">Extract refresh on Tableau Cloud fails with "Received RST_STREAM with error code 2"</a>
+            <div class="summary">Extract refresh jobs with embedded datasources on Tableau Cloud intermittently fail while executing query results, with the error &quot;Received RST_STREAM with error code 2&quot;. Version(s) affected: Tableau Cloud 2026.3.3</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.3.3</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-11-24</td>
+          <td class="date">2026-11-24</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Prep Builder"
+          data-status="Solution in Progress"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000009duDFAAY&title=calculation-editor-stops-accepting-keyboard-input-after-switching-away-from-and-back-to-tableau-prep-builder" target="_blank" rel="noopener">Calculation editor stops accepting keyboard input after switching away from and back to Tableau Prep Builder</a>
+            <div class="summary">In Tableau Prep Builder 2026.2, the calculation editor can stop accepting keyboard input when the application regains focus mid-edit. This occurs after switching to another application while a calculation is being edited and then returning to Prep Builder — the calculation editor</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Prep Builder</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-09-16</td>
+          <td class="date">2026-11-24</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution Scheduled"
+          data-release="Multiple versions: 2024.2, 2023.3.2,2023.3.8,2022.3.9"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a028c00000zhFWIAA2&title=users-with-server-administrator-role-explorer-does-not-show-under-all-sites-when-site-role-filter-is-applied" target="_blank" rel="noopener">Users with Server Administrator role (Explorer) does not show under All Sites when site role filter is applied.</a>
+            <div class="summary">Users with Server Administrator role (Explorer) does not show under All Sites when site role filter is applied.</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Server</td>
+          <td class="release">Multiple versions: 2024.2, 2023.3.2,2023.3.8,2022.3.9</td>
+          <td class="release">—</td>
+          <td class="num">13</td>
+          <td class="date">2024-09-20</td>
+          <td class="date">2026-11-24</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution in Progress"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000F7sUTAAZ&title=tableau-server-20262-scim-identity-provider-cannot-link-existing-active-directory-users-because-the-user-search-returns-could-not-find-user" target="_blank" rel="noopener">Tableau Server 2026.2 SCIM: Identity provider cannot link existing Active Directory users, because the user search returns "Could not find user"</a>
+            <div class="summary">On Tableau Server 2026.2 with an Active Directory (AD) identity store and SCIM provisioning enabled, users who were on the server before SCIM was set up may not be provisioned. This applies to Okta using the on-premises Provisioning Agent, and possibly to other SCIM identity prov</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Server</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-11-24</td>
+          <td class="date">2026-11-24</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution in Progress"
+          data-release="Tableau Server 2025.1.10 and 2025.3.9"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000CD5HLAA1&title=tableau-server-vizdata-native-service-may-stop-unexpectedly-and-restart-causing-service-unavailable-errors" target="_blank" rel="noopener">Tableau Server VizData Native Service may stop unexpectedly and restart, causing "Service Unavailable" errors</a>
+            <div class="summary">When interacting with a workbook having published datasources, the VizData Native Service on Tableau Server for Windows may stop unexpectedly and restart automatically. While the service restarts, users may see the error &quot;Service Unavailable&quot; in Tableau Desktop or the b</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Server</td>
+          <td class="release">Tableau Server 2025.1.10 and 2025.3.9</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-10-22</td>
+          <td class="date">2026-11-24</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution in Progress"
+          data-release="Tableau Desktop 2024.3+, Tableau Server 2025.1+"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000f9XHFIA2&title=error-executing-subquery-id-id-happens-when-opening-the-workbook-using-fixed-lod-and-union-in-tableau-desktop" target="_blank" rel="noopener">Error executing subquery id: "<ID>" happens when opening the workbook using FIXED LOD and Union in Tableau Desktop</a>
+            <div class="summary">When opening a workbook using FIXED LOD and Union on Tableau Desktop, the following error occurs:Unable to complete actionError executing subquery id: &quot;&lt;ID&gt;&quot;Error Code: 6EA18A9EInternal Error - An unexpected error occurred and the operation could not be completed.</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">Tableau Desktop 2024.3+, Tableau Server 2025.1+</td>
+          <td class="release">—</td>
+          <td class="num">4</td>
+          <td class="date">2025-05-22</td>
+          <td class="date">2026-11-24</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution in Progress"
+          data-release="2024.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000fAklpIAC&title=unable-to-complete-actioninternal-error-error-occurs-when-trying-to-add-a-calculated-field-containing-only-parameters-to-the-view" target="_blank" rel="noopener">"Unable to complete action"/"Internal Error" error occurs when trying to add a calculated field containing only parameters to the view</a>
+            <div class="summary">An error occurred when trying to add a calculated field containing only parameters to the view.The data source of the workbook is published one in Tableau Cloud.</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">2024.2</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2025-05-27</td>
+          <td class="date">2026-11-24</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Desktop"
+          data-status="Solution in Progress"
+          data-release="Tableau Desktop and Tableau Cloud 2026.3.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000CV4JlAAL&title=viz-extension-worksheet-zones-appear-larger-with-scroll-bars-on-dashboards-after-upgrading-to-20263" target="_blank" rel="noopener">Viz Extension worksheet zones appear larger with scroll bars on dashboards after upgrading to 2026.3</a>
+            <div class="summary">Under certain conditions, a worksheet-type Viz Extension placed on a dashboard displays larger than its authored size after upgrading to version 2026.3.0. The extension&#39;s zone widens (for example, from 100 px to 160 px) and may show scroll bars. This can cause the dashboard t</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Desktop</td>
+          <td class="release">Tableau Desktop and Tableau Cloud 2026.3.0</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-10-26</td>
+          <td class="date">2026-11-24</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution in Progress"
+          data-release="2026.2.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000E39l3AAB&title=create-site-and-update-site-rest-api-endpoints-ignore-the-catalogingenabled-parameter-and-default-to-true" target="_blank" rel="noopener">Create Site and Update Site REST API Endpoints Ignore the catalogingEnabled Parameter and Default to TRUE</a>
+            <div class="summary">When using the Create Site or Update Site REST API endpoints, the catalogingEnabled parameter is not honored. Regardless of the value specified in the request (true or false), the parameter defaults to TRUE.As a result, administrators cannot use these REST API endpoints to explic</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2026.2.0</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-11-12</td>
+          <td class="date">2026-11-24</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release="2026.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000AQ6ATAA1&title=flows-are-failing-intermittently-due-to-hyper-crashing" target="_blank" rel="noopener">Flows are failing intermittently due to Hyper crashing</a>
+            <div class="summary">Tableau Prep flows may intermittently fail with one of the following errors:- Something went wrong. Error: An error occurred while communicating with the data sourceAn error occurred while communicating with the data source[SQLSTATE:25P02] current transaction is aborted, commands</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.2</td>
+          <td class="release">—</td>
+          <td class="num">6</td>
+          <td class="date">2026-09-23</td>
+          <td class="date">2026-09-23</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution Scheduled"
+          data-release="2026.2.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000BE3nhAAD&title=users-with-viewer-and-explorerexplorer-can-publish-site-roles-are-unable-to-access-or-view-the-contents-of-project" target="_blank" rel="noopener">Users with "Viewer" and "Explorer"/"Explorer can publish" site roles are unable to access or view the contents of project</a>
+            <div class="summary">When User Visibility is set to Limited on Tableau Cloud and Tableau Server 2026.2.0 users with Viewer and Explorer site roles are unable to access or view the contents of projects, even though they have the required permissions explicitly granted.The users were seeing the below p</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Server</td>
+          <td class="release">2026.2.0</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-10-07</td>
+          <td class="date">2026-11-24</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Server"
+          data-status="Solution Scheduled"
+          data-release="Tableau Server 2025.3.x, 2026.2.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000ACn2PAAT&title=incomplete-user-list-under-effective-permissions" target="_blank" rel="noopener">Incomplete User list under Effective Permissions</a>
+            <div class="summary">On Tableau Server, users beyond the first 99 were not displayed in the Effective Permissions section when a group was selected on the Permissions page. This behavior appears to be consistent across content types and was particularly observed with AD groups containing more than 10</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Server</td>
+          <td class="release">Tableau Server 2025.3.x, 2026.2.2</td>
+          <td class="release">—</td>
+          <td class="num">2</td>
+          <td class="date">2026-09-21</td>
+          <td class="date">2026-11-24</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Next"
+          data-status="Solution Scheduled"
+          data-release="Spring '27"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000EVQxRAAX&title=tableau-next-visualization-shows-empty-or-broken-results-after-a-column-is-resized-and-the-filter-is-then-changed" target="_blank" rel="noopener">Tableau Next: Visualization shows empty or broken results after a column is resized and the filter is then changed</a>
+            <div class="summary">A visualization can return an empty or broken result after a user resizes a table column and then changes a dashboard filter. The other widgets on the dashboard load their data normally. Changing the filter without resizing a column works as expected.No Dimension Hierarchy is inv</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Next</td>
+          <td class="release">Spring '27</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-11-17</td>
+          <td class="date">2026-11-24</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Bridge"
+          data-status="Solution Scheduled"
+          data-release="2026.1"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mmCIZIA2&title=tableau-bridge-clients-intermittently-display-as-disconnected-in-tableau-cloud-despite-running-on-local-machines" target="_blank" rel="noopener">Tableau Bridge Clients Intermittently Display as "Disconnected" in Tableau Cloud, Despite Running on Local Machine(s)</a>
+            <div class="summary">Tableau is aware of an issue where Tableau bridge clients may intermittently show as Disconnected in Tableau Cloud, even though the bridge client application appears to be running on the local machine.In the Bridge settings, bridge client status may flicker between between &quot;</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Bridge</td>
+          <td class="release">2026.1</td>
+          <td class="release">—</td>
+          <td class="num">4</td>
+          <td class="date">2026-03-16</td>
+          <td class="date">2026-11-23</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="In Review"
+          data-release="2026.3.2"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000EXUIbAAP&title=tableau-cloud-refresh-schedules-show-the-wrong-next-update-time-for-alberta-northwest-territories-and-manitoba-time-zones" target="_blank" rel="noopener">Tableau Cloud refresh schedules show the wrong "Next Update" time for Alberta, Northwest Territories and Manitoba time zones</a>
+            <div class="summary">Tableau Cloud schedules set to Alberta, Northwest Territories or Manitoba time zones may run one hour later than expected during winter. These regions now stay on summer time all year, but Tableau still shifts them back an hour when daylight saving time ends. Affected extract ref</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.3.2</td>
+          <td class="release">—</td>
+          <td class="num">0</td>
+          <td class="date">2026-11-17</td>
+          <td class="date">2026-11-18</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Next"
+          data-status="In Review"
+          data-release="264.12.3"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000F1LPxAAN&title=" target="_blank" rel="noopener">Tableau Next Dashboard Fails To Open And Displays "couldn't find the Dashboard" Message</a>
+            <div class="summary">Tableau Next dashboard fails to open. Instead of the dashboard, users see a &quot;Hmm, that didn&#39;t work. We couldn&#39;t find the Dashboard&quot; page saying the dashboard couldn&#39;t be found, even though the dashboard exists.</div>
+          </td>
+          <td><span class="badge" style="background:#e8a838">In Review</span></td>
+          <td>Tableau Next</td>
+          <td class="release">264.12.3</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-11-23</td>
+          <td class="date">2026-11-23</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution in Progress"
+          data-release=""
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g700000B5A6zAAF&title=logicassert-0xb8d31b1a-unable-to-write-column-data-values" target="_blank" rel="noopener">LogicAssert 0xB8D31B1A: Unable to write column data values</a>
+            <div class="summary">Extract refreshes on Tableau Cloud intermittently fail with a generic &quot;Internal Error — An unexpected error occurred and the operation could not be completed&quot; message. The underlying error code is 0xB8D31B1A, originating from the VizData Service (VDS). Refreshes may suc</div>
+          </td>
+          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">—</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-10-05</td>
+          <td class="date">2026-11-23</td>
+        </tr>
+
+        <tr
+          data-product="Tableau Cloud"
+          data-status="Solution Scheduled"
+          data-release="2026.3.0"
+        >
+          <td class="title-cell">
+            <a href="https://help.salesforce.com/s/issue?id=a02g7000007awsfAAA&title=tableau-cloud-sends-invite-emails-when-re-adding-a-user-despite-the-enable-site-invite-emails-setting-is-turned-off" target="_blank" rel="noopener">Tableau Cloud sends invite emails when re-adding a user, despite the "Enable Site invite emails" setting is turned off.</a>
+            <div class="summary">Administrators can turn off the &quot;Enable Site invite emails&quot; setting in Tableau Cloud. When this setting is off, adding a new user correctly sends no email.However, if you add that exact same user again, the system sends them an invite email.This issue happens on sites t</div>
+          </td>
+          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
+          <td>Tableau Cloud</td>
+          <td class="release">2026.3.0</td>
+          <td class="release">—</td>
+          <td class="num">1</td>
+          <td class="date">2026-08-24</td>
+          <td class="date">2026-11-23</td>
         </tr>
 
         <tr
@@ -268,24 +628,6 @@
           <td class="release">—</td>
           <td class="num">1</td>
           <td class="date">2026-06-03</td>
-          <td class="date">2026-11-21</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Next"
-          data-status="Solution in Progress"
-          data-release="Spring '27"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000EVQxRAAX&title=tableau-next-visualization-shows-empty-or-broken-results-after-a-column-is-resized-and-the-filter-is-then-changed" target="_blank" rel="noopener">Tableau Next: Visualization shows empty or broken results after a column is resized and the filter is then changed</a>
-            <div class="summary">A visualization can return an empty or broken result after a user resizes a table column and then changes a dashboard filter. The other widgets on the dashboard load their data normally. Changing the filter without resizing a column works as expected.No Dimension Hierarchy is inv</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Next</td>
-          <td class="release">Spring '27</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-11-17</td>
           <td class="date">2026-11-21</td>
         </tr>
 
@@ -810,60 +1152,6 @@
           <td class="num">0</td>
           <td class="date">2026-11-17</td>
           <td class="date">2026-11-17</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release="2026.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000AQ6ATAA1&title=flows-are-failing-intermittently-due-to-hyper-crashing" target="_blank" rel="noopener">Flows are failing intermittently due to Hyper crashing</a>
-            <div class="summary">Tableau Prep flows may intermittently fail with one of the following errors:- Something went wrong. Error: An error occurred while communicating with the data sourceAn error occurred while communicating with the data source[SQLSTATE:25P02] current transaction is aborted, commands</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2</td>
-          <td class="release">—</td>
-          <td class="num">5</td>
-          <td class="date">2026-09-23</td>
-          <td class="date">2026-09-23</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release="2026.3.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000EXUIbAAP&title=" target="_blank" rel="noopener">Tableau Cloud refresh schedules show the wrong "Next Update" time for Alberta, Northwest Territories and Manitoba time zones</a>
-            <div class="summary">Tableau Cloud schedules set to Alberta, Northwest Territories or Manitoba time zones may run one hour later than expected during winter. These regions now stay on summer time all year, but Tableau still shifts them back an hour when daylight saving time ends. Affected extract ref</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.3.2</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-11-17</td>
-          <td class="date">2026-11-18</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="Solution in Progress"
-          data-release="2026.2.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000009ntuDAAQ&title=snowflake-keypair-auth-tableau-desktop-refresh-from-source-fails-silently-for-published-datasources-e4daaec1" target="_blank" rel="noopener">Snowflake keypair auth: Tableau Desktop "Refresh from Source" fails silently for published datasources (E4DAAEC1)</a>
-            <div class="summary">Refreshing a published Snowflake datasource from Tableau Desktop using Refresh from Source fails when the datasource uses Snowflake key-pair authentication. Tableau Desktop does not have access to the private key used for key-pair authentication — similar to how embedded credenti</div>
-          </td>
-          <td><span class="badge" style="background:#1589ee">Solution in Progress</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">2026.2.2</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-09-17</td>
-          <td class="date">2026-09-30</td>
         </tr>
 
         <tr
@@ -1569,24 +1857,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Server"
-          data-status="In Review"
-          data-release="2026.2.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000E39l3AAB&title=" target="_blank" rel="noopener">Create Site and Update Site REST API Endpoints Ignore the catalogingEnabled Parameter and Default to TRUE</a>
-            <div class="summary">When using the Create Site or Update Site REST API endpoints, the catalogingEnabled parameter is not honored. Regardless of the value specified in the request (true or false), the parameter defaults to TRUE.As a result, administrators cannot use these REST API endpoints to explic</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2026.2.0</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-11-12</td>
-          <td class="date">2026-11-13</td>
-        </tr>
-
-        <tr
           data-product="Tableau Cloud"
           data-status="Solution in Progress"
           data-release="Summer '16"
@@ -1601,24 +1871,6 @@
           <td class="release">—</td>
           <td class="num">1</td>
           <td class="date">2025-10-17</td>
-          <td class="date">2026-11-12</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution Scheduled"
-          data-release="2026.3"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000C52NFAAZ&title=tableau-cloud-jobs-page-loads-slowly-or-returns-no-results" target="_blank" rel="noopener">Tableau Cloud Jobs page loads slowly or returns no results</a>
-            <div class="summary">The Jobs page in Tableau Cloud may take a long time to load after the 2026.3 release. Under certain conditions, users may wait more than one minute for the page to load, and in some cases the page may display no results.</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.3</td>
-          <td class="release">—</td>
-          <td class="num">6</td>
-          <td class="date">2026-10-20</td>
           <td class="date">2026-11-12</td>
         </tr>
 
@@ -1943,24 +2195,6 @@
           <td class="release">—</td>
           <td class="num">0</td>
           <td class="date">2026-06-08</td>
-          <td class="date">2026-11-06</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution Scheduled"
-          data-release="2026.3"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000D0EebAAF&title=data-driven-alerts-are-not-delivered-when-tableau-cloud-uses-a-custom-smtp-email-configuration-with-oauth-20" target="_blank" rel="noopener">Data-driven alerts are not delivered when Tableau Cloud uses a custom SMTP email configuration with OAuth 2.0</a>
-            <div class="summary">Tableau Cloud sites that use a custom email (SMTP) configuration with OAuth 2.0 may find that data-driven alerts are not delivered to recipients. Other emails sent through the same configuration, such as subscriptions, are delivered normally. No error is shown to the user.</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.3</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-10-30</td>
           <td class="date">2026-11-06</td>
         </tr>
 
@@ -2399,24 +2633,6 @@
         <tr
           data-product="Tableau Cloud"
           data-status="Solution Scheduled"
-          data-release="2026.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000CE1mvAAD&title=rest-api-get-datasourcesluid-returns-error-403004-in-customizable-project-when-user-has-explicit-datasource-permissions-but-view-is-denied" target="_blank" rel="noopener">REST API GET /datasources/{luid} Returns Error 403004 In Customizable Project When User Has Explicit Datasource Permissions But View is Denied</a>
-            <div class="summary">When a non-administrator user calls the Tableau REST API endpoint GET /api/&lt;version&gt;/sites/&lt;siteId&gt;/datasources/&lt;datasourceLuid&gt;, the request returns a 403004 (Forbidden) error, even when the user has been explicitly granted View (Read) and Connect permissions o</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2026.2</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-10-22</td>
-          <td class="date">2026-11-02</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution Scheduled"
           data-release="2025.2.0"
         >
           <td class="title-cell">
@@ -2775,42 +2991,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Desktop"
-          data-status="In Review"
-          data-release="Tableau Desktop 2024.3+, Tableau Server 2025.1+"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000f9XHFIA2&title=error-executing-subquery-id-id-happens-when-opening-the-workbook-using-fixed-lod-and-union-in-tableau-desktop" target="_blank" rel="noopener">Error executing subquery id: "<ID>" happens when opening the workbook using FIXED LOD and Union in Tableau Desktop</a>
-            <div class="summary">When opening a workbook using FIXED LOD and Union on Tableau Desktop, the following error occurs:Unable to complete actionError executing subquery id: &quot;&lt;ID&gt;&quot;Error Code: 6EA18A9EInternal Error - An unexpected error occurred and the operation could not be completed.</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">Tableau Desktop 2024.3+, Tableau Server 2025.1+</td>
-          <td class="release">—</td>
-          <td class="num">4</td>
-          <td class="date">2025-05-22</td>
-          <td class="date">2025-05-23</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Desktop"
-          data-status="In Review"
-          data-release="Tableau Desktop and Tableau Cloud 2026.3.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000CV4JlAAL&title=viz-extension-worksheet-zones-appear-larger-with-scroll-bars-on-dashboards-after-upgrading-to-20263" target="_blank" rel="noopener">Viz Extension worksheet zones appear larger with scroll bars on dashboards after upgrading to 2026.3</a>
-            <div class="summary">Under certain conditions, a worksheet-type Viz Extension placed on a dashboard displays larger than its authored size after upgrading to version 2026.3.0. The extension&#39;s zone widens (for example, from 100 px to 160 px) and may show scroll bars. This can cause the dashboard t</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">Tableau Desktop and Tableau Cloud 2026.3.0</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-10-26</td>
-          <td class="date">2026-10-26</td>
-        </tr>
-
-        <tr
           data-product="Tableau Server"
           data-status="In Review"
           data-release="2025.3.4, 2026.2"
@@ -2916,24 +3096,6 @@
           <td class="num">0</td>
           <td class="date">2026-08-10</td>
           <td class="date">2026-08-26</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="In Review"
-          data-release="Tableau Server 2025.1.10 and 2025.3.9"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000CD5HLAA1&title=tableau-server-vizdata-native-service-may-stop-unexpectedly-and-restart-causing-service-unavailable-errors" target="_blank" rel="noopener">Tableau Server VizData Native Service may stop unexpectedly and restart, causing "Service Unavailable" errors</a>
-            <div class="summary">When interacting with a workbook having published datasources, the VizData Native Service on Tableau Server for Windows may stop unexpectedly and restart automatically. While the service restarts, users may see the error &quot;Service Unavailable&quot; in Tableau Desktop or the b</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Server</td>
-          <td class="release">Tableau Server 2025.1.10 and 2025.3.9</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-10-22</td>
-          <td class="date">2026-10-22</td>
         </tr>
 
         <tr
@@ -3388,24 +3550,6 @@
 
         <tr
           data-product="Tableau Server"
-          data-status="Solution Scheduled"
-          data-release="2026.2.0"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000BE3nhAAD&title=users-with-viewer-and-explorerexplorer-can-publish-site-roles-are-unable-to-access-or-view-the-contents-of-project" target="_blank" rel="noopener">Users with "Viewer" and "Explorer"/"Explorer can publish" site roles are unable to access or view the contents of project</a>
-            <div class="summary">When User Visibility is set to Limited on Tableau Cloud and Tableau Server 2026.2.0 users with Viewer and Explorer site roles are unable to access or view the contents of projects, even though they have the required permissions explicitly granted.The users were seeing the below p</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2026.2.0</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-10-07</td>
-          <td class="date">2026-10-08</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
           data-status="In Review"
           data-release="2026.2.0"
         >
@@ -3545,24 +3689,6 @@
           <td class="release">—</td>
           <td class="num">0</td>
           <td class="date">2026-10-06</td>
-          <td class="date">2026-10-06</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g700000B5A6zAAF&title=" target="_blank" rel="noopener">LogicAssert 0xB8D31B1A: Unable to write column data values</a>
-            <div class="summary">Extract refreshes on Tableau Cloud intermittently fail with a generic &quot;Internal Error — An unexpected error occurred and the operation could not be completed&quot; message. The underlying error code is 0xB8D31B1A, originating from the VizData Service (VDS). Refreshes may suc</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-10-05</td>
           <td class="date">2026-10-06</td>
         </tr>
 
@@ -3909,24 +4035,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Prep Builder"
-          data-status="In Review"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g7000009duDFAAY&title=calculation-editor-stops-accepting-keyboard-input-after-switching-away-from-and-back-to-tableau-prep-builder" target="_blank" rel="noopener">Calculation editor stops accepting keyboard input after switching away from and back to Tableau Prep Builder</a>
-            <div class="summary">In Tableau Prep Builder 2026.2, the calculation editor can stop accepting keyboard input when the application regains focus mid-edit. This occurs after switching to another application while a calculation is being edited and then returning to Prep Builder — the calculation editor</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Prep Builder</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2026-09-16</td>
-          <td class="date">2026-09-17</td>
-        </tr>
-
-        <tr
           data-product="Tableau Cloud"
           data-status="Solution Scheduled"
           data-release="2025.2.1"
@@ -4157,24 +4265,6 @@
           <td class="release">—</td>
           <td class="num">5</td>
           <td class="date">2026-05-20</td>
-          <td class="date">2026-09-15</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="Solution Scheduled"
-          data-release=""
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02g70000068SjdAAE&title=tableau-cloud-embedded-dashboard-authentication-is-failing-with-http-500-errors-when-using-with-a-custom-domain-configured" target="_blank" rel="noopener">Tableau Cloud: Embedded dashboard authentication is failing with HTTP 500 Errors when using with a Custom Domain configured</a>
-            <div class="summary">Embedded Dashboard authentication is failing with a HTTP 500 error when a custom domain is configured on Tableau Cloud. The dashboards are embedded using Connected apps with Direct Trust and the Tableau Embedding API v3.</div>
-          </td>
-          <td><span class="badge" style="background:#2e844a">Solution Scheduled</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">—</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2026-07-17</td>
           <td class="date">2026-09-15</td>
         </tr>
 
@@ -4535,24 +4625,6 @@
           <td class="release">—</td>
           <td class="num">0</td>
           <td class="date">2026-07-31</td>
-          <td class="date">2026-08-26</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Cloud"
-          data-status="In Review"
-          data-release="2023.3, 2024.2, 2025.1, 2025.2, 2025.3"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000kVWFrIAO&title=changes-to-user-account-settings-by-administrator-change-administrators-settings-instead-of-users" target="_blank" rel="noopener">Changes to User Account Settings By Administrator Change Administrator's Settings instead of User's</a>
-            <div class="summary">When a Tableau Server or Site Administrator attempts to make changes to another user&#39;s account settings, the changes are actually being applied to the Admin&#39;s My Account Settings rather than the other user&#39;s account settings. This occurs on both Tableau Server and Tab</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Cloud</td>
-          <td class="release">2023.3, 2024.2, 2025.1, 2025.2, 2025.3</td>
-          <td class="release">—</td>
-          <td class="num">6</td>
-          <td class="date">2025-11-04</td>
           <td class="date">2026-08-26</td>
         </tr>
 
@@ -5295,24 +5367,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Bridge"
-          data-status="In Review"
-          data-release="2026.1"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000mmCIZIA2&title=tableau-bridge-clients-intermittently-display-as-disconnected-in-tableau-cloud-despite-running-on-local-machines" target="_blank" rel="noopener">Tableau Bridge Clients Intermittently Display as "Disconnected" in Tableau Cloud, Despite Running on Local Machine(s)</a>
-            <div class="summary">Tableau is aware of an issue where Tableau bridge clients may intermittently show as Disconnected in Tableau Cloud, even though the bridge client application appears to be running on the local machine.In the Bridge settings, bridge client status may flicker between between &quot;</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Bridge</td>
-          <td class="release">2026.1</td>
-          <td class="release">—</td>
-          <td class="num">4</td>
-          <td class="date">2026-03-16</td>
-          <td class="date">2026-03-17</td>
-        </tr>
-
-        <tr
           data-product="Tableau Server"
           data-status="In Review"
           data-release="2025.1.5"
@@ -5961,24 +6015,6 @@
         </tr>
 
         <tr
-          data-product="Tableau Desktop"
-          data-status="In Review"
-          data-release="2024.2"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a02Ka00000fAklpIAC&title=unable-to-complete-actioninternal-error-error-occurs-when-trying-to-add-a-calculated-field-containing-only-parameters-to-the-view" target="_blank" rel="noopener">"Unable to complete action"/"Internal Error" error occurs when trying to add a calculated field containing only parameters to the view</a>
-            <div class="summary">An error occurred when trying to add a calculated field containing only parameters to the view.The data source of the workbook is published one in Tableau Cloud.</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Desktop</td>
-          <td class="release">2024.2</td>
-          <td class="release">—</td>
-          <td class="num">0</td>
-          <td class="date">2025-05-27</td>
-          <td class="date">2026-02-10</td>
-        </tr>
-
-        <tr
           data-product="Tableau Cloud"
           data-status="Solution in Progress"
           data-release="Summer '16"
@@ -6426,24 +6462,6 @@
           <td class="num">0</td>
           <td class="date">2025-10-21</td>
           <td class="date">2025-10-21</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="In Review"
-          data-release="Multiple versions: 2024.2, 2023.3.2,2023.3.8,2022.3.9"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a028c00000zhFWIAA2&title=users-with-server-administrator-role-explorer-does-not-show-under-all-sites-when-site-role-filter-is-applied" target="_blank" rel="noopener">Users with Server Administrator role (Explorer) does not show under All Sites when site role filter is applied.</a>
-            <div class="summary">Users with Server Administrator role (Explorer) does not show under All Sites when site role filter is applied.</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Server</td>
-          <td class="release">Multiple versions: 2024.2, 2023.3.2,2023.3.8,2022.3.9</td>
-          <td class="release">—</td>
-          <td class="num">13</td>
-          <td class="date">2024-09-20</td>
-          <td class="date">2024-09-20</td>
         </tr>
 
         <tr
@@ -6948,24 +6966,6 @@
           <td class="num">0</td>
           <td class="date">2025-06-20</td>
           <td class="date">2025-06-20</td>
-        </tr>
-
-        <tr
-          data-product="Tableau Server"
-          data-status="In Review"
-          data-release="2022.3.x, 2023.1.x, 2023.3.x, 2024.2.x"
-        >
-          <td class="title-cell">
-            <a href="https://help.salesforce.com/s/issue?id=a028c00000zhDWFAA2&title=the-number-of-users-on-the-all-sites-screen-does-not-match-the-total-number-of-users-shown-in-site-users-for-each-site" target="_blank" rel="noopener">The number of users on the All Sites screen does not match the total number of users shown in Site Users for each site</a>
-            <div class="summary">The number of users is inconsistent between the following two screens.All Sites &gt; Sites &gt; Number of Users in each lineEach Site &gt; Users &gt; Number of Site Users on top</div>
-          </td>
-          <td><span class="badge" style="background:#e8a838">In Review</span></td>
-          <td>Tableau Server</td>
-          <td class="release">2022.3.x, 2023.1.x, 2023.3.x, 2024.2.x</td>
-          <td class="release">—</td>
-          <td class="num">1</td>
-          <td class="date">2024-09-19</td>
-          <td class="date">2024-09-20</td>
         </tr>
 
         <tr
